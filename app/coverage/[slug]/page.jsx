@@ -13,12 +13,12 @@ export async function generateMetadata({ params }) {
     title: coverage.metaTitle,
     description: coverage.metaDescription,
     alternates: {
-      canonical: `https://alkemeins.com/trucking/coverage/${coverage.slug}/`,
+      canonical: `https://alkemeins.com/senior-living/coverage/${coverage.slug}/`,
     },
     openGraph: {
       title: coverage.metaTitle,
       description: coverage.metaDescription,
-      url: `https://alkemeins.com/trucking/coverage/${coverage.slug}/`,
+      url: `https://alkemeins.com/senior-living/coverage/${coverage.slug}/`,
       type: 'website',
     },
   };
@@ -34,9 +34,9 @@ export default async function CoveragePage({ params }) {
       '@context': 'https://schema.org',
       '@type': 'Service',
       name: coverage.title,
-      provider: { '@type': 'InsuranceAgency', name: 'ALKEME Insurance Services', url: 'https://alkemeins.com/trucking' },
+      provider: { '@type': 'InsuranceAgency', name: 'ALKEME Insurance Services', url: 'https://alkemeins.com/senior-living' },
       description: coverage.metaDescription,
-      url: `https://alkemeins.com/trucking/coverage/${coverage.slug}/`,
+      url: `https://alkemeins.com/senior-living/coverage/${coverage.slug}/`,
       serviceType: 'Insurance',
       areaServed: { '@type': 'Country', name: 'United States' },
       citation: { '@type': 'CreativeWork', name: 'Insurance Information Institute', url: 'https://www.iii.org' },

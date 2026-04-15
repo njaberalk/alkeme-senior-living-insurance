@@ -8,7 +8,7 @@ export default function SubPageHero({ label, heading, subheading }) {
   return (
     <section className="relative overflow-hidden bg-brand" style={{ paddingTop: '12rem', paddingBottom: '6rem' }}>
       <div className="absolute inset-0">
-        <img src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1920&q=80" alt="Commercial trucking fleet on highway" width={1920} height={600} className="absolute inset-0 w-full h-full object-cover" style={{ opacity: 0.35, objectPosition: '50% 30%', filter: 'grayscale(100%)' }} />
+        <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1920&q=80" alt="Senior living facility providing compassionate care" width={1920} height={600} className="absolute inset-0 w-full h-full object-cover" style={{ opacity: 0.35, objectPosition: '50% 30%', filter: 'grayscale(100%)' }} />
         <div className="absolute inset-0 bg-brand" style={{ opacity: 0.6 }} />
         <div className="absolute inset-0 pointer-events-none" style={{ opacity: 0.08, backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E")`, backgroundRepeat: 'repeat', backgroundSize: '128px 128px' }} />
       </div>

@@ -13,12 +13,12 @@ export async function generateMetadata({ params }) {
     title: industry.metaTitle,
     description: industry.metaDescription,
     alternates: {
-      canonical: `https://alkemeins.com/trucking/industries/${industry.slug}/`,
+      canonical: `https://alkemeins.com/senior-living/industries/${industry.slug}/`,
     },
     openGraph: {
       title: industry.metaTitle,
       description: industry.metaDescription,
-      url: `https://alkemeins.com/trucking/industries/${industry.slug}/`,
+      url: `https://alkemeins.com/senior-living/industries/${industry.slug}/`,
       type: 'website',
     },
   };
@@ -33,10 +33,10 @@ export default async function IndustryPage({ params }) {
     '@context': 'https://schema.org',
     '@type': 'Service',
     name: `${industry.title} Insurance`,
-    provider: { '@type': 'InsuranceAgency', name: 'ALKEME Insurance Services', url: 'https://alkemeins.com/trucking' },
+    provider: { '@type': 'InsuranceAgency', name: 'ALKEME Insurance Services', url: 'https://alkemeins.com/senior-living' },
     description: industry.metaDescription,
-    url: `https://alkemeins.com/trucking/industries/${industry.slug}/`,
-    serviceType: 'Commercial Trucking Insurance',
+    url: `https://alkemeins.com/senior-living/industries/${industry.slug}/`,
+    serviceType: 'Senior Living Insurance',
     areaServed: { '@type': 'Country', name: 'United States' },
     citation: { '@type': 'CreativeWork', name: 'Insurance Information Institute', url: 'https://www.iii.org' },
     about: { '@type': 'Thing', name: industry.title },

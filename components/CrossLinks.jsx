@@ -7,9 +7,10 @@ export function RelatedIndustries({ slugs, title = 'Industries That Need This Co
   if (!slugs?.length) return null;
 
   const industryNames = {
-    'owner-operators': 'Owner-Operators', 'small-fleets': 'Small Fleets', 'large-fleets': 'Large Fleets',
-    'hot-shot-trucking': 'Hot Shot Trucking', 'ltl-last-mile': 'LTL / Last Mile', 'intermodal': 'Intermodal',
-    'refrigerated': 'Refrigerated', 'flatbed': 'Flatbed', 'hazmat': 'Hazmat', 'car-haulers': 'Car Haulers',
+    'assisted-living': 'Assisted Living', 'skilled-nursing': 'Skilled Nursing', 'memory-care': 'Memory Care',
+    'independent-living': 'Independent Living', 'continuing-care': 'Continuing Care', 'home-health-agencies': 'Home Health',
+    'adult-day-care': 'Adult Day Care', 'hospice': 'Hospice', 'rehabilitation-centers': 'Rehabilitation',
+    'senior-communities': 'Senior Communities',
   };
 
   return (
@@ -33,15 +34,15 @@ export function RelatedResourceLinks({ slugs, title = 'Helpful Resources' }) {
   if (!slugs?.length) return null;
 
   const resourceNames = {
-    'trucking-insurance-cost': 'How Much Does Trucking Insurance Cost?',
-    'fmcsa-insurance-requirements': 'FMCSA Insurance Requirements',
-    'new-authority-insurance': 'Insurance for New Authority',
-    'lower-trucking-insurance-premiums': 'How to Lower Your Premiums',
-    'commercial-auto-vs-trucking-insurance': 'Commercial Auto vs Trucking Insurance',
-    'primary-vs-non-trucking-liability': 'Primary vs Non-Trucking Liability',
-    'occupational-accident-vs-workers-comp': 'Occupational Accident vs Workers Comp',
-    'trucking-insurance-claims-guide': 'Claims Guide',
-    'trucking-insurance-glossary': 'Insurance Glossary',
+    'senior-living-insurance-cost': 'How Much Does Senior Living Insurance Cost?',
+    'professional-liability-guide': 'Professional Liability Guide',
+    'abuse-molestation-guide': 'Abuse & Molestation Coverage Guide',
+    'staffing-liability-guide': 'Staffing Liability Guide',
+    'resident-injury-prevention-guide': 'Resident Injury Prevention Guide',
+    'regulatory-compliance-guide': 'Regulatory Compliance Guide',
+    'coi-guide': 'Certificate of Insurance Guide',
+    'claims-guide': 'Senior Living Claims Guide',
+    'senior-living-insurance-glossary': 'Insurance Glossary',
   };
 
   return (
@@ -52,7 +53,7 @@ export function RelatedResourceLinks({ slugs, title = 'Helpful Resources' }) {
           {slugs.map(slug => (
             <Link key={slug} href={`/resources/${slug}/`} className="block border border-ash/20 rounded-[2rem] p-5 group no-underline hover:border-gold/30" style={{ transition: 'all 0.24s' }}>
               <span className="text-blue uppercase tracking-[0.12em] font-bold block mb-1" style={{ fontSize: '0.6rem' }}>Guide</span>
-              <span className="text-stone font-bold group-hover:text-gold block" style={{ fontSize: '0.9rem', transition: 'color 0.24s' }}>{resourceNames[slug] || slug} →</span>
+              <span className="text-stone font-bold group-hover:text-gold block" style={{ fontSize: '0.9rem', transition: 'color 0.24s' }}>{resourceNames[slug] || slug}</span>
             </Link>
           ))}
         </div>
@@ -66,12 +67,12 @@ export function TopStates({ slugs, title = 'Top States' }) {
   if (!slugs?.length) return null;
 
   const stateNames = {
-    'texas': 'Texas', 'california': 'California', 'florida': 'Florida', 'georgia': 'Georgia',
-    'illinois': 'Illinois', 'ohio': 'Ohio', 'pennsylvania': 'Pennsylvania', 'indiana': 'Indiana',
-    'tennessee': 'Tennessee', 'north-carolina': 'North Carolina', 'new-york': 'New York',
-    'michigan': 'Michigan', 'new-jersey': 'New Jersey', 'louisiana': 'Louisiana',
-    'oklahoma': 'Oklahoma', 'north-dakota': 'North Dakota', 'colorado': 'Colorado',
-    'washington': 'Washington', 'arizona': 'Arizona',
+    'california': 'California', 'florida': 'Florida', 'texas': 'Texas', 'new-york': 'New York',
+    'pennsylvania': 'Pennsylvania', 'ohio': 'Ohio', 'illinois': 'Illinois', 'michigan': 'Michigan',
+    'north-carolina': 'North Carolina', 'georgia': 'Georgia', 'arizona': 'Arizona',
+    'massachusetts': 'Massachusetts', 'new-jersey': 'New Jersey', 'virginia': 'Virginia',
+    'washington': 'Washington', 'colorado': 'Colorado', 'tennessee': 'Tennessee',
+    'minnesota': 'Minnesota', 'indiana': 'Indiana', 'maryland': 'Maryland',
   };
 
   return (
@@ -91,10 +92,5 @@ export function TopStates({ slugs, title = 'Top States' }) {
 }
 
 export function CitiesInState({ stateSlug, stateName }) {
-  // This will be used dynamically - imports cities data
-  const ref = useScrollAnimation();
-
-  // Dynamic import at build time won't work in client component
-  // Instead, we pass cities as a prop from the page component
-  return null; // Handled in the page template directly
+  return null;
 }

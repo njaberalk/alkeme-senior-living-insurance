@@ -1,547 +1,605 @@
 export const coverages = [
   {
-    slug: 'auto-liability',
-    title: 'Primary Auto Liability',
-    metaTitle: 'Trucking Auto Liability Insurance',
-    metaDescription: 'Primary auto liability insurance for trucking companies and owner-operators. Federally required coverage for bodily injury and property damage claims on the ...',
-    heroHeading: 'Primary Auto Liability Insurance',
-    heroSubheading:
-      'Federally mandated protection that covers bodily injury and property damage caused by your commercial vehicles.',
-    overview:
-      'Primary auto liability is the foundational coverage every trucking operation must carry. It responds when your driver is at fault in an accident, paying for injuries to other parties and damage to their property up to your policy limit. Federal regulations under FMCSA require minimum limits ranging from $750,000 to $5,000,000 depending on the commodities you haul, making this the single most important policy in any fleet insurance program.',
-    sections: [
-      {
-        heading: 'What It Covers',
-        content:
-          'Primary auto liability pays for bodily injury and property damage that your covered vehicles cause to third parties. This includes medical expenses, lost wages, pain and suffering, legal defense costs, and repair or replacement of damaged property. The policy responds regardless of which driver is behind the wheel, provided they are operating under your authority.\n\nCoverage extends to accidents on public roads, at shipper and receiver facilities, and in any location where your vehicle is legally permitted to operate. Defense costs are typically covered in addition to your liability limit, meaning your full policy amount remains available for settlements and judgments.\n\nIt is important to understand that primary auto liability does not cover damage to your own vehicle or cargo. Those exposures require separate physical damage and motor truck cargo policies. Auto liability strictly addresses your financial obligation to others when your operations cause harm.',
-      },
-      {
-        heading: 'Who Needs It',
-        content:
-          'Every motor carrier operating under its own USDOT number and MC authority is required by federal law to maintain primary auto liability coverage. This applies to for-hire carriers, private carriers hauling their own goods, and owner-operators leased onto a carrier who need coverage under their own authority during periods of non-dispatch.\n\nThe FMCSA sets minimum financial responsibility requirements based on what you transport. General freight carriers must carry at least $750,000 in coverage, while haulers of hazardous materials face minimums of $1,000,000 or $5,000,000. Many shippers and brokers contractually require limits well above the federal floor, with $1,000,000 being standard for general commodities.',
-      },
-      {
-        heading: 'Why It Matters',
-        content:
-          'A single serious trucking accident can generate claims that dwarf the federal minimum limits. Jury verdicts exceeding $10,000,000 in trucking cases have become increasingly common, a trend the industry calls nuclear verdicts. Without adequate auto liability limits, a catastrophic claim can bankrupt a motor carrier overnight.\n\nBeyond financial protection, maintaining proper auto liability coverage is a condition of your operating authority. A lapse in coverage triggers an automatic revocation process with the FMCSA, shutting down your ability to legally operate. Brokers and shippers verify your coverage status in real time through FMCSA databases, so even a brief gap can cost you freight contracts.',
-      },
-      {
-        heading: 'Key Coverage Features',
-        bullets: [
-          'Bodily injury liability for third-party medical costs, rehabilitation, and lost income',
-          'Property damage liability for vehicles, structures, and infrastructure you damage',
-          'Legal defense costs typically paid in addition to your coverage limit',
-          'MCS-90 endorsement filed with the FMCSA to satisfy financial responsibility requirements',
-          'Hired auto coverage available for vehicles you rent or borrow for business use',
-          'Coverage for all scheduled power units and drivers listed on your policy',
-          'Automatic coverage for newly acquired vehicles within a specified reporting window',
-        ],
-      },
-    ],
-    faqs: [
-      {
-        q: 'What is the minimum auto liability limit required for trucking companies?',
-        a: 'The FMCSA requires a minimum of $750,000 for general freight carriers. Carriers transporting hazardous materials must carry $1,000,000 or $5,000,000 depending on the specific commodity. Many shippers and brokers require $1,000,000 as a contractual minimum regardless of what you haul.',
-      },
-      {
-        q: 'Does primary auto liability cover my truck if it is damaged in an accident?',
-        a: 'No. Primary auto liability only covers damage and injuries you cause to other parties. To protect your own vehicles, you need a separate physical damage policy that includes collision and comprehensive coverage.',
-      },
-      {
-        q: 'What happens if my auto liability coverage lapses?',
-        a: 'The FMCSA is notified of any coverage lapse and will begin revocation proceedings against your operating authority. Your carrier status changes to "not authorized" in the FMCSA database, which brokers and shippers check before tendering loads. Even a single day without coverage can result in lost contracts and regulatory penalties.',
-      },
-      {
-        q: 'What is the MCS-90 endorsement?',
-        a: 'The MCS-90 is a federal endorsement attached to your auto liability policy that guarantees minimum financial responsibility to the public. It ensures that your insurer will pay valid claims even if a technical policy exclusion might otherwise apply. The MCS-90 is required for all for-hire interstate motor carriers.',
-      },
-    ],
-    relatedCoverages: ['physical-damage', 'umbrella-excess-liability', 'general-liability'],
-  },
-
-  {
-    slug: 'physical-damage',
-    title: 'Physical Damage',
-    metaTitle: 'Truck Physical Damage Insurance',
-    metaDescription: 'Physical damage insurance for commercial trucks and trailers. Collision and comprehensive coverage to protect your fleet investment against accidents, theft,...',
-    heroHeading: 'Physical Damage Insurance',
-    heroSubheading:
-      'Collision and comprehensive protection that safeguards the trucks, tractors, and trailers your business depends on.',
-    overview:
-      'Physical damage insurance covers the cost of repairing or replacing your own commercial vehicles when they are damaged in an accident, stolen, vandalized, or affected by weather events. Unlike auto liability, which protects other parties, physical damage protects your fleet investment. For owner-operators with financed equipment, lenders will require this coverage as a condition of the loan or lease.',
-    sections: [
-      {
-        heading: 'What It Covers',
-        content:
-          'Physical damage policies include two core components: collision and comprehensive. Collision coverage pays to repair or replace your vehicle after it strikes another object or overturns, regardless of fault. Comprehensive coverage handles non-collision events including theft, fire, vandalism, windstorm, hail, flood, and animal strikes.\n\nMost policies also offer coverage for permanently attached equipment such as refrigeration units, lift gates, and specialized bodies. You can typically add coverage for spare parts, portable electronics, and personal property kept in the cab. Towing and emergency roadside labor costs are frequently included or available as endorsements.\n\nCoverage is typically written on an actual cash value basis, meaning the insurer pays the market value of the vehicle at the time of loss minus your deductible. Stated amount and agreed value options are available for trucks with custom builds or equipment that might be undervalued by standard depreciation calculations.',
-      },
-      {
-        heading: 'Who Needs It',
-        content:
-          'Any fleet owner or owner-operator with a significant financial stake in their equipment should carry physical damage coverage. If you are financing or leasing your truck, your lender will mandate collision and comprehensive coverage with specified deductibles and limits. Even if you own your equipment outright, replacing a $150,000 tractor out of pocket after a total loss would be devastating to most operations.\n\nPhysical damage is especially critical for newer equipment, specialized vehicles with custom upfits, and any truck that would be difficult to replace quickly. The decision to self-insure older, fully depreciated units is a calculated risk that depends on your cash reserves and the cost of downtime.',
-      },
-      {
-        heading: 'Why It Matters',
-        content:
-          'Commercial trucks represent one of the largest capital investments in any trucking operation. A total loss without insurance coverage can put a single-truck owner-operator permanently out of business and strain even a large fleet\'s balance sheet. Beyond the replacement cost of the truck itself, extended downtime while sourcing a replacement means lost revenue, missed contract obligations, and driver retention challenges.\n\nPhysical damage coverage converts an unpredictable catastrophic expense into a manageable, budgeted cost. By selecting appropriate deductibles, you can balance your premium expense against your ability to absorb smaller losses, keeping your operation financially resilient against the unexpected.',
-      },
-      {
-        heading: 'Key Coverage Features',
-        bullets: [
-          'Collision coverage for accidents involving other vehicles, objects, or rollovers',
-          'Comprehensive coverage for theft, fire, vandalism, weather, and animal strikes',
-          'Actual cash value, stated amount, or agreed value settlement options',
-          'Coverage for permanently installed equipment like reefer units and lift gates',
-          'Downtime or rental reimbursement while your truck is being repaired',
-          'Towing and roadside labor coverage for emergency recovery',
-          'Flexible deductible options to manage your premium costs',
-        ],
-      },
-    ],
-    faqs: [
-      {
-        q: 'What is the difference between collision and comprehensive coverage?',
-        a: 'Collision covers damage to your vehicle when it hits another object or rolls over, regardless of fault. Comprehensive covers non-collision events like theft, fire, hail, vandalism, flooding, and animal strikes. Together they provide complete physical damage protection for your equipment.',
-      },
-      {
-        q: 'How are physical damage claims valued?',
-        a: 'Most claims are settled on an actual cash value basis, which is the market value of your vehicle at the time of loss minus your deductible. If you have a custom or specialty vehicle that may be undervalued by standard depreciation, you can choose a stated amount or agreed value policy to lock in a predetermined payout.',
-      },
-      {
-        q: 'Should I carry physical damage on older trucks?',
-        a: 'It depends on your financial situation. If you can afford to replace the truck out of pocket without disrupting your business, dropping physical damage on a low-value unit can reduce premiums. If a total loss would cause serious financial hardship or extended downtime, maintaining coverage is the safer choice.',
-      },
-      {
-        q: 'Does physical damage insurance cover my trailer?',
-        a: 'Yes, trailers you own can be scheduled on your physical damage policy. Trailers you pull under a trailer interchange agreement with another party require a separate trailer interchange policy, as your physical damage coverage typically excludes non-owned trailers.',
-      },
-    ],
-    relatedCoverages: ['auto-liability', 'motor-truck-cargo', 'trailer-interchange'],
-  },
-
-  {
-    slug: 'motor-truck-cargo',
-    title: 'Motor Truck Cargo',
-    metaTitle: 'Motor Truck Cargo Insurance for Carriers',
-    metaDescription:
-      'Motor truck cargo insurance protects freight in transit against damage, theft, and loss. Essential coverage for for-hire trucking companies and owner-operators.',
-    heroHeading: 'Motor Truck Cargo Insurance',
-    heroSubheading:
-      'Protects the freight you haul against loss or damage from the moment it loads until final delivery.',
-    overview:
-      'Motor truck cargo insurance covers the value of goods you are transporting on behalf of shippers. As a for-hire carrier, you are legally liable for the freight in your custody under the Carmack Amendment, which establishes strict liability for loss and damage during transit. Cargo insurance transfers that financial risk to your insurer, covering claims for stolen, damaged, or destroyed shipments up to your policy limit.',
-    sections: [
-      {
-        heading: 'What It Covers',
-        content:
-          'Motor truck cargo insurance covers the shipper\'s goods while they are in your care, custody, and control during transit. Covered perils typically include collision, overturning, fire, theft, loading and unloading accidents, and weather-related damage. Most policies are written on a broad form or all-risk basis, meaning they cover all causes of loss except those specifically excluded.\n\nCoverage begins when freight is loaded onto your vehicle and continues until it is delivered to the designated consignee. Some policies extend coverage to temporary storage at terminals or warehouses during the normal course of transit. Refrigeration breakdown coverage, also called reefer breakdown, is available as an endorsement for temperature-sensitive loads.\n\nStandard exclusions typically include losses due to improper packaging by the shipper, inherent vice of the cargo, shipper fraud, acts of war, and nuclear hazards. Understanding your policy exclusions is essential because a denied cargo claim comes directly out of your pocket and can severely damage your relationship with shippers and brokers.',
-      },
-      {
-        heading: 'Who Needs It',
-        content:
-          'All for-hire motor carriers need cargo insurance. While the FMCSA does not mandate specific cargo insurance limits for most carriers, the legal liability you assume under the Carmack Amendment means going without coverage is an enormous financial gamble. A single truckload of consumer electronics, pharmaceuticals, or industrial equipment can easily exceed $200,000 in value.\n\nBrokers and shippers universally require cargo coverage as a condition of doing business, with $100,000 being a common minimum requirement and many requiring $250,000 or more. Owner-operators leased to a motor carrier are typically covered under the carrier\'s cargo policy while under dispatch, but should verify this coverage and understand any gaps.',
-      },
-      {
-        heading: 'Why It Matters',
-        content:
-          'Under the Carmack Amendment, you are liable for the full value of freight that is lost or damaged while in your possession, with very limited exceptions. Without cargo insurance, a single stolen load or a reefer failure on a high-value perishable shipment can wipe out months of operating profit.\n\nCargo claims also have a reputational dimension. Shippers and brokers track carrier claim histories, and repeated uninsured losses signal an unreliable operation. A strong cargo insurance program demonstrates professionalism, protects your balance sheet, and keeps you competitive when bidding for premium freight.',
-      },
-      {
-        heading: 'Key Coverage Features',
-        bullets: [
-          'Broad form or all-risk coverage for most causes of freight loss and damage',
-          'Coverage from loading through final delivery at destination',
-          'Refrigeration breakdown endorsement for temperature-controlled loads',
-          'Debris removal coverage for clearing a spill after an accident',
-          'Earned freight charges reimbursement when a load is a total loss',
-          'Coverage limits from $100,000 to $500,000 or higher based on the value of freight you haul',
-          'Per-vehicle and per-occurrence limit options to match your exposure',
-        ],
-      },
-    ],
-    faqs: [
-      {
-        q: 'What is the Carmack Amendment and how does it affect my liability?',
-        a: 'The Carmack Amendment is a federal law that establishes strict liability for motor carriers over freight in their possession. It means you are responsible for the full value of lost or damaged cargo unless you can prove the loss was caused by an act of God, a public enemy, the shipper\'s own actions, or an inherent defect in the goods. This strict standard makes cargo insurance essential.',
-      },
-      {
-        q: 'How much cargo insurance do I need?',
-        a: 'Your limit should match the maximum value of any single load you transport. Most general freight carriers carry limits between $100,000 and $250,000. If you haul high-value commodities like electronics, pharmaceuticals, or machinery, you may need $500,000 or more. Review your broker and shipper contracts for their specific requirements.',
-      },
-      {
-        q: 'Does cargo insurance cover refrigeration breakdown?',
-        a: 'Standard cargo policies typically exclude losses caused by mechanical breakdown of your refrigeration unit. However, a reefer breakdown endorsement can be added to your policy to cover spoilage and damage resulting from reefer malfunction. This endorsement is essential if you haul temperature-sensitive freight.',
-      },
-      {
-        q: 'Am I covered for theft of cargo left in an unattended truck?',
-        a: 'Coverage varies by policy. Many cargo policies exclude theft from unattended vehicles unless specific security measures were in place, such as locked trailers, sealed doors, or parking in a secured facility. Review your policy\'s theft provisions carefully and follow your insurer\'s requirements for securing loads during stops.',
-      },
-    ],
-    relatedCoverages: ['auto-liability', 'general-liability', 'trailer-interchange'],
-  },
-
-  {
     slug: 'general-liability',
     title: 'General Liability',
-    metaTitle: 'Trucking General Liability Insurance',
-    metaDescription:
-      'General liability insurance for trucking companies covering premises injuries, completed operations, and advertising claims beyond the scope of auto liability.',
-    heroHeading: 'General Liability Insurance',
+    metaTitle: 'General Liability Insurance for Senior Living Facilities',
+    metaDescription: 'General liability insurance for assisted living, nursing homes, and senior care facilities. Coverage for bodily injury, property damage, and third-party claims arising from facility operations.',
+    heroHeading: 'General Liability Insurance for Senior Living',
     heroSubheading:
-      'Covers injury and property damage claims arising from your business premises, operations, and completed work.',
+      'Foundational protection against bodily injury, property damage, and personal injury claims arising from your facility operations.',
     overview:
-      'General liability insurance, also called commercial general liability or CGL, protects your trucking business against claims that fall outside your auto liability policy. It covers bodily injury and property damage occurring at your terminal, yard, or office, as well as claims arising from your completed operations after freight is delivered. General liability is a core component of a well-rounded commercial insurance program and is frequently required by landlords, customers, and contractual partners.',
+      'General liability insurance is the cornerstone of any senior living facility insurance program. It protects your organization when residents, visitors, vendors, or other third parties suffer bodily injury or property damage on your premises or as a result of your operations. Given the vulnerability of the population you serve and the frequency of slip-and-fall incidents in care environments, general liability coverage is not optional — it is essential to the financial survival of every senior living operation.',
     sections: [
       {
         heading: 'What It Covers',
         content:
-          'General liability covers three main categories of risk. Premises liability responds when someone is injured on property you own, lease, or control, such as a visitor who slips on ice in your truck yard or a vendor who is struck by a forklift at your terminal. Operations liability covers injuries and damage arising from your business activities that are not vehicle-related, including loading dock operations and warehouse work.\n\nCompleted operations coverage, the second major component, protects you after a job is finished. If freight you delivered was improperly secured and falls off a shelf at the consignee\'s warehouse injuring a worker, completed operations coverage responds. This is particularly important for carriers that provide ancillary services like lumper work, installation, or white glove delivery.\n\nThe third component, personal and advertising injury, covers claims of libel, slander, copyright infringement, and false advertising. While less common in trucking, these exposures exist for any company that markets its services publicly.',
+          'General liability insurance responds to third-party claims for bodily injury and property damage that occur on your premises or result from your operations. This includes injuries to visitors who slip on a wet floor, damage to a resident\'s personal property caused by your staff, and claims arising from advertising or personal injury such as defamation or invasion of privacy.\n\nCoverage extends to legal defense costs, settlements, and judgments up to your policy limit. Most policies also cover medical payments to third parties for minor injuries regardless of fault, which can resolve small claims before they escalate into lawsuits. Products and completed operations coverage is included for situations where food service, maintenance work, or other facility operations cause harm after the fact.\n\nIt is important to understand that general liability does not cover professional errors in medical or personal care — that exposure requires a separate professional liability policy. General liability addresses the premises and operations risks that every business faces, while professional liability covers the clinical and caregiving duties unique to senior living.',
       },
       {
         heading: 'Who Needs It',
         content:
-          'Every trucking company with a physical location, employees, or customer-facing operations needs general liability coverage. If you own or lease a terminal, yard, maintenance shop, or office space, your landlord will almost certainly require it. Shippers and third-party logistics providers frequently include general liability requirements in their carrier agreements.\n\nEven owner-operators who work from home benefit from general liability coverage. A mechanic visiting your home shop, a driver picking up paperwork, or a business meeting at your residence could all generate a premises liability claim. General liability fills the gap between what your auto policy covers and the full scope of your business exposure.',
+          'Every senior living facility needs general liability coverage regardless of size, care level, or ownership structure. This includes assisted living communities, skilled nursing facilities, memory care units, independent living communities, continuing care retirement communities, adult day care programs, home health agencies, hospice organizations, and rehabilitation centers.\n\nState licensing authorities in virtually every state require proof of general liability coverage as a condition of operating a senior care facility. Medicare and Medicaid certification also typically require evidence of adequate insurance. Beyond regulatory requirements, lenders, investors, and management companies will require general liability as part of any financing or operating agreement.',
       },
       {
         heading: 'Why It Matters',
         content:
-          'Auto liability policies are specifically limited to claims arising from the operation of covered vehicles. Any claim that occurs off the road or after delivery is excluded from your auto policy entirely. Without general liability, your business is unprotected against a significant category of risk that includes some of the most common small business claims, such as slip-and-fall injuries and property damage at your facilities.\n\nGeneral liability also provides contractual liability coverage, which is essential when you sign contracts that require you to indemnify and hold harmless other parties. Without this coverage, those contractual obligations are backed only by your business assets, putting everything you have built at risk.',
+          'Senior living facilities face a higher frequency of premises liability claims than most commercial operations. The residents you serve are often elderly, frail, and prone to falls. Visitors include family members who may be emotionally invested and more likely to pursue legal action when an incident occurs. Staff members working in physically demanding roles create additional exposure.\n\nA single slip-and-fall claim in a senior care facility can easily generate medical costs and legal fees exceeding six figures. When the injured party is a resident or elderly visitor, sympathy-driven jury verdicts can push awards well into seven figures. Without adequate general liability coverage, a facility would need to fund these costs entirely from operating revenue, which can be financially devastating.\n\nGeneral liability also protects against less obvious exposures such as claims from delivery drivers injured on your property, damage to neighboring properties from your maintenance operations, and personal injury claims like wrongful eviction or discrimination.',
       },
       {
         heading: 'Key Coverage Features',
         bullets: [
-          'Premises liability for injuries at your yard, terminal, or office',
-          'Operations liability for non-vehicle-related business activities',
-          'Completed operations coverage for claims after freight delivery',
-          'Personal and advertising injury coverage for libel, slander, and related claims',
-          'Contractual liability for hold-harmless and indemnification agreements',
-          'Medical payments coverage for minor injuries regardless of fault',
-          'Products liability for goods you manufacture, sell, or distribute',
+          'Premises liability for injuries occurring on your facility grounds, including common areas, dining rooms, and outdoor spaces',
+          'Operations liability for harm caused by your staff activities, maintenance work, and facility management',
+          'Products and completed operations coverage for claims arising from food service, renovations, and third-party vendor work',
+          'Personal and advertising injury coverage for defamation, privacy violations, and wrongful eviction claims',
+          'Medical payments coverage for minor injuries to third parties regardless of fault',
+          'Legal defense costs covered in addition to your liability limit in most policy forms',
+          'Blanket additional insured endorsements for landlords, management companies, and contractual requirements',
         ],
       },
     ],
     faqs: [
       {
-        q: 'What is the difference between auto liability and general liability?',
-        a: 'Auto liability covers claims arising from the operation of your vehicles on the road. General liability covers everything else, including injuries at your business premises, non-vehicle-related operations, and claims arising after delivery is complete. Both policies are necessary for comprehensive protection.',
+        q: 'What is the typical general liability limit for a senior living facility?',
+        a: 'Most senior living facilities carry general liability limits of $1,000,000 per occurrence and $2,000,000 aggregate. Larger facilities, those with multiple locations, or organizations facing contractual requirements from management companies or lenders may need higher limits, which can be achieved through an umbrella or excess liability policy.',
       },
       {
-        q: 'What limits should a trucking company carry for general liability?',
-        a: 'Most trucking companies carry a general liability policy with a $1,000,000 per-occurrence limit and a $2,000,000 general aggregate. Your specific needs depend on the size of your operation, your lease agreements, and the contractual requirements of your customers and brokers.',
+        q: 'Does general liability cover resident injuries from falls?',
+        a: 'General liability covers premises-related falls such as a resident slipping on a wet floor in a common area. However, if the fall is alleged to result from negligent care — such as failure to assist a resident who was known to be a fall risk — the claim may be classified as a professional liability exposure rather than general liability.',
       },
       {
-        q: 'Does general liability cover damage to customer property at my terminal?',
-        a: 'Yes. If customer property is damaged while at your terminal or yard due to your negligence, such as a forklift striking a pallet of goods, general liability covers the resulting claim. However, damage to goods while in transit is covered by your motor truck cargo policy, not general liability.',
+        q: 'Is general liability required by state licensing agencies?',
+        a: 'Yes, in most states. Licensing requirements vary by state and facility type, but the vast majority of states require proof of general liability insurance as a condition of obtaining and maintaining a license to operate a senior care facility.',
+      },
+      {
+        q: 'How does general liability differ from professional liability for senior living?',
+        a: 'General liability covers premises and operations risks — injuries from slips, trips, falls, and property damage. Professional liability covers allegations of negligent care, improper treatment, medication errors, and failure to meet the standard of care. Both are essential for a complete insurance program.',
       },
     ],
-    relatedCoverages: ['auto-liability', 'umbrella-excess-liability', 'workers-compensation'],
+    relatedCoverages: ['professional-liability', 'umbrella-excess', 'abuse-molestation'],
   },
 
   {
-    slug: 'non-trucking-liability',
-    title: 'Non-Trucking Liability',
-    metaTitle: 'Non-Trucking Liability (Bobtail) Insurance',
-    metaDescription:
-      'Non-trucking liability insurance for owner-operators and leased drivers. Bobtail coverage for personal use of your truck when not under motor carrier dispatch.',
-    heroHeading: 'Non-Trucking Liability Insurance',
+    slug: 'professional-liability',
+    title: 'Professional Liability',
+    metaTitle: 'Professional Liability Insurance for Senior Living Facilities',
+    metaDescription: 'Professional liability (E&O) insurance for senior care facilities. Coverage for negligent care, medication errors, and failure to meet care standards in assisted living and nursing homes.',
+    heroHeading: 'Professional Liability Insurance for Senior Living',
     heroSubheading:
-      'Liability protection for owner-operators using their truck for personal purposes outside of carrier dispatch.',
+      'Protection against claims of negligent care, treatment errors, and failure to meet the professional standard of care in your facility.',
     overview:
-      'Non-trucking liability, often called bobtail insurance, provides liability coverage for owner-operators when they are using their truck for personal purposes and are not under dispatch from the motor carrier they lease to. The carrier\'s auto liability policy covers you while hauling loads, but when that dispatch ends and you drive to a restaurant, home, or personal errand, a coverage gap exists. Non-trucking liability fills that gap.',
+      'Professional liability insurance — sometimes called errors and omissions or malpractice coverage — is one of the most critical policies for any senior living operation. It responds when your facility is accused of providing negligent care, making medication errors, failing to properly supervise residents, or otherwise falling below the accepted standard of care. With rising litigation in the senior care industry and verdicts frequently exceeding seven figures, professional liability is indispensable.',
     sections: [
       {
         heading: 'What It Covers',
         content:
-          'Non-trucking liability covers your legal liability for bodily injury and property damage caused by your truck during personal, non-business use. This includes driving home after delivering a load, running personal errands, deadheading to your residence, or any other use that is not under the direction and control of the motor carrier you are leased to.\n\nThe policy functions exactly like auto liability in these situations, paying for injuries and damage you cause to third parties. It covers legal defense costs, settlements, and judgments up to your policy limit. Most non-trucking policies are written with a $1,000,000 combined single limit.\n\nIt is essential to understand that non-trucking liability does not cover you while engaged in any business use of the vehicle. If you are dispatched, hauling a load, deadheading to a pickup under dispatch, or performing any activity for the carrier\'s benefit, the carrier\'s primary auto liability policy is the applicable coverage.',
+          'Professional liability insurance covers claims alleging that your facility or its staff failed to provide care that meets the accepted professional standard. This includes allegations of negligent care planning, improper medication administration, failure to prevent elopement from memory care units, inadequate supervision leading to resident-on-resident incidents, delayed response to medical emergencies, and improper wound care or infection control.\n\nThe policy pays for legal defense costs, settlements, and judgments when your organization is sued for professional negligence. Defense costs in senior care litigation are substantial — often $100,000 to $300,000 or more per case — making the defense coverage alone worth the premium even if a claim is ultimately dismissed.\n\nProfessional liability also typically covers regulatory defense costs when your facility faces investigations by state health departments, CMS, or the Office of Inspector General related to care quality allegations. Some policies extend to cover fines and penalties where insurable by law.',
       },
       {
         heading: 'Who Needs It',
         content:
-          'Non-trucking liability is designed specifically for owner-operators who lease their truck and their services to a motor carrier under a lease agreement. Under this arrangement, the carrier\'s insurance covers the truck while it is under dispatch, but that coverage terminates the moment the dispatch ends and you begin personal use of the vehicle.\n\nIf you own your truck and drive it for any non-business purpose, whether commuting home, visiting family, or running errands, you need non-trucking liability to ensure you have continuous liability coverage. Operating a commercial vehicle without liability insurance is illegal in every state and exposes you to personal financial ruin in the event of an at-fault accident.',
+          'Every organization that provides personal care, health care, or custodial services to seniors needs professional liability coverage. This includes skilled nursing facilities where clinical care is provided around the clock, assisted living communities offering personal care assistance, memory care facilities managing residents with dementia and Alzheimer\'s, home health agencies sending caregivers into private residences, hospice organizations providing end-of-life care, and rehabilitation centers offering therapy services.\n\nThe need for professional liability is not limited to facilities that employ nurses or physicians. Assisted living communities that provide medication management, bathing assistance, or mobility support are equally exposed to professional negligence claims. Any organization that assumes responsibility for the health and safety of vulnerable adults faces this risk.',
       },
       {
         heading: 'Why It Matters',
         content:
-          'The gap between carrier dispatch coverage and personal use is one of the most misunderstood exposures in trucking. Many owner-operators assume their carrier\'s policy covers them at all times, but that is not the case. The moment you complete a delivery and begin driving for personal reasons, you may be uninsured unless you carry non-trucking liability.\n\nAn at-fault accident while uninsured can result in a personal judgment against you for hundreds of thousands of dollars. It can also lead to license suspension, vehicle impoundment, and the loss of your ability to earn a living. Non-trucking liability provides affordable peace of mind during the hours and miles between dispatches.',
+          'The senior living industry is experiencing a sustained increase in professional liability claims. Families are more informed and more willing to pursue legal action when they believe their loved one received substandard care. Plaintiff attorneys specializing in elder care litigation have become increasingly sophisticated, and jury sympathy for elderly plaintiffs drives settlements and verdicts to levels that can threaten a facility\'s financial viability.\n\nAverage defense costs for a professional liability claim in the senior care sector range from $100,000 to $300,000, and claims that proceed to trial can result in verdicts well above $1,000,000. Staffing shortages across the industry have intensified the risk, as understaffed facilities are more likely to experience care lapses that give rise to claims.\n\nWithout professional liability coverage, a facility must fund its own legal defense and pay any settlement or judgment from operating revenue. For most senior living operations, even a single significant claim without insurance could result in closure.',
       },
       {
         heading: 'Key Coverage Features',
         bullets: [
-          'Bodily injury and property damage liability during personal use of your truck',
-          'Coverage when not under dispatch or operating under carrier authority',
-          'Legal defense costs for covered claims',
-          'Typically written with a $1,000,000 combined single limit',
-          'Available as a standalone policy for leased owner-operators',
-          'Covers deadheading home after final delivery when dispatch is complete',
-          'Affordable premiums compared to full primary auto liability',
+          'Claims-made or occurrence coverage for allegations of negligent care and treatment errors',
+          'Legal defense costs for lawsuits, arbitration, and mediation proceedings',
+          'Coverage for medication administration errors, including wrong dosage, wrong medication, and missed doses',
+          'Elopement and wandering coverage for claims arising from residents leaving the facility unsupervised',
+          'Resident-on-resident incident coverage when supervision failures lead to harm between residents',
+          'Regulatory defense coverage for state survey deficiencies and CMS investigations',
+          'Personal injury coverage for allegations of restraint misuse, dignity violations, and rights infringement',
         ],
       },
     ],
     faqs: [
       {
-        q: 'What is the difference between non-trucking liability and bobtail insurance?',
-        a: 'The terms are often used interchangeably, but there is a technical distinction. Non-trucking liability covers personal use of your truck when not under dispatch. True bobtail insurance covers driving without a trailer for any purpose, including some business use. Most policies sold as bobtail are actually non-trucking liability policies, so it is important to read the policy language carefully.',
+        q: 'What is the difference between claims-made and occurrence professional liability?',
+        a: 'A claims-made policy covers claims that are first reported during the policy period, regardless of when the incident occurred, as long as the incident happened after the retroactive date. An occurrence policy covers incidents that occur during the policy period regardless of when the claim is reported. Claims-made is more common in senior living. If you cancel a claims-made policy, you need tail coverage to protect against future claims from past incidents.',
       },
       {
-        q: 'Does non-trucking liability cover me while I am deadheading to pick up a load?',
-        a: 'No. If you are deadheading to a shipper under dispatch from your carrier, you are performing business activities and the carrier\'s auto liability policy should be providing coverage. Non-trucking liability only applies when you are not under dispatch and are using the truck for personal reasons.',
+        q: 'How much professional liability coverage does a senior living facility need?',
+        a: 'Most facilities carry limits between $1,000,000 and $3,000,000 per claim, with aggregate limits of $3,000,000 to $5,000,000. The appropriate limit depends on your facility size, number of beds, acuity level, state regulatory environment, and claims history. Facilities in high-litigation states or those providing skilled nursing care typically need higher limits.',
       },
       {
-        q: 'Do I need non-trucking liability if I never drive my truck for personal use?',
-        a: 'If your truck goes directly from one dispatch to the next without any personal use in between, you may have minimal exposure. However, any trip that is not under carrier dispatch, including driving home, stopping for meals, or running errands, falls outside the carrier\'s policy. Most owner-operators have at least some personal use exposure.',
+        q: 'Does professional liability cover abuse and molestation claims?',
+        a: 'Some professional liability policies include limited abuse and molestation coverage, but most senior living operations should carry a separate, dedicated abuse and molestation policy. The coverage limits and defense provisions in a standalone policy are typically much broader than what is available as a sublimit under professional liability.',
       },
       {
-        q: 'Can I carry non-trucking liability and primary auto liability at the same time?',
-        a: 'Yes, but it is rarely necessary. If you operate under your own authority, you need primary auto liability. If you lease to a carrier, you need non-trucking liability. If you do both at different times, you may carry both policies, but they cover mutually exclusive situations.',
+        q: 'Are individual staff members covered under the facility professional liability policy?',
+        a: 'Most facility professional liability policies cover the organization and its employees acting within the scope of their duties. However, individual licensed professionals such as nurses and therapists should verify whether additional individual coverage is needed based on their state licensing requirements and the scope of the facility policy.',
       },
     ],
-    relatedCoverages: ['auto-liability', 'physical-damage', 'occupational-accident'],
-  },
-
-  {
-    slug: 'trailer-interchange',
-    title: 'Trailer Interchange',
-    metaTitle: 'Trailer Interchange Insurance for Trucking',
-    metaDescription:
-      'Trailer interchange insurance covers physical damage to non-owned trailers in your possession under a trailer interchange agreement. Protect borrowed equipment.',
-    heroHeading: 'Trailer Interchange Insurance',
-    heroSubheading:
-      'Physical damage coverage for trailers you pull under interchange agreements with other carriers, brokers, or shippers.',
-    overview:
-      'Trailer interchange insurance covers physical damage to trailers that you do not own but are pulling under a written trailer interchange agreement. When you sign an interchange agreement, you assume financial responsibility for damage to the other party\'s trailer while it is in your possession. Your own physical damage policy typically excludes non-owned trailers, creating a significant coverage gap that trailer interchange insurance fills.',
-    sections: [
-      {
-        heading: 'What It Covers',
-        content:
-          'Trailer interchange insurance provides physical damage coverage, including collision and comprehensive, for trailers in your possession under a trailer interchange agreement. Covered perils include collision, fire, theft, vandalism, overturning, and weather events. The policy pays to repair or replace the trailer up to its actual cash value or an agreed amount, minus your deductible.\n\nCoverage applies from the moment you accept custody of the trailer under the interchange agreement until you return it to the owner or their designated agent. This includes time spent in transit, at loading and unloading facilities, and while parked at your yard or a truck stop during the normal course of transportation.\n\nTrailer interchange policies can be written to cover specific interchange partners or on a blanket basis that covers any trailer you pull under a qualifying interchange agreement. Blanket coverage is more flexible and eliminates the need to notify your insurer each time you enter a new interchange arrangement.',
-      },
-      {
-        heading: 'Who Needs It',
-        content:
-          'Any carrier that regularly pulls trailers owned by other parties under interchange agreements needs this coverage. This is common in intermodal operations, port drayage, and less-than-truckload networks where trailers are frequently exchanged between carriers at terminals and rail yards.\n\nThe party requiring the interchange agreement, whether a shipper, broker, or another carrier, will almost always require you to carry trailer interchange insurance as a condition of the agreement. Without it, you are personally liable for the full value of a trailer that can cost $30,000 to $80,000 or more to replace.',
-      },
-      {
-        heading: 'Why It Matters',
-        content:
-          'When you sign a trailer interchange agreement, you take on full financial responsibility for someone else\'s property. Your standard physical damage policy covers only vehicles you own or lease, so a collision or theft involving an interchanged trailer could leave you writing a check for $50,000 or more out of your operating funds.\n\nTrailer interchange insurance is particularly critical in intermodal and drayage operations where trailer damage claims are frequent due to the high volume of trailer handoffs and the challenging operating environments at ports and rail yards. A single stolen container chassis or a fire that destroys a loaded trailer can generate a claim that exceeds many small carriers\' annual profit.',
-      },
-      {
-        heading: 'Key Coverage Features',
-        bullets: [
-          'Collision and comprehensive coverage for non-owned trailers under interchange agreements',
-          'Blanket or scheduled trailer coverage options',
-          'Coverage from acceptance to return of the trailer',
-          'Protection at current replacement cost or actual cash value',
-          'Covers trailers at rest, in transit, and at shipper or receiver facilities',
-          'Available deductible options to manage premium expense',
-          'Satisfies contractual insurance requirements in interchange agreements',
-        ],
-      },
-    ],
-    faqs: [
-      {
-        q: 'What is a trailer interchange agreement?',
-        a: 'A trailer interchange agreement is a written contract where one party transfers physical possession of a trailer to another party for the purpose of transporting a load. The party receiving the trailer assumes responsibility for loss or damage while the trailer is in their custody. These agreements are standard in intermodal, drayage, and LTL operations.',
-      },
-      {
-        q: 'Does my physical damage policy cover trailers I pull under interchange?',
-        a: 'In most cases, no. Standard physical damage policies cover vehicles you own or lease under a long-term agreement. Trailers in your temporary possession under an interchange agreement are typically excluded, which is why dedicated trailer interchange insurance exists.',
-      },
-      {
-        q: 'What is the difference between blanket and scheduled trailer interchange coverage?',
-        a: 'Scheduled coverage lists specific interchange partners or trailers on your policy. Blanket coverage automatically applies to any qualifying trailer you pull under an interchange agreement without needing to notify your insurer each time. Blanket coverage is more flexible and recommended for carriers with frequent interchange activity.',
-      },
-    ],
-    relatedCoverages: ['physical-damage', 'motor-truck-cargo', 'auto-liability'],
+    relatedCoverages: ['general-liability', 'abuse-molestation', 'employment-practices'],
   },
 
   {
     slug: 'workers-compensation',
-    title: "Workers' Compensation",
-    metaTitle: "Trucking Workers' Compensation Insurance",
-    metaDescription: "Workers' compensation insurance for trucking companies covering medical bills, lost wages, and disability benefits for injured employees.",
-    heroHeading: "Workers' Compensation Insurance",
+    title: 'Workers\' Compensation',
+    metaTitle: 'Workers Compensation Insurance for Senior Living Facilities',
+    metaDescription: 'Workers compensation insurance for senior living, nursing homes, and assisted living staff. Coverage for workplace injuries including lifting injuries, needle sticks, and workplace violence.',
+    heroHeading: 'Workers\' Compensation for Senior Living Facilities',
     heroSubheading:
-      'State-required coverage providing medical benefits and wage replacement to employees injured on the job.',
+      'Mandatory coverage that protects your employees and your organization when workplace injuries occur in caregiving environments.',
     overview:
-      "Workers' compensation insurance is required in nearly every state for businesses with employees. It covers medical expenses, lost wages, rehabilitation costs, and death benefits for employees who are injured or become ill as a result of their work. For trucking companies, this includes injuries sustained while driving, loading and unloading freight, performing vehicle maintenance, and working at terminals or offices. Workers' comp is both a legal obligation and a critical tool for protecting your workforce and your business.",
+      'Workers\' compensation is a legally required coverage in nearly every state for senior living facilities with employees. It provides wage replacement and medical benefits to staff members who are injured on the job. Senior care workers face elevated injury rates due to the physical demands of patient handling, exposure to infectious diseases, workplace violence from combative residents, and the emotional toll of caregiving. A properly structured workers\' compensation program is essential for protecting your team and managing one of your facility\'s largest insurance costs.',
     sections: [
       {
         heading: 'What It Covers',
         content:
-          "Workers' compensation provides four main categories of benefits to injured employees. Medical benefits cover all reasonable and necessary treatment related to a work injury, including emergency care, surgery, hospitalization, prescription medication, physical therapy, and ongoing medical management. There is no deductible or copay for the employee.\n\nDisability benefits replace a portion of the employee's lost wages during recovery. These are categorized as temporary total disability, temporary partial disability, permanent total disability, and permanent partial disability, depending on the severity and duration of the impairment. The replacement rate and maximum benefit amounts are set by each state's workers' compensation statute.\n\nRehabilitation benefits cover vocational retraining and job placement services for employees who cannot return to their previous position. Death benefits provide income replacement and funeral expenses to the dependents of an employee killed on the job. Employers' liability coverage, included in most workers' comp policies, protects the business against lawsuits from injured employees in limited circumstances where workers' comp immunity does not apply.",
+          'Workers\' compensation pays for medical treatment, rehabilitation, and lost wages when an employee is injured or becomes ill due to their job duties. In senior living, the most common claims involve musculoskeletal injuries from lifting and repositioning residents, slip-and-fall incidents in wet environments such as bathrooms and kitchens, needlestick injuries and bloodborne pathogen exposure, injuries from combative residents, and repetitive motion injuries from prolonged caregiving tasks.\n\nThe coverage also provides death benefits to the families of employees killed in workplace accidents and covers employer liability for lawsuits that fall outside the exclusive remedy provisions of workers\' compensation law. Some policies include coverage for rehabilitation and retraining costs when an injured employee cannot return to their previous role.\n\nWorkers\' compensation is a no-fault system, meaning employees receive benefits regardless of who caused the injury. In exchange, employees generally give up the right to sue their employer for workplace injuries, providing employers with a degree of legal protection.',
       },
       {
         heading: 'Who Needs It',
         content:
-          "Nearly every trucking company with W-2 employees is legally required to carry workers' compensation insurance. Requirements vary by state, but most states mandate coverage beginning with the first employee. Texas is the only state where private employers can opt out, though doing so exposes the company to significant tort liability.\n\nTrucking operations face unique challenges with workers' comp because drivers travel across multiple states. The policy must comply with the laws of every state where your employees work, which typically means carrying coverage in your home state and filing multi-state endorsements. Companies that hire independent contractors rather than employees may not need workers' comp for those individuals, but misclassification of employees as contractors is a major enforcement focus and can result in severe penalties.",
+          'Every senior living facility with W-2 employees is required to carry workers\' compensation insurance in virtually every state. This applies to skilled nursing facilities, assisted living communities, memory care units, home health agencies, adult day care centers, hospice organizations, and rehabilitation centers. Only a handful of states allow small employers to opt out, and even in those states, going without coverage exposes the facility to unlimited liability for employee injuries.\n\nThe requirement applies to all employees regardless of role — not just caregivers, but also administrative staff, maintenance workers, kitchen personnel, and housekeeping teams. Some states extend requirements to include certain independent contractors, so facility operators should verify their state-specific obligations.',
       },
       {
         heading: 'Why It Matters',
         content:
-          "Trucking consistently ranks among the most dangerous occupations in the United States. Drivers face risks from traffic accidents, lifting injuries, slips and falls at loading docks, and repetitive stress injuries from long hours behind the wheel. A serious injury can generate medical bills exceeding $100,000 and years of wage replacement payments.\n\nBeyond covering employee injuries, workers' compensation provides employer tort immunity. This means employees who receive workers' comp benefits generally cannot sue you for additional damages related to the workplace injury. Without this coverage, a single employee injury lawsuit could result in a judgment that threatens your business's survival. Proper workers' comp coverage protects your employees, satisfies your legal obligations, and shields your business from potentially ruinous litigation.",
+          'The senior care industry has one of the highest workplace injury rates of any sector. According to data from the Bureau of Labor Statistics, nursing and residential care facilities experience injury rates roughly three times higher than the average across all private industries. The most common injury — musculoskeletal disorders from resident handling — accounts for a significant portion of workers\' compensation costs in this industry.\n\nBeyond the direct cost of claims, workers\' compensation affects your ability to recruit and retain staff. High injury rates lead to increased turnover, which compounds an already difficult staffing environment. Facilities that invest in injury prevention programs and maintain low experience modification rates not only reduce their premiums but also signal to prospective employees that the organization takes worker safety seriously.\n\nWorkers\' compensation premiums in senior living are calculated based on your payroll, job classifications, and experience modification rate. A facility with a poor claims history can see premiums increase substantially at renewal, making loss prevention a direct driver of your bottom line.',
       },
       {
         heading: 'Key Coverage Features',
         bullets: [
-          'Full medical expense coverage for work-related injuries and illnesses',
-          'Wage replacement benefits during temporary or permanent disability',
-          'Vocational rehabilitation for employees unable to return to their prior role',
-          'Death benefits and funeral expense coverage for fatal work injuries',
-          "Employers' liability protection against employee lawsuits",
-          'Multi-state coverage for drivers operating across state lines',
-          'Managed care programs to control costs and improve outcomes',
+          'Medical benefits covering all reasonable and necessary treatment for workplace injuries and illnesses',
+          'Wage replacement benefits, typically two-thirds of the employee\'s average weekly wage during recovery',
+          'Permanent disability benefits for employees who sustain lasting impairment from a workplace injury',
+          'Vocational rehabilitation and retraining when an employee cannot return to their previous position',
+          'Death benefits providing income to the dependents of employees killed in the course of employment',
+          'Employer\'s liability coverage for claims that fall outside standard workers\' compensation provisions',
+          'Coverage across all employee classifications including caregivers, nurses, housekeeping, maintenance, and administration',
         ],
       },
     ],
     faqs: [
       {
-        q: "How are workers' compensation premiums calculated for trucking companies?",
-        a: "Premiums are based on your total payroll, the classification codes assigned to your employees' job duties, and your experience modification rate, which reflects your claims history relative to similar businesses. Long-haul drivers, local drivers, warehouse workers, and office staff each have different classification codes with different base rates.",
+        q: 'What is an experience modification rate and how does it affect premiums?',
+        a: 'The experience modification rate (EMR or e-mod) is a multiplier applied to your workers\' compensation premium based on your facility\'s claims history relative to similar operations. An EMR above 1.0 means your claims experience is worse than average, resulting in higher premiums. Below 1.0 means better than average. Reducing workplace injuries directly lowers your EMR and your premium costs over time.',
       },
       {
-        q: 'What is an experience modification rate?',
-        a: 'The experience modification rate, or e-mod, is a multiplier applied to your premium that reflects your company\'s claims history compared to the industry average. An e-mod of 1.0 is average. A rate below 1.0 means fewer claims than average and results in lower premiums. A rate above 1.0 means more claims than average and increases your costs.',
+        q: 'What are the most common workers\' compensation claims in senior living?',
+        a: 'The most frequent claims involve musculoskeletal injuries from lifting and repositioning residents, accounting for roughly 40 to 50 percent of all claims. Slip-and-fall injuries, needlestick and bloodborne pathogen exposure, injuries from combative residents, and repetitive motion injuries round out the most common claim types in senior care environments.',
       },
       {
-        q: "Do independent contractor drivers need to be covered under my workers' compensation policy?",
-        a: "Legitimate independent contractors are generally not covered under your workers' comp policy. However, if a driver classified as an independent contractor is later determined to be an employee by a state agency or court, you will be liable for unpaid workers' comp premiums and penalties. Proper classification and documentation are critical.",
+        q: 'Can we reduce workers\' compensation costs through safety programs?',
+        a: 'Yes. Implementing mechanical lift programs, safe patient handling training, proper body mechanics education, slip-resistant flooring, and robust return-to-work protocols can significantly reduce claim frequency and severity. Many insurers offer premium credits for documented safety programs, and the resulting improvement in your experience modification rate compounds savings over multiple years.',
       },
       {
-        q: "Does workers' compensation cover injuries that happen in another state?",
-        a: "Yes, but the coverage must be properly structured. Your policy should include an all-states endorsement or list every state where your drivers operate. Benefits are typically governed by the law of the state where the injury occurred or the state of hire, depending on the circumstances. Work with your agent to ensure your policy covers every state in your operating territory.",
+        q: 'Is workers\' compensation required in every state?',
+        a: 'Workers\' compensation is required in 49 states and the District of Columbia. Texas is the only state where it is optional for private employers, though even in Texas, most senior living facilities carry coverage due to the significant liability exposure of operating without it.',
       },
     ],
-    relatedCoverages: ['general-liability', 'occupational-accident', 'umbrella-excess-liability'],
+    relatedCoverages: ['general-liability', 'employment-practices', 'umbrella-excess'],
   },
 
   {
-    slug: 'umbrella-excess-liability',
+    slug: 'commercial-property',
+    title: 'Commercial Property',
+    metaTitle: 'Commercial Property Insurance for Senior Living Facilities',
+    metaDescription: 'Commercial property insurance for senior living buildings, equipment, and contents. Coverage for fire, storm damage, theft, and business interruption in assisted living and nursing facilities.',
+    heroHeading: 'Commercial Property Insurance for Senior Living',
+    heroSubheading:
+      'Protection for your buildings, equipment, furniture, and business income against fire, storm damage, theft, and other covered perils.',
+    overview:
+      'Senior living facilities represent significant real estate investments, often comprising multi-million-dollar buildings filled with specialized medical equipment, commercial kitchen installations, furniture, and technology systems. Commercial property insurance protects these physical assets against damage or loss from fire, severe weather, theft, vandalism, and other covered perils. Business interruption coverage — a critical component of any property policy — replaces lost income when a covered event forces your facility to partially or fully suspend operations.',
+    sections: [
+      {
+        heading: 'What It Covers',
+        content:
+          'Commercial property insurance covers your buildings, their contents, and the income your facility generates. Building coverage pays to repair or replace the physical structure after damage from covered perils including fire, windstorm, hail, lightning, explosion, and certain water damage events. Contents coverage protects furniture, medical equipment, kitchen appliances, office equipment, resident records, and other movable property inside your facility.\n\nBusiness interruption coverage is one of the most important elements for senior living operations. If a fire or storm damage forces you to evacuate residents and close part or all of your facility, business interruption pays for lost revenue during the restoration period. It can also cover extra expenses such as temporary relocation costs for residents, rental of alternative space, and expedited construction charges to get you operational faster.\n\nAdditional coverage extensions commonly included in senior living property programs include equipment breakdown coverage for boilers, HVAC systems, and commercial kitchen equipment, ordinance or law coverage to address building code upgrade requirements during reconstruction, and debris removal costs.',
+      },
+      {
+        heading: 'Who Needs It',
+        content:
+          'Every senior living facility that owns or leases its building needs commercial property insurance. Building owners need coverage for the structure and its contents. Tenants and operators who lease their facility need contents coverage and may need building coverage depending on their lease terms. Even facilities that do not own their building carry significant personal property in the form of medical equipment, furniture, kitchen installations, and technology infrastructure that must be insured.\n\nLenders, investors, and management companies universally require property insurance as a condition of financing or operating agreements. Medicare and Medicaid certification processes also typically require evidence of adequate property coverage to ensure that the facility can recover from physical damage events and continue providing services.',
+      },
+      {
+        heading: 'Why It Matters',
+        content:
+          'A senior living facility cannot simply close its doors and wait for repairs after a disaster. You have residents who depend on you for daily care, meals, medication, and safety. The cost of evacuating and relocating residents, maintaining staff during a closure, and managing the public relations impact of a major incident can be devastating without insurance.\n\nProperty losses in senior living facilities tend to be more costly than in typical commercial buildings because of the specialized nature of the construction, the presence of commercial kitchen and medical equipment, and the heightened regulatory requirements for rebuilding. Fire is the most frequent and severe peril, but severe weather, burst pipes, and electrical failures also generate substantial claims.\n\nBusiness interruption losses can exceed the physical damage costs in many scenarios. A facility forced to close for six months during reconstruction may lose millions in operating revenue while continuing to carry fixed costs such as debt service, insurance, and essential staff salaries. Properly structured business interruption coverage bridges this gap.',
+      },
+      {
+        heading: 'Key Coverage Features',
+        bullets: [
+          'Building coverage at replacement cost for the physical structure, including all permanently installed fixtures and building systems',
+          'Business personal property coverage for furniture, medical equipment, kitchen appliances, and technology systems',
+          'Business interruption and extra expense coverage for lost income and additional costs during restoration periods',
+          'Equipment breakdown coverage for boilers, HVAC, electrical panels, elevators, and commercial kitchen equipment',
+          'Ordinance or law coverage for building code upgrades required during reconstruction',
+          'Flood and earthquake coverage available by endorsement or separate policy where exposure exists',
+          'Valuable papers and records coverage for resident files, medical records, and business documents',
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'Should senior living facilities insure to replacement cost or actual cash value?',
+        a: 'Replacement cost coverage is strongly recommended. It pays the full cost of rebuilding or replacing damaged property at current prices without deducting for depreciation. Actual cash value coverage deducts depreciation, which can leave a significant gap between your insurance payout and the cost of rebuilding a modern, code-compliant senior care facility.',
+      },
+      {
+        q: 'What is business interruption coverage and why is it important for senior living?',
+        a: 'Business interruption coverage replaces your facility\'s lost income and covers continuing expenses when a covered property loss forces you to suspend operations. For senior living facilities, this coverage is critical because you cannot simply relocate residents and resume operations instantly. The restoration period can last months, during which you continue to carry fixed costs without resident revenue.',
+      },
+      {
+        q: 'Does commercial property insurance cover flooding?',
+        a: 'Standard commercial property policies typically exclude flood damage. Flood coverage must be purchased separately, either through the National Flood Insurance Program or a private flood insurer. Facilities in flood-prone areas should carry this coverage, and many lenders require it for properties in designated flood zones.',
+      },
+      {
+        q: 'How is the value of a senior living facility determined for insurance purposes?',
+        a: 'Property values should be established based on a replacement cost appraisal that accounts for the specialized construction requirements of senior care facilities, including fire suppression systems, commercial kitchens, nurse call systems, and accessibility features. Using a generic per-square-foot estimate risks underinsurance because senior living buildings cost more to construct than standard commercial buildings.',
+      },
+    ],
+    relatedCoverages: ['general-liability', 'cyber-liability', 'directors-officers'],
+  },
+
+  {
+    slug: 'abuse-molestation',
+    title: 'Abuse & Molestation',
+    metaTitle: 'Abuse and Molestation Insurance for Senior Living Facilities',
+    metaDescription: 'Abuse and molestation liability insurance for senior care facilities. Specialized coverage for allegations of physical, sexual, or emotional abuse of elderly residents.',
+    heroHeading: 'Abuse & Molestation Coverage for Senior Living',
+    heroSubheading:
+      'Specialized liability protection for allegations of physical, sexual, or emotional abuse involving residents in your care.',
+    overview:
+      'Abuse and molestation coverage is one of the most essential yet frequently underinsured exposures in the senior living industry. Allegations of abuse — whether physical, sexual, emotional, or financial — against elderly residents generate some of the highest-severity claims in the entire care sector. Standard general liability and professional liability policies often exclude or severely limit coverage for abuse-related claims, making a dedicated abuse and molestation policy a critical component of every senior living insurance program.',
+    sections: [
+      {
+        heading: 'What It Covers',
+        content:
+          'Abuse and molestation insurance covers claims alleging that a resident was subjected to physical abuse, sexual abuse or assault, emotional or psychological abuse, neglect, or financial exploitation by staff members, other residents, volunteers, or third parties while in your facility\'s care. The policy pays for legal defense costs, settlements, and judgments arising from these allegations.\n\nCoverage extends to the organization itself as well as individual employees, officers, directors, and volunteers who are named in abuse-related lawsuits. Most policies cover both actual abuse committed by someone associated with your facility and allegations of negligent hiring, supervision, or retention of the individual who committed the abuse.\n\nThe policy responds regardless of whether the abuse allegation is proven true or false. Defense costs alone for an abuse claim can be substantial, and the coverage provides the financial resources to mount a proper legal defense while protecting the organization\'s assets from a potential judgment.',
+      },
+      {
+        heading: 'Who Needs It',
+        content:
+          'Every senior living organization that provides care to vulnerable adults should carry dedicated abuse and molestation coverage. This includes skilled nursing facilities, assisted living communities, memory care units, home health agencies, adult day care programs, hospice organizations, and independent living communities. The risk is present wherever staff members have unsupervised access to residents, which is inherent to the delivery of personal care.\n\nMemory care facilities face particularly elevated risk because residents with cognitive impairment may be unable to report abuse or may not be considered credible witnesses, which can complicate both the commission and detection of abuse. Facilities serving residents with physical disabilities face similar concerns regarding resident vulnerability.',
+      },
+      {
+        heading: 'Why It Matters',
+        content:
+          'Abuse allegations in senior living generate some of the most emotionally charged and financially devastating claims in the industry. Juries are highly sympathetic to elderly victims, and plaintiff attorneys specializing in elder abuse cases have become increasingly effective at securing large verdicts and settlements. Punitive damages, which are designed to punish the facility rather than compensate the victim, are frequently sought and awarded in abuse cases.\n\nThe regulatory consequences of abuse allegations are equally severe. State health departments, Adult Protective Services, the Office of Inspector General, and CMS all have authority to investigate and sanction facilities where abuse is substantiated. Sanctions can include fines, operating restrictions, termination of Medicare and Medicaid participation, and in extreme cases, facility closure.\n\nWithout dedicated coverage, a facility facing an abuse allegation may discover that its general liability and professional liability policies exclude the claim entirely, leaving the organization to fund its own defense and any resulting settlement or verdict. A single uninsured abuse claim can exhaust a facility\'s financial reserves.',
+      },
+      {
+        heading: 'Key Coverage Features',
+        bullets: [
+          'Defense costs for lawsuits alleging physical, sexual, emotional, or financial abuse of residents',
+          'Coverage for the organization, individual employees, officers, directors, and volunteers',
+          'Negligent hiring, training, supervision, and retention coverage when the facility is alleged to have failed to prevent abuse',
+          'Resident-on-resident abuse coverage for incidents between residents, particularly in memory care settings',
+          'Regulatory defense coverage for state investigations, CMS surveys, and Adult Protective Services proceedings',
+          'Crisis management and public relations expense coverage to manage reputational damage following an allegation',
+          'Coverage for both perpetrator liability and organizational liability',
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'Does general liability cover abuse allegations?',
+        a: 'Most general liability policies exclude or severely limit coverage for abuse and molestation claims. Some may provide a small sublimit for defense costs only, but this is rarely adequate for a full defense. A dedicated abuse and molestation policy provides comprehensive coverage specifically designed for this exposure.',
+      },
+      {
+        q: 'What types of abuse are covered under this policy?',
+        a: 'Dedicated abuse and molestation policies typically cover allegations of physical abuse, sexual abuse and assault, emotional and psychological abuse, neglect, and in some forms, financial exploitation. The coverage responds to allegations regardless of whether the abuse is ultimately proven, providing defense costs from the outset of a claim.',
+      },
+      {
+        q: 'How much abuse and molestation coverage should a senior living facility carry?',
+        a: 'Recommended limits vary by facility size and risk profile, but most senior living operations should carry at least $1,000,000 per occurrence with an aggregate of $3,000,000 or higher. Facilities with a large number of memory care residents or those in high-litigation states should consider higher limits.',
+      },
+      {
+        q: 'Can abuse and molestation coverage help with state regulatory investigations?',
+        a: 'Yes. Most dedicated policies include regulatory defense coverage that pays for legal representation during state health department investigations, CMS surveys, and Adult Protective Services proceedings. This coverage is important because regulatory proceedings can result in fines, sanctions, and operating restrictions even when a lawsuit is not filed.',
+      },
+    ],
+    relatedCoverages: ['professional-liability', 'general-liability', 'employment-practices'],
+  },
+
+  {
+    slug: 'commercial-auto',
+    title: 'Commercial Auto',
+    metaTitle: 'Commercial Auto Insurance for Senior Living Facilities',
+    metaDescription: 'Commercial auto insurance for senior living and home health vehicles. Coverage for facility vans, transport vehicles, and employee-driven autos used in senior care operations.',
+    heroHeading: 'Commercial Auto Insurance for Senior Living',
+    heroSubheading:
+      'Liability and physical damage coverage for facility vehicles used to transport residents, staff, and supplies.',
+    overview:
+      'Many senior living operations maintain a fleet of vehicles for resident transportation, staff travel between facilities, home health visits, supply delivery, and community outreach. Commercial auto insurance covers these vehicles and the liability exposure that comes with operating them. Transporting elderly residents creates unique risk factors that standard commercial auto policies may not adequately address without proper endorsements and limits.',
+    sections: [
+      {
+        heading: 'What It Covers',
+        content:
+          'Commercial auto insurance provides liability coverage when your facility-owned or leased vehicles are involved in accidents that injure other people or damage their property. It also covers physical damage to your own vehicles through collision and comprehensive coverage, protecting against accidents, theft, vandalism, and weather damage.\n\nFor senior living operations, the liability component is particularly important because you are often transporting passengers who are elderly, medically fragile, and may require wheelchair accessibility accommodations. An accident involving a resident transport vehicle carries heightened liability exposure because the passengers are vulnerable and injuries are likely to be more severe.\n\nCoverage can be structured to include hired and non-owned auto liability for situations where employees use their personal vehicles for facility business, such as home health visits, supply runs, or administrative errands. This coverage fills the gap between the employee\'s personal auto policy and the facility\'s liability exposure when a personal vehicle is used for work purposes.',
+      },
+      {
+        heading: 'Who Needs It',
+        content:
+          'Any senior living organization that owns, leases, or regularly uses vehicles for business purposes needs commercial auto insurance. This includes facilities that operate resident transport vans, home health agencies whose staff drive to client residences, continuing care communities with shuttle services, adult day care programs that provide transportation, and any organization that uses vehicles for supply delivery or facility maintenance.\n\nEven if your facility does not own any vehicles, hired and non-owned auto liability is important if employees ever use personal vehicles for work-related purposes. A home health aide driving their own car to a client visit or an administrator running errands in a personal vehicle creates vicarious liability for the organization.',
+      },
+      {
+        heading: 'Why It Matters',
+        content:
+          'Transporting elderly passengers creates unique liability exposure. Residents boarding and exiting vehicles, riding in wheelchairs during transport, and being in vehicles with medical equipment all present scenarios where injuries can occur. When an accident happens during resident transport, the resulting claims tend to be more severe because the passengers are older, more fragile, and more likely to suffer serious injuries.\n\nCommercial auto insurance also protects your facility against liability when employees are involved in accidents while on facility business, even if they are driving their own vehicles. Without hired and non-owned auto coverage, the organization is exposed to vicarious liability claims that can reach substantial amounts.',
+      },
+      {
+        heading: 'Key Coverage Features',
+        bullets: [
+          'Liability coverage for bodily injury and property damage caused by your facility vehicles',
+          'Physical damage coverage including collision, comprehensive, and specified perils for owned vehicles',
+          'Hired and non-owned auto liability for employee-driven personal vehicles used on facility business',
+          'Medical payments coverage for passengers injured in your facility vehicles',
+          'Uninsured and underinsured motorist coverage to protect occupants when the at-fault driver lacks adequate insurance',
+          'Wheelchair lift and accessibility equipment coverage for specialized transport vehicles',
+          'Resident transport liability endorsement for heightened passenger liability exposure',
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'Do we need commercial auto insurance if employees use their own cars for home health visits?',
+        a: 'Yes. You should carry hired and non-owned auto liability coverage, which protects the organization when employees use personal vehicles for work purposes. If a home health aide causes an accident while driving to a client visit, the facility can be held vicariously liable. Hired and non-owned auto coverage fills this gap.',
+      },
+      {
+        q: 'What special coverage is needed for resident transport vehicles?',
+        a: 'Resident transport vehicles should carry higher liability limits than standard commercial vehicles due to the vulnerability of the passengers. Consider medical payments coverage for passengers, uninsured motorist coverage, and endorsements that specifically address wheelchair-accessible vehicle equipment. Limits of $1,000,000 or higher per occurrence are recommended.',
+      },
+      {
+        q: 'Does commercial auto cover volunteer drivers?',
+        a: 'Coverage for volunteer drivers depends on the specific policy language. Some commercial auto policies cover designated volunteers, while others require them to be specifically listed. If your facility uses volunteer drivers for any purpose, confirm that your policy extends coverage to them and consider requiring minimum personal auto insurance from all volunteers.',
+      },
+      {
+        q: 'How are commercial auto premiums calculated for senior living facilities?',
+        a: 'Premiums are based on the number and type of vehicles, their use, the geographic area of operation, driver records of all authorized operators, claims history, and liability limits selected. Facilities that transport residents in wheelchair-accessible vans typically pay higher premiums than those using vehicles only for staff transportation or supply delivery.',
+      },
+    ],
+    relatedCoverages: ['general-liability', 'umbrella-excess', 'workers-compensation'],
+  },
+
+  {
+    slug: 'cyber-liability',
+    title: 'Cyber Liability',
+    metaTitle: 'Cyber Liability Insurance for Senior Living Facilities',
+    metaDescription: 'Cyber liability insurance for senior living and healthcare facilities. Coverage for data breaches, ransomware attacks, HIPAA violations, and electronic health record exposures.',
+    heroHeading: 'Cyber Liability Insurance for Senior Living',
+    heroSubheading:
+      'Protection against data breaches, ransomware attacks, HIPAA violations, and the financial fallout from cyber incidents targeting your facility.',
+    overview:
+      'Senior living facilities are increasingly targeted by cybercriminals because they store large volumes of protected health information, personally identifiable information, and financial data on residents and employees. Electronic health records, billing systems, and connected medical devices create multiple entry points for cyber attacks. A single data breach or ransomware incident can disrupt care delivery, trigger HIPAA penalties, and expose the organization to costly notification requirements and litigation.',
+    sections: [
+      {
+        heading: 'What It Covers',
+        content:
+          'Cyber liability insurance provides first-party and third-party coverage for losses arising from cyber incidents. First-party coverage pays for the direct costs your organization incurs, including forensic investigation to determine the scope of a breach, notification costs for affected individuals as required by HIPAA and state breach notification laws, credit monitoring services for affected residents and employees, data recovery and system restoration costs, business interruption losses when systems are down, and ransom payments when approved by law enforcement.\n\nThird-party coverage pays for lawsuits and regulatory proceedings brought against your organization following a cyber incident. This includes defense costs and settlements for class action lawsuits by affected individuals, HIPAA enforcement actions by the Office for Civil Rights, state attorney general investigations, and contractual liability claims from business partners affected by the breach.\n\nMany policies also include access to incident response services, providing immediate access to cybersecurity professionals, legal counsel experienced in breach response, and public relations experts who help manage the reputational impact of a cyber event.',
+      },
+      {
+        heading: 'Who Needs It',
+        content:
+          'Every senior living facility that stores electronic health records, processes credit card payments, maintains employee personnel files, or uses internet-connected systems should carry cyber liability coverage. HIPAA-covered entities and their business associates face specific regulatory obligations that make cyber insurance particularly important. This includes skilled nursing facilities, assisted living communities, home health agencies, hospice organizations, and any senior care provider that bills Medicare or Medicaid electronically.',
+      },
+      {
+        heading: 'Why It Matters',
+        content:
+          'Healthcare organizations, including senior living facilities, are the most frequently targeted industry for cyber attacks. The average cost of a healthcare data breach exceeds $10 million according to industry research, making it the most expensive sector for cyber incidents. Senior living facilities face particular risk because they often operate on legacy IT systems, have limited cybersecurity budgets, and may lack dedicated information security staff.\n\nHIPAA penalties for data breaches can reach $2,091,855 per violation category per year, with maximum annual penalties of $2,091,855 in the highest penalty tier. Beyond regulatory fines, the cost of notifying affected individuals, providing credit monitoring, conducting forensic investigations, and defending against resulting litigation can easily reach hundreds of thousands of dollars for even a moderately sized breach.\n\nRansomware attacks pose an additional threat by potentially disrupting care delivery. When facility systems including electronic health records, medication management systems, and nurse call systems are locked by ransomware, patient safety is directly at risk, and the pressure to pay ransoms to restore operations is intense.',
+      },
+      {
+        heading: 'Key Coverage Features',
+        bullets: [
+          'Data breach response costs including forensic investigation, legal counsel, and notification expenses',
+          'HIPAA regulatory defense and penalty coverage for Office for Civil Rights enforcement actions',
+          'Business interruption coverage for lost revenue when systems are offline due to a cyber event',
+          'Ransomware and cyber extortion coverage for ransom payments and related response costs',
+          'Third-party liability for lawsuits from affected individuals, business partners, and class actions',
+          'Network security liability for failing to prevent unauthorized access to your systems',
+          'Media liability for claims arising from electronic content, website publications, and social media',
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'Are senior living facilities HIPAA-covered entities?',
+        a: 'Senior living facilities that provide health care services and transmit health information electronically are generally considered HIPAA-covered entities or business associates of covered entities. This includes skilled nursing facilities, many assisted living communities, home health agencies, and hospice organizations. HIPAA compliance obligations make cyber liability insurance particularly important for these operations.',
+      },
+      {
+        q: 'How much cyber liability coverage does a senior living facility need?',
+        a: 'Recommended limits depend on the number of records stored, annual revenue, and the types of data maintained. Most senior living facilities should carry at least $1,000,000 in cyber liability coverage, with larger organizations or those storing extensive electronic health records considering $3,000,000 to $5,000,000 in coverage.',
+      },
+      {
+        q: 'Does cyber insurance cover ransomware attacks?',
+        a: 'Yes. Most cyber liability policies include coverage for ransomware and cyber extortion events, paying for ransom payments, forensic investigation, system restoration, business interruption losses, and related response costs. Coverage typically requires that the insured contact the carrier before paying any ransom and cooperate with law enforcement.',
+      },
+      {
+        q: 'Will cyber insurance help with HIPAA compliance?',
+        a: 'While cyber insurance does not replace a HIPAA compliance program, many policies include access to risk management resources, security assessments, and incident response planning tools that support compliance efforts. In the event of a breach, the policy provides regulatory defense coverage for HIPAA enforcement proceedings and can cover certain civil monetary penalties where insurable by law.',
+      },
+    ],
+    relatedCoverages: ['professional-liability', 'directors-officers', 'commercial-property'],
+  },
+
+  {
+    slug: 'directors-officers',
+    title: 'Directors & Officers',
+    metaTitle: 'Directors and Officers Insurance for Senior Living Organizations',
+    metaDescription: 'D&O liability insurance for senior living facility boards and executives. Coverage for management decisions, regulatory actions, and fiduciary duty claims in senior care organizations.',
+    heroHeading: 'Directors & Officers Insurance for Senior Living',
+    heroSubheading:
+      'Personal liability protection for board members, executives, and managers against claims arising from management decisions in senior care organizations.',
+    overview:
+      'Directors and officers liability insurance protects the personal assets of board members, executives, and senior managers when they are sued for decisions made in their leadership capacity. Senior living organizations face a broad range of management liability exposures including regulatory enforcement actions, resident family lawsuits alleging mismanagement, employee claims, and financial mismanagement allegations. D&O coverage ensures that qualified individuals are willing to serve on your board and in leadership roles without risking their personal financial security.',
+    sections: [
+      {
+        heading: 'What It Covers',
+        content:
+          'D&O insurance covers claims alleging wrongful acts by directors, officers, and managers in the course of their management duties. Wrongful acts include breach of fiduciary duty, mismanagement of funds, failure to comply with regulations, employment practices violations when directed at leadership, and any decision that allegedly causes harm to the organization, its stakeholders, or third parties.\n\nThe policy provides three coverage components. Side A covers individual directors and officers when the organization is unable to indemnify them, such as in bankruptcy situations. Side B reimburses the organization for indemnification payments made on behalf of directors and officers. Side C provides entity coverage for the organization itself when it is named alongside individual defendants.\n\nCoverage extends to legal defense costs, settlements, and judgments. Most D&O policies are written on a claims-made basis, meaning the claim must be first reported during the policy period. Defense costs can be either inside or outside the policy limit, with outside-the-limit defense being more favorable to the insured.',
+      },
+      {
+        heading: 'Who Needs It',
+        content:
+          'Any senior living organization with a board of directors, an executive management team, or formal governance structure should carry D&O coverage. This applies to for-profit and nonprofit organizations alike. Nonprofit senior living organizations face particular D&O exposure because board members are often unpaid volunteers who may be personally liable for the organization\'s management decisions.\n\nContinuing care retirement communities with significant entrance fee obligations, organizations undergoing mergers or acquisitions, facilities expanding into new markets, and organizations with complex regulatory compliance requirements all face elevated D&O risk and should prioritize this coverage.',
+      },
+      {
+        heading: 'Why It Matters',
+        content:
+          'The heavily regulated nature of the senior living industry creates significant management liability exposure. Regulatory agencies at both the state and federal level have authority to pursue enforcement actions against individual facility leaders, not just the organization. Failure to maintain compliance with licensing requirements, fire safety codes, staffing ratios, and care quality standards can result in personal liability for directors and officers.\n\nResident family members increasingly pursue lawsuits that name facility leadership individually, alleging that management decisions regarding staffing levels, training, or resource allocation contributed to harm. These claims go beyond the scope of professional liability and general liability policies, targeting the management function rather than the clinical function.\n\nWithout D&O coverage, qualified professionals may be reluctant to serve on your board or accept executive leadership positions. The personal financial exposure of governing a senior living organization is substantial, and D&O insurance is a standard expectation for anyone in a governance or senior management role.',
+      },
+      {
+        heading: 'Key Coverage Features',
+        bullets: [
+          'Side A coverage protecting individual directors and officers when the organization cannot indemnify them',
+          'Side B coverage reimbursing the organization for indemnification of directors and officers',
+          'Entity coverage for the organization when named alongside individual defendants',
+          'Regulatory investigation coverage for government proceedings targeting leadership',
+          'Employment practices coverage for claims by employees against management',
+          'Fiduciary liability coverage for decisions regarding employee benefit plans',
+          'Defense costs coverage with options for inside-the-limit or outside-the-limit structures',
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'Do nonprofit senior living organizations need D&O insurance?',
+        a: 'Yes, and in many ways the need is greater for nonprofits. Board members of nonprofit senior living organizations are often unpaid volunteers who may not appreciate the extent of their personal liability exposure. D&O insurance protects these individuals and makes it easier to recruit qualified board members who might otherwise decline to serve.',
+      },
+      {
+        q: 'Does D&O cover regulatory enforcement actions?',
+        a: 'Most D&O policies include coverage for regulatory investigations and enforcement proceedings against directors and officers. This can include defense costs for state health department actions, CMS enforcement, and other regulatory proceedings. Some policies also cover certain fines and penalties where insurable under applicable law.',
+      },
+      {
+        q: 'What limits of D&O coverage are appropriate for senior living organizations?',
+        a: 'Recommended limits depend on the organization\'s size, revenue, number of beds, regulatory exposure, and governance structure. Most senior living organizations carry D&O limits between $1,000,000 and $5,000,000. Larger organizations, those with continuing care obligations, or those in complex regulatory environments may need higher limits.',
+      },
+      {
+        q: 'Can D&O coverage be combined with other management liability policies?',
+        a: 'Yes. Many insurers offer management liability packages that combine D&O, employment practices liability, and fiduciary liability into a single policy with shared or separate limits. These packages can be cost-effective for senior living organizations and simplify administration.',
+      },
+    ],
+    relatedCoverages: ['employment-practices', 'cyber-liability', 'umbrella-excess'],
+  },
+
+  {
+    slug: 'umbrella-excess',
     title: 'Umbrella / Excess Liability',
-    metaTitle: 'Trucking Umbrella & Excess Liability Insurance',
-    metaDescription: 'Umbrella and excess liability insurance for trucking fleets. Additional liability limits above your auto, general, and employers liability to protect against...',
-    heroHeading: 'Umbrella / Excess Liability Insurance',
+    metaTitle: 'Umbrella and Excess Liability Insurance for Senior Living Facilities',
+    metaDescription: 'Umbrella and excess liability insurance for senior living. Additional liability protection above primary policy limits for assisted living, nursing homes, and senior care organizations.',
+    heroHeading: 'Umbrella & Excess Liability for Senior Living',
     heroSubheading:
-      'Additional liability limits that sit above your primary policies to protect against catastrophic and high-severity claims.',
+      'An additional layer of liability protection that extends your primary policy limits and provides broader coverage for catastrophic claims.',
     overview:
-      'Umbrella and excess liability insurance provides additional limits of liability above your underlying auto liability, general liability, and employers liability policies. In an era of escalating jury verdicts against trucking companies, primary policy limits of $1,000,000 are often insufficient to fully resolve a serious injury or wrongful death claim. An umbrella or excess policy adds critical capacity, ensuring your business can survive a catastrophic judgment without depleting its assets.',
+      'Umbrella and excess liability insurance provides additional limits above your underlying general liability, professional liability, commercial auto, and employer\'s liability policies. In the senior living industry, where a single catastrophic claim — particularly involving abuse allegations, wrongful death, or regulatory violations — can generate verdicts well above primary policy limits, umbrella coverage is a critical component of a comprehensive risk management strategy.',
     sections: [
       {
         heading: 'What It Covers',
         content:
-          'An umbrella or excess liability policy increases your total available liability limits by stacking on top of your underlying primary policies. If your primary auto liability policy has a $1,000,000 limit and you carry a $4,000,000 umbrella, your total available limit for a covered auto liability claim is $5,000,000. The umbrella responds only after your primary policy limit is exhausted.\n\nMost trucking umbrella policies provide excess coverage over three underlying policies: commercial auto liability, commercial general liability, and employers liability. Some umbrella policies also provide broader coverage than the underlying policies, picking up certain claims that the primary policies exclude, though this varies significantly by insurer and policy form.\n\nExcess liability policies follow the exact terms and conditions of the underlying policy, providing only additional limits without expanding coverage. True umbrella policies may provide broader coverage and include a self-insured retention for claims that fall within the umbrella\'s scope but are not covered by any underlying policy. Understanding whether your policy is a true umbrella or a follow-form excess is important for evaluating your protection.',
+          'Umbrella and excess liability coverage sits above your primary liability policies and responds when a claim exceeds the limits of your underlying coverage. If your general liability policy carries a $1,000,000 per occurrence limit and a claim settles for $2,500,000, your umbrella policy pays the $1,500,000 excess after the primary policy is exhausted.\n\nIn addition to extending limits, true umbrella policies provide broader coverage than the underlying policies. This means the umbrella may cover certain claims that are excluded from primary policies, subject to a self-insured retention. This breadth of coverage can be particularly valuable in the senior living context where claims can involve unusual or complex fact patterns that may not fit neatly within primary policy coverage terms.\n\nUmbrella policies typically sit over general liability, professional liability, commercial auto liability, and employer\'s liability. Some umbrella programs designed for senior living also provide excess coverage over abuse and molestation policies, which is important given the severity of abuse-related claims.',
       },
       {
         heading: 'Who Needs It',
         content:
-          'Every trucking company should seriously evaluate the need for umbrella or excess liability coverage. The median verdict in trucking accident cases has risen dramatically, with verdicts exceeding $10,000,000 becoming routine in cases involving fatalities or catastrophic injuries. A primary auto liability limit of $1,000,000, while meeting federal minimums, provides limited protection against today\'s legal environment.\n\nCarriers hauling hazardous materials, operating in high-traffic urban corridors, or transporting passengers are at elevated risk and should carry higher limits. Shippers and brokers are increasingly requiring $5,000,000 or more in total auto liability limits, making umbrella coverage a business necessity for maintaining access to premium freight.',
+          'Every senior living facility should carry umbrella or excess liability coverage. The vulnerability of the population you serve, the emotional nature of senior care claims, and the trend toward larger verdicts in healthcare litigation make primary policy limits alone insufficient for most operations. Facilities that operate multiple locations, serve higher-acuity residents, or operate in states with aggressive plaintiff litigation environments face particularly acute need for excess limits.',
       },
       {
         heading: 'Why It Matters',
         content:
-          'The trucking industry has experienced a surge in what are known as nuclear verdicts, jury awards that far exceed what would have been considered reasonable a decade ago. Plaintiff attorneys now routinely use reptile theory and other advanced trial strategies to drive verdicts into eight and nine figures. A single catastrophic accident without adequate liability limits can force a carrier into bankruptcy.\n\nUmbrella coverage is also one of the most cost-effective ways to increase your protection. Because the umbrella only responds after primary limits are exhausted, the premium for millions of dollars in additional coverage is substantially less than the cost of an equivalent primary policy. For most carriers, adding an umbrella policy is the single most impactful step they can take to improve their financial resilience.',
+          'Verdict and settlement amounts in senior living litigation have been rising steadily. Wrongful death claims involving residents can generate awards of $5,000,000 or more, and abuse-related claims have produced verdicts exceeding $10,000,000. A single catastrophic claim that exceeds your primary policy limits without an umbrella in place can consume an organization\'s reserves and threaten its ongoing viability.\n\nUmbrella coverage is relatively inexpensive compared to the amount of protection it provides. The cost per million dollars of umbrella coverage is typically a fraction of the cost of the first million dollars of primary coverage, making it one of the most efficient risk management tools available to senior living operators.\n\nMany management companies, lenders, and contractual partners also require minimum umbrella limits as a condition of doing business, with common requirements ranging from $5,000,000 to $10,000,000 in total limits.',
       },
       {
         heading: 'Key Coverage Features',
         bullets: [
-          'Additional liability limits above auto, general, and employers liability policies',
-          'Coverage limits typically available from $1,000,000 to $10,000,000 or more',
-          'Excess coverage over multiple underlying liability policies',
-          'True umbrella forms may provide broader coverage than underlying policies',
-          'Defense costs coverage in addition to the policy limit on many forms',
-          'Self-insured retention for claims within umbrella scope but not covered by underlying policies',
-          'Cost-effective way to achieve high total liability limits',
+          'Additional limits above general liability, professional liability, commercial auto, and employer\'s liability policies',
+          'Broader coverage than underlying policies for claims that fall within the umbrella but outside primary coverage',
+          'Defense costs covered in addition to or within the umbrella limit depending on policy structure',
+          'Aggregate limits providing total coverage capacity across all underlying policy types',
+          'Drop-down coverage when underlying policy aggregates are exhausted during the policy year',
+          'Available in layers of $1,000,000 to $25,000,000 or more depending on organizational needs',
+          'Can be structured to include excess over abuse and molestation coverage',
         ],
       },
     ],
     faqs: [
       {
-        q: 'What is the difference between an umbrella policy and an excess liability policy?',
-        a: 'An excess liability policy follows the exact same terms and conditions as your underlying policy and simply adds more limit. A true umbrella policy may provide broader coverage than the underlying policies and can respond to certain claims that the primary policies exclude, subject to a self-insured retention. In practice, many policies marketed as umbrellas are actually follow-form excess policies.',
+        q: 'What is the difference between an umbrella policy and excess liability?',
+        a: 'An umbrella policy provides broader coverage than the underlying policies and may cover claims that fall outside primary coverage, subject to a self-insured retention. An excess policy strictly follows the terms of the underlying policy and only provides additional limits without broadening coverage. Umbrella policies offer more comprehensive protection but may cost more than pure excess coverage.',
       },
       {
-        q: 'How much umbrella coverage does a trucking company need?',
-        a: 'The appropriate limit depends on your fleet size, the commodities you haul, your operating territory, and the requirements of your shippers and brokers. Many carriers carry $5,000,000 to $10,000,000 in total limits. Given the trend of increasing verdict sizes, consulting with a specialized trucking insurance advisor to evaluate your specific exposure is strongly recommended.',
+        q: 'How much umbrella coverage should a senior living facility carry?',
+        a: 'Most senior living facilities should carry at least $5,000,000 in umbrella or excess limits. Larger organizations, multi-facility operators, and those in high-litigation states should consider $10,000,000 or more. The appropriate limit depends on your facility size, number of beds, acuity level, claims history, and contractual requirements.',
       },
       {
-        q: 'Can I buy umbrella coverage without changing my underlying policies?',
-        a: 'Your umbrella insurer will typically require that your underlying policies meet certain minimum limits and are written by carriers they approve. You may not need to change your underlying policies, but the umbrella insurer may require adjustments to ensure there are no gaps between your primary and excess coverage layers.',
+        q: 'Does the umbrella cover abuse and molestation claims?',
+        a: 'This depends on the specific umbrella policy. Some umbrella programs designed for senior living include excess coverage over the underlying abuse and molestation policy. Others exclude this coverage entirely. Given the severity of abuse-related claims, facilities should specifically confirm whether their umbrella extends to these exposures.',
       },
       {
-        q: 'What are nuclear verdicts and why should trucking companies be concerned?',
-        a: 'Nuclear verdicts are jury awards that significantly exceed the expected value of a claim, often reaching tens of millions of dollars. The trucking industry has been disproportionately affected by this trend due to the severity of accidents involving commercial vehicles. These verdicts make adequate umbrella or excess liability coverage essential for the financial survival of any trucking operation.',
+        q: 'Is umbrella coverage expensive for senior living facilities?',
+        a: 'Umbrella coverage is generally cost-efficient relative to the amount of protection it provides. The cost per million dollars of coverage decreases as you add higher layers. For many facilities, $5,000,000 of umbrella coverage may cost significantly less per million than the underlying primary policies.',
       },
     ],
-    relatedCoverages: ['auto-liability', 'general-liability', 'workers-compensation'],
+    relatedCoverages: ['general-liability', 'professional-liability', 'commercial-auto'],
   },
 
   {
-    slug: 'occupational-accident',
-    title: 'Occupational Accident',
-    metaTitle: 'Occupational Accident Insurance for Trucking',
-    metaDescription: 'Occupational accident insurance for independent contractor truck drivers. Medical, disability, and death benefits without requiring workers compensation cove...',
-    heroHeading: 'Occupational Accident Insurance',
+    slug: 'employment-practices',
+    title: 'Employment Practices Liability',
+    metaTitle: 'Employment Practices Liability Insurance for Senior Living',
+    metaDescription: 'EPLI insurance for senior living facilities. Coverage for wrongful termination, harassment, discrimination, and wage disputes in assisted living and nursing home operations.',
+    heroHeading: 'Employment Practices Liability for Senior Living',
     heroSubheading:
-      'Medical, disability, and accidental death coverage designed specifically for independent contractor drivers.',
+      'Protection against employee claims of wrongful termination, harassment, discrimination, and other employment-related allegations.',
     overview:
-      "Occupational accident insurance provides injury and death benefits to independent contractor drivers who are not eligible for workers' compensation coverage. Since independent contractors are not employees, they fall outside the scope of state workers' comp laws. Occupational accident policies fill this protection gap, offering medical expense coverage, disability income benefits, and accidental death and dismemberment benefits to contractors who are injured while performing their work.",
+      'Employment practices liability insurance covers claims brought by current, former, or prospective employees alleging wrongful employment practices. The senior living industry faces elevated EPLI risk due to high employee turnover, staffing shortages that strain management decisions, diverse workforce demographics, and the physically and emotionally demanding nature of caregiving work. With the average employment practices claim costing over $125,000 to defend and resolve, EPLI is an essential coverage for any senior care employer.',
     sections: [
       {
         heading: 'What It Covers',
         content:
-          "Occupational accident insurance provides three core benefit categories. Medical expense coverage pays for treatment of injuries sustained while performing work as an independent contractor, including hospitalization, surgery, physician visits, diagnostic imaging, and prescription medications. Benefit limits typically range from $500,000 to $1,000,000 per occurrence.\n\nDisability income benefits replace a portion of the contractor's earnings during recovery from a covered injury. Policies typically offer both temporary total disability benefits, payable while the contractor is completely unable to work, and permanent total disability benefits for catastrophic injuries that permanently prevent the contractor from driving. Benefit amounts and durations vary by policy.\n\nAccidental death and dismemberment coverage provides a lump-sum payment to the contractor's beneficiaries in the event of death or the loss of limbs, sight, or hearing due to a covered accident. AD&D benefits typically range from $100,000 to $500,000 and are payable in addition to any other coverage the contractor may carry.",
+          'EPLI covers a broad range of employment-related claims including wrongful termination, sexual harassment, workplace discrimination based on race, age, gender, disability, religion, or national origin, retaliation for whistleblowing or complaints, failure to promote, wage and hour disputes in some policy forms, and hostile work environment claims.\n\nThe policy pays for legal defense costs, settlements, and judgments when employees bring these claims against the organization or its managers. Most EPLI policies are written on a claims-made basis and cover claims made during the policy period regardless of when the alleged conduct occurred, subject to any retroactive date.\n\nSome EPLI policies also include third-party coverage, which protects against discrimination, harassment, or civil rights claims brought by non-employees such as residents, family members, or vendors. This third-party component is particularly relevant in senior living where staff interact closely with residents and their families.',
       },
       {
         heading: 'Who Needs It',
         content:
-          "Motor carriers that use independent contractor drivers should offer or require occupational accident coverage as part of their contractor agreements. While carriers are not legally required to provide workers' compensation to legitimate independent contractors, an uninsured contractor injury can generate significant legal exposure if the contractor's classification is challenged.\n\nIndependent owner-operators who work under a lease agreement with a carrier should carry occupational accident coverage whether the carrier provides it or not. Without either workers' comp or occupational accident insurance, a serious injury leaves the contractor with no income and potentially enormous medical bills. Personal health insurance may cover some medical costs but does not provide disability income or death benefits.",
+          'Every senior living organization with employees should carry EPLI coverage. The risk is particularly acute for organizations with high turnover rates, which are common across the senior living industry. Each time an employee is terminated, disciplined, or passed over for promotion, there is potential for an employment-related claim. Facilities experiencing staffing shortages may make rushed hiring decisions or retain underperforming employees longer than warranted, both of which increase EPLI exposure.\n\nLarger organizations with multiple locations and complex reporting structures face additional risk because employment decisions are being made by multiple managers who may not always follow consistent practices or receive adequate training on employment law.',
       },
       {
         heading: 'Why It Matters',
         content:
-          "Independent contractor drivers face the same occupational hazards as employee drivers, including traffic accidents, loading dock injuries, and slips and falls, but without the safety net of workers' compensation. A contractor who is seriously injured and unable to drive may have no source of income and inadequate medical coverage to handle the treatment costs.\n\nFor motor carriers, providing occupational accident insurance to contractors serves multiple purposes. It helps attract and retain quality contractors, demonstrates a commitment to contractor welfare, and provides an additional layer of legal protection. If a contractor is injured and later claims to have been misclassified as an employee, the existence of an occupational accident program can help demonstrate the independent nature of the relationship while also ensuring the contractor had meaningful coverage regardless of classification status.",
+          'Employment practices claims are among the most frequent types of litigation faced by senior living organizations. The Equal Employment Opportunity Commission receives tens of thousands of workplace discrimination charges annually, and state agencies process additional claims at the local level. Defense costs for employment claims are substantial even when the employer prevails, averaging $75,000 to $200,000 per claim.\n\nThe senior living industry\'s staffing challenges amplify EPLI risk. When facilities are short-staffed, managers may make employment decisions under pressure — terminating employees without proper documentation, failing to accommodate disabilities, or tolerating behavior that creates a hostile work environment. These decisions made in the moment can generate claims that are costly to defend.\n\nWithout EPLI coverage, the facility must fund its own legal defense and pay any settlement or judgment out of operating funds. For many senior living operations, even a single significant employment claim without insurance could strain the organization\'s finances.',
       },
       {
         heading: 'Key Coverage Features',
         bullets: [
-          'Medical expense benefits for work-related injuries, typically up to $1,000,000',
-          'Temporary total disability income replacement during recovery',
-          'Permanent total disability benefits for career-ending injuries',
-          'Accidental death and dismemberment lump-sum payments',
-          'Passenger accident coverage for authorized riders',
-          'Coverage for injuries occurring during work-related activities',
-          'Available as carrier-sponsored group plans or individual policies',
-          'Contingent liability coverage to protect the carrier against contractor injury claims',
+          'Wrongful termination defense and indemnity coverage',
+          'Sexual harassment and hostile work environment claims coverage',
+          'Discrimination coverage for all protected classes under federal and state law',
+          'Retaliation and whistleblower claims coverage',
+          'Third-party coverage for discrimination or harassment claims by residents, families, or vendors',
+          'Wage and hour defense coverage in select policy forms',
+          'Pre-claim legal consultation services for employment decisions and policy review',
         ],
       },
     ],
     faqs: [
       {
-        q: "How is occupational accident insurance different from workers' compensation?",
-        a: "Workers' compensation is a state-mandated program that covers employees and provides guaranteed benefits set by state law. Occupational accident insurance is a private insurance product for independent contractors with benefits defined by the policy terms. Workers' comp provides broader protections including vocational rehabilitation and no-fault coverage, while occupational accident policies are more limited but serve contractors who are ineligible for workers' comp.",
+        q: 'Does EPLI cover wage and hour claims?',
+        a: 'Some EPLI policies include limited coverage for wage and hour defense costs, but many exclude them. Given the frequency of wage and hour claims in the senior living industry — particularly around overtime calculations, meal and rest break compliance, and classification of exempt versus non-exempt employees — facilities should specifically request wage and hour coverage when available.',
       },
       {
-        q: 'Can a motor carrier require independent contractors to carry occupational accident insurance?',
-        a: 'Yes. Many carriers require their independent contractors to maintain occupational accident coverage as a condition of their lease agreement. Some carriers sponsor group occupational accident programs that contractors can participate in, often at lower rates than individual policies.',
+        q: 'What is third-party EPLI coverage and why does it matter for senior living?',
+        a: 'Third-party EPLI covers discrimination, harassment, or civil rights claims brought by non-employees such as residents, family members, or vendors. In senior living, staff interact closely with residents and their families on a daily basis. A claim of discriminatory treatment of a resident or harassment by a staff member toward a family member would fall under third-party EPLI coverage.',
       },
       {
-        q: 'Does occupational accident insurance cover illnesses like heart attacks or strokes?',
-        a: 'Occupational accident insurance typically covers accidental injuries only, not illnesses. A heart attack or stroke that occurs while driving would generally not be covered unless it was directly caused by a covered accident. Some policies offer limited coverage for occupational diseases, but this is not standard.',
+        q: 'How can we reduce EPLI claims?',
+        a: 'Consistent documentation of employment decisions, regular management training on harassment and discrimination prevention, clear written policies and employee handbooks, proper investigation of all employee complaints, and following termination procedures with appropriate documentation are the most effective ways to reduce EPLI exposure. Many insurers offer risk management resources and training materials as part of the EPLI policy.',
       },
       {
-        q: 'What happens if an independent contractor is reclassified as an employee after an injury?',
-        a: "If a contractor is reclassified as an employee by a state agency or court, the carrier may be liable for workers' compensation benefits and penalties for failure to carry coverage. Having an occupational accident program in place does not eliminate this risk, but it ensures the contractor received medical and disability benefits and can demonstrate the carrier acted in good faith.",
+        q: 'How much EPLI coverage should a senior living facility carry?',
+        a: 'Recommended limits depend on the number of employees, annual payroll, turnover rate, and litigation environment. Most senior living operations should carry at least $1,000,000 per claim and $2,000,000 aggregate. Organizations with more than 100 employees or those in states with employee-friendly legal environments should consider higher limits.',
       },
     ],
-    relatedCoverages: ['workers-compensation', 'non-trucking-liability', 'auto-liability'],
+    relatedCoverages: ['directors-officers', 'workers-compensation', 'umbrella-excess'],
   },
 ];
 
-/**
- * Retrieve a single coverage object by its URL slug.
- * @param {string} slug - The URL-safe slug for the coverage type.
- * @returns {object|undefined} The matching coverage object, or undefined if not found.
- */
 export function getCoverageBySlug(slug) {
   return coverages.find((c) => c.slug === slug);
 }

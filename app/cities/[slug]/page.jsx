@@ -13,12 +13,12 @@ export async function generateMetadata({ params }) {
     title: city.metaTitle,
     description: city.metaDescription,
     alternates: {
-      canonical: `https://alkemeins.com/trucking/cities/${city.slug}/`,
+      canonical: `https://alkemeins.com/senior-living/cities/${city.slug}/`,
     },
     openGraph: {
       title: `${city.metaTitle} | ALKEME Insurance Services`,
       description: city.metaDescription,
-      url: `https://alkemeins.com/trucking/cities/${city.slug}/`,
+      url: `https://alkemeins.com/senior-living/cities/${city.slug}/`,
       type: 'website',
     },
   };
@@ -33,11 +33,11 @@ export default async function CityPage({ params }) {
     {
       '@context': 'https://schema.org',
       '@type': 'Service',
-      name: `Trucking Insurance in ${city.city}, ${city.abbreviation}`,
+      name: `Senior Living Insurance in ${city.city}, ${city.abbreviation}`,
       provider: { '@type': 'InsuranceAgency', name: 'ALKEME Insurance Services', url: 'https://alkemeins.com' },
       description: city.metaDescription,
-      url: `https://alkemeins.com/trucking/cities/${city.slug}/`,
-      serviceType: 'Commercial Trucking Insurance',
+      url: `https://alkemeins.com/senior-living/cities/${city.slug}/`,
+      serviceType: 'Senior Living Insurance',
       areaServed: { '@type': 'City', name: city.city, containedIn: { '@type': 'State', name: city.state } },
       citation: { '@type': 'CreativeWork', name: 'Insurance Information Institute', url: 'https://www.iii.org' },
       about: { '@type': 'Thing', name: city.city },

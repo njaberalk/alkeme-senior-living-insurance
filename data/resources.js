@@ -1,579 +1,220 @@
 export const resources = [
   {
-    slug: 'trucking-insurance-cost',
-    title: 'How Much Does Trucking Insurance Cost?',
-    metaTitle: 'How Much Does Trucking Insurance Cost in 2026?',
-    metaDescription: 'Learn what trucking insurance costs for owner-operators and fleets. Breakdown of pricing factors, average premiums by coverage type, and proven ways to reduc...',
+    slug: 'senior-living-insurance-cost',
+    title: 'How Much Does Senior Living Insurance Cost?',
+    metaTitle: 'How Much Does Senior Living Insurance Cost in 2026?',
+    metaDescription: 'Learn what senior living insurance costs for assisted living, nursing homes, and memory care. Breakdown of pricing by facility type, bed count, and coverage line.',
     category: 'Guide',
-    heroHeading: 'How Much Does Trucking Insurance Cost?',
-    heroSubheading:
-      'A detailed breakdown of commercial trucking insurance premiums, what drives them, and how to keep them under control.',
-    overview:
-      'Trucking insurance is one of the largest operating expenses for any motor carrier, often second only to fuel and driver wages. Annual premiums for a single truck can range from $9,000 to over $20,000 depending on your authority status, operating radius, cargo type, and claims history. Understanding how insurers price your risk is the first step toward managing this cost effectively.',
+    heroHeading: 'How Much Does Senior Living Insurance Cost?',
+    heroSubheading: 'A detailed breakdown of insurance premiums for senior care facilities, what drives them, and how to manage costs effectively.',
+    overview: 'Insurance is one of the largest operating expenses for senior living facilities, often representing 2 to 5 percent of annual revenue depending on the care level and facility size. Understanding how insurers price your risk is the first step toward managing this cost effectively while maintaining the coverage your operation needs.',
     sections: [
-      {
-        heading: 'Average Cost by Operation Type',
-        content:
-          'Insurance costs vary significantly depending on your operation. A leased owner-operator with physical damage and bobtail liability typically pays between $3,000 and $6,000 per year because the motor carrier\'s policy handles primary liability and cargo coverage. An owner-operator running under their own authority faces a much larger insurance obligation, with total annual premiums commonly falling between $9,000 and $16,000 for a clean operation hauling general freight.\n\nSmall fleets of two to fifteen trucks generally pay between $8,000 and $14,000 per truck per year, with total program costs ranging from $20,000 to over $200,000 depending on fleet size and risk profile. Mid-size and large fleets with strong safety records and favorable loss history may see per-truck costs drop below $7,000 as volume discounts and fleet-rated programs become available.\n\nNew authorities consistently face the highest premiums in the industry. Carriers in their first two years of operation should expect to pay 20 to 40 percent more than established operators with comparable equipment and operating profiles. Some new authority programs start at $14,000 to $22,000 per truck because the insurer has no loss history to evaluate and must price for the unknown.',
-      },
-      {
-        heading: 'Cost Breakdown by Coverage Type',
-        content:
-          'Primary auto liability is the single most expensive component, typically representing 40 to 55 percent of your total insurance spend. For a $1,000,000 policy on a single truck hauling general commodities, expect annual premiums between $5,000 and $9,000 depending on your experience, location, and driving record.\n\nPhysical damage coverage generally costs between 3 and 5 percent of your vehicle\'s stated value annually. A truck insured for $120,000 might carry a physical damage premium of $3,600 to $6,000 per year with a $2,500 deductible. Higher deductibles can reduce this cost meaningfully.\n\nMotor truck cargo insurance runs between $400 and $2,500 per year for standard commodities at $100,000 in coverage. Specialized or high-value freight can push cargo premiums significantly higher. General liability adds another $500 to $1,800 annually, and occupational accident insurance for owner-operators and independent contractors typically costs between $1,200 and $3,600 per year depending on benefit levels.',
-      },
-      {
-        heading: 'Factors That Drive Your Premium',
-        bullets: [
-          'Years of operating authority and verifiable experience under your own MC number',
-          'Driver MVR records, CSA scores, and FMCSA safety rating (Satisfactory, Conditional, or Unsatisfactory)',
-          'Claims history over the past three to five years, including frequency, severity, and types of losses',
-          'Cargo types hauled, with hazardous materials, oversized loads, and high-value goods commanding higher rates',
-          'Operating radius and geography, as long-haul interstate runs price differently than local or regional routes',
-          'Vehicle age, value, and type, including whether equipment is owned or leased',
-          'Annual mileage per unit and total fleet mileage exposure',
-          'Deductible selections across all coverage lines',
-          'Use of electronic logging devices, dash cameras, and telematics platforms',
-        ],
-      },
-      {
-        heading: 'How to Reduce Your Insurance Costs',
-        content:
-          'The most effective way to lower premiums is to maintain a clean loss record. Carriers with three or more years of favorable claims history routinely qualify for rates 15 to 30 percent below new authority pricing. Invest in driver safety programs, pre-trip inspection protocols, and ongoing MVR monitoring to keep your risk profile strong.\n\nRaising your deductibles is an immediate lever. Moving from a $1,000 to a $2,500 collision deductible can reduce physical damage premiums by 10 to 20 percent, though you need cash reserves to absorb the higher out-of-pocket exposure. Bundling all coverage lines with a single insurer or agency often unlocks multi-policy discounts and streamlines administration.\n\nTechnology investments pay for themselves through insurance savings. Carriers using forward-facing dash cameras see average premium reductions of 8 to 15 percent, and comprehensive telematics programs that monitor speed, braking, and hours of service compliance can earn additional discounts. Completing the FMCSA\'s safety audit and maintaining a Satisfactory rating also signals lower risk to underwriters.',
-      },
-      {
-        heading: 'Getting Accurate Quotes',
-        content:
-          'Insurance pricing in trucking is highly individualized, so published averages can only provide a general range. To get an accurate quote, you will need to provide your USDOT number, MC authority information, loss runs from the past three to five years, vehicle schedules with VINs and values, driver lists with dates of birth and CDL numbers, and a description of your commodities and operating lanes.\n\nWork with a broker or agency that specializes in trucking insurance rather than a generalist who writes commercial auto as a sideline. Trucking specialists have access to markets that do not accept submissions from general agents, and they understand how to present your risk in the most favorable light. The difference between a well-prepared submission and a poorly assembled one can easily be 20 percent or more in annual premium.',
-      },
+      { heading: 'Average Cost by Facility Type', content: 'Insurance costs vary significantly based on the type of senior living operation. Independent living communities with no personal care services typically pay the least per unit, with annual insurance costs ranging from $300 to $800 per unit for a basic program including general liability, property, and workers\' compensation.\n\nAssisted living facilities face higher costs due to professional liability exposure, with annual per-bed costs typically ranging from $800 to $2,500 depending on the state, services provided, and claims history. Memory care operations within assisted living communities push per-bed costs higher due to the elevated risk associated with dementia care.\n\nSkilled nursing facilities carry the highest insurance costs in the senior living sector. Annual per-bed costs commonly range from $2,000 to $6,000 or more, driven primarily by professional liability premiums that reflect the high clinical acuity and aggressive litigation environment. Facilities in states with particularly active plaintiff bars, such as Florida, California, and Texas, often see costs at the upper end of this range.\n\nContinuing care retirement communities face complex pricing because they combine multiple care levels on a single campus. Total program costs depend on the bed count at each care level, the entrance fee structure, and the overall risk profile of the campus.' },
+      { heading: 'Cost Breakdown by Coverage Line', content: 'Professional liability is typically the largest single insurance expense for facilities providing care services, often representing 30 to 50 percent of total insurance costs. General liability usually represents 10 to 20 percent of total costs. Workers\' compensation can be a significant expense, particularly for skilled nursing facilities with high payroll and elevated injury rates, often accounting for 20 to 30 percent of total insurance spend.\n\nCommercial property costs depend on building values and location but typically represent 10 to 15 percent of total insurance costs. Abuse and molestation coverage, cyber liability, D&O, and employment practices liability together usually account for the remaining 10 to 20 percent of the total program.' },
+      { heading: 'Factors That Drive Your Premium', bullets: ['Facility type and level of care provided — skilled nursing costs more than assisted living, which costs more than independent living', 'Number of beds or units and current occupancy level', 'State regulatory environment and litigation climate — costs vary dramatically by state', 'Claims history over the past three to five years, including frequency, severity, and types of losses', 'Staffing ratios, turnover rates, and staff training programs', 'CMS survey history and state inspection results for licensed facilities', 'Building age, construction type, fire protection systems, and overall physical plant condition', 'Deductible and retention levels selected across all coverage lines'] },
+      { heading: 'How to Reduce Your Insurance Costs', content: 'The most effective way to lower premiums is to maintain a clean claims record. Facilities with three or more years of favorable loss experience routinely qualify for rates 15 to 30 percent below standard pricing. Investing in fall prevention programs, safe patient handling equipment, staff training, and robust documentation practices pays direct dividends through lower insurance costs.\n\nHigher deductibles can significantly reduce premiums, particularly on general liability and property coverage. Moving from a $1,000 to a $5,000 deductible can reduce GL premiums by 15 to 25 percent, though you need cash reserves to absorb the higher per-claim cost. Bundling coverage lines with a single insurer or agency often unlocks package discounts.\n\nWorking with a broker who specializes in senior living insurance is one of the most impactful steps you can take. Specialists have access to markets that do not accept submissions from generalist agents, and they understand how to present your risk in the most favorable light to underwriters.' },
     ],
     faqs: [
-      {
-        q: 'How much does insurance cost for a new trucking authority?',
-        a: 'New authorities typically pay between $14,000 and $22,000 per truck per year for a full coverage program including auto liability, physical damage, cargo, and general liability. Premiums are higher for the first two to three years because insurers have no loss history to evaluate. Rates generally decrease significantly after you build a clean track record.',
-      },
-      {
-        q: 'Why is trucking insurance so expensive?',
-        a: 'Trucking insurance carries high premiums because the loss potential is substantial. A single serious accident involving a commercial vehicle can generate claims of $1,000,000 or more in bodily injury, and jury verdicts in trucking cases have been escalating across the country. Insurers price this severity risk into every policy, along with the high value of the equipment and cargo being insured.',
-      },
-      {
-        q: 'Can I get trucking insurance with no money down?',
-        a: 'Some insurers and premium finance companies offer low down payment options, but completely zero-down programs are rare for new authorities. Most carriers require 20 to 33 percent of the annual premium at inception, with the balance financed over nine or ten monthly installments. Premium financing adds interest charges, so the total cost of insurance is slightly higher than paying in full.',
-      },
-      {
-        q: 'Does my personal driving record affect my trucking insurance rate?',
-        a: 'Yes. Underwriters pull the MVR (motor vehicle report) for every driver on your policy, including you as the owner-operator. Moving violations, accidents, and DUI or DWI convictions on your personal record will increase your commercial insurance premiums and may limit the markets willing to offer you coverage.',
-      },
+      { q: 'Why is senior living insurance so expensive?', a: 'Senior living insurance costs reflect the vulnerability of the population served, the severity of claims when they occur, and the litigation environment in the healthcare sector. Professional liability claims in particular can generate six- and seven-figure settlements, which drives premium levels across the industry.' },
+      { q: 'How can a new facility get insurance without a claims history?', a: 'New facilities can secure coverage, but premiums will typically be higher during the first two to three years while the insurer evaluates the operation. Demonstrating strong policies and procedures, experienced management, adequate staffing, and a well-maintained physical plant helps secure competitive pricing for new operations.' },
+      { q: 'Does facility size affect per-bed insurance costs?', a: 'Yes. Larger facilities typically achieve lower per-bed costs due to scale efficiencies and the spread of fixed policy costs across more beds. However, larger facilities also carry higher total premiums and potentially greater aggregate exposure.' },
+      { q: 'Are insurance costs tax-deductible for senior living facilities?', a: 'Insurance premiums are generally tax-deductible as ordinary business expenses for senior living facilities. Consult with your tax advisor for specific guidance related to your organizational structure and tax status.' },
     ],
-    relatedResources: ['new-authority-insurance', 'lower-trucking-insurance-premiums'],
-    relatedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    relatedResources: ['professional-liability-guide', 'regulatory-compliance-guide'],
+    relatedCoverages: ['general-liability', 'professional-liability', 'workers-compensation'],
   },
 
   {
-    slug: 'fmcsa-insurance-requirements',
-    title: 'FMCSA Insurance Requirements for Motor Carriers',
-    metaTitle: 'FMCSA Insurance Requirements for Motor Carriers',
-    metaDescription: 'Complete guide to FMCSA insurance requirements. Minimum liability limits by cargo type, MCS-90 and BMC-91 filings, and how to stay compliant with federal reg...',
+    slug: 'professional-liability-guide',
+    title: 'Professional Liability Guide for Senior Living',
+    metaTitle: 'Professional Liability Insurance Guide for Senior Living Facilities',
+    metaDescription: 'Complete guide to professional liability insurance for senior care. Coverage triggers, claims-made vs occurrence, tail coverage, and how to manage your facility\'s malpractice exposure.',
     category: 'Guide',
-    heroHeading: 'FMCSA Insurance Requirements for Motor Carriers',
-    heroSubheading:
-      'Everything motor carriers need to know about federal insurance requirements, minimum limits, and mandatory filings.',
-    overview:
-      'The Federal Motor Carrier Safety Administration requires all for-hire and private motor carriers operating in interstate commerce to maintain minimum levels of financial responsibility. Failing to meet these requirements results in revocation of your operating authority and the inability to legally haul freight. This guide covers every aspect of FMCSA insurance compliance so you can keep your authority active and your operations running.',
+    heroHeading: 'Professional Liability Guide for Senior Living',
+    heroSubheading: 'Everything you need to know about protecting your facility from negligent care claims, treatment errors, and professional malpractice allegations.',
+    overview: 'Professional liability insurance is the most important — and often the most misunderstood — coverage in a senior living facility\'s insurance program. This guide explains how professional liability works, what triggers a claim, the critical difference between claims-made and occurrence policies, and how to structure your coverage to protect against the most significant liability exposure your facility faces.',
     sections: [
-      {
-        heading: 'Minimum Liability Limits by Cargo Type',
-        content:
-          'FMCSA financial responsibility requirements are set by 49 CFR Part 387 and vary based on the type of commodity transported and the weight of the vehicle. For-hire carriers transporting non-hazardous general freight in vehicles over 10,001 pounds must maintain a minimum of $750,000 in public liability coverage.\n\nCarriers transporting hazardous materials face significantly higher minimums. If you haul oil or hazardous waste, the minimum increases to $1,000,000. For carriers transporting certain highly dangerous hazardous materials such as Division 1.1, 1.2, or 1.3 explosives, Division 2.3 poison gas, or highway route-controlled quantities of radioactive materials, the required minimum jumps to $5,000,000.\n\nPrivate carriers transporting their own non-hazardous goods in vehicles over 10,001 pounds must carry at least $750,000 as well. For-hire carriers operating passenger vehicles have separate requirements: $5,000,000 for vehicles designed to seat 16 or more passengers, and $1,500,000 for vehicles seating 15 or fewer passengers.\n\nIt is critical to understand that these are federal minimums. Many shippers, brokers, and freight platforms contractually require higher limits, and industry standard practice for general freight is $1,000,000. Operating at the bare minimum may satisfy the FMCSA but can limit your access to profitable loads.',
-      },
-      {
-        heading: 'MCS-90 Endorsement',
-        content:
-          'The MCS-90 endorsement is a mandatory attachment to the liability policy of every for-hire interstate motor carrier. It functions as a guarantee to the public that the insurer will pay claims arising from the carrier\'s negligence, even if the underlying policy would otherwise exclude or deny the claim.\n\nThe MCS-90 is not additional coverage in the traditional sense. It acts as a safety net that ensures injured parties are compensated regardless of policy technicalities. If the insurer pays a claim under the MCS-90 that would not have been covered under the base policy, the insurer has the right to seek reimbursement from the motor carrier.\n\nYour insurer files the MCS-90 electronically with the FMCSA as part of your proof of financial responsibility. If your policy is cancelled or non-renewed, the insurer must provide 30 days advance notice to the FMCSA through a cancellation filing. During those 30 days, your authority remains active, but you must secure replacement coverage before the cancellation takes effect or your authority will be revoked.',
-      },
-      {
-        heading: 'BMC-91 and BMC-91X Filings',
-        content:
-          'The BMC-91 is the form used by your insurance company to file proof of your liability coverage with the FMCSA. It certifies that you carry at least the minimum required amount of public liability insurance. The BMC-91X serves the same function but is used when coverage is provided through a surplus lines insurer rather than an admitted carrier.\n\nThese filings are electronic and processed through the FMCSA\'s Licensing and Insurance system. Once your insurer submits the BMC-91 or BMC-91X, your authority status in the FMCSA database updates to reflect active, compliant coverage. Brokers and shippers routinely check this status before tendering loads, so timely filing is essential.\n\nSeparately, if you are a freight broker or freight forwarder rather than a motor carrier, you are required to maintain a BMC-84 surety bond or BMC-85 trust fund in the amount of $75,000. This is distinct from the motor carrier liability filing and ensures that brokers can meet their financial obligations to carriers and shippers.',
-      },
-      {
-        heading: 'Cargo Insurance Requirements',
-        content:
-          'While the FMCSA does not set a specific minimum for motor truck cargo insurance for property carriers, cargo coverage is effectively required by the market. Nearly every broker, shipper, and load board requires proof of cargo insurance before tendering freight, and the industry standard minimum is $100,000 per occurrence.\n\nFor-hire household goods carriers are the exception: they are required by FMCSA regulation to offer cargo liability coverage to shippers and must maintain sufficient insurance to meet those obligations. Beyond regulatory requirements, your motor carrier operating agreement and any broker-carrier contracts will specify cargo insurance minimums that you must maintain as a condition of doing business.',
-      },
-      {
-        heading: 'Maintaining Compliance',
-        bullets: [
-          'Ensure your insurer files the BMC-91 or BMC-91X immediately upon binding your policy to avoid any gap in your FMCSA filings',
-          'Monitor your authority status on the FMCSA SAFER System website to confirm your insurance filings are active and current',
-          'Never allow your policy to lapse, as the FMCSA will begin revocation proceedings and your authority status will change to Not Authorized',
-          'Provide 30-day advance notice to your insurer before making changes that could affect coverage, such as adding new vehicle types or commodities',
-          'Review your coverage limits annually and whenever you add new freight types to ensure you meet the correct minimum for your commodity mix',
-          'Keep copies of your insurance certificate, MCS-90 endorsement, and BMC-91 filing confirmation with your operating documents at all times',
-        ],
-      },
+      { heading: 'What Triggers a Professional Liability Claim', content: 'Professional liability claims in senior living are triggered when a resident or their family alleges that the facility failed to provide care that meets the accepted standard. The most common triggers include falls where the facility is alleged to have failed to implement a fall prevention plan, medication errors involving wrong dosage, wrong medication, missed medications, or improper administration, pressure ulcers that develop or worsen due to alleged inadequate repositioning and skin care, elopement incidents where a resident leaves the facility unsupervised, delayed response to medical emergencies, improper use of physical or chemical restraints, and failure to communicate changes in resident condition to physicians or family members.\n\nThe standard of care is determined by what a reasonably competent facility providing the same level of care would do under similar circumstances. This standard varies by facility type — a skilled nursing facility is held to a higher standard than an assisted living community — and by the specific regulations in the state where the facility operates.' },
+      { heading: 'Claims-Made vs. Occurrence Coverage', content: 'Understanding the difference between claims-made and occurrence professional liability is essential for avoiding coverage gaps. Most senior living professional liability is written on a claims-made basis, which means the policy responds to claims that are first reported during the policy period, provided the incident occurred after the retroactive date.\n\nThe retroactive date is the earliest date from which incidents are covered. If your retroactive date is January 1, 2023, and you receive a claim in 2026 for an incident that occurred in 2024, the claim is covered. If the incident occurred in 2022, before the retroactive date, it is not covered even though you reported it during the policy period.\n\nWhen you cancel or non-renew a claims-made policy, you need tail coverage — also called an extended reporting period — to protect against claims that are filed after the policy ends for incidents that occurred during the policy period. Without tail coverage, you have no protection for claims that arise after the policy expires, which is particularly dangerous in senior living where families may not file claims until months or years after an incident.' },
+      { heading: 'Structuring Your Coverage', content: 'The appropriate professional liability limit depends on your facility type, bed count, state litigation environment, and risk tolerance. The industry standard starting point is $1,000,000 per claim with a $3,000,000 aggregate, but many facilities need higher limits.\n\nFacilities in high-litigation states, those with a history of claims, or those operating skilled nursing programs should consider limits of $2,000,000 to $3,000,000 per claim. Umbrella or excess liability coverage provides additional limits above the professional liability policy and is strongly recommended for most senior living operations.\n\nDeductible or self-insured retention selection is another important structural decision. Higher deductibles reduce premiums but require the facility to fund a portion of each claim out of pocket. The right balance depends on your financial strength and claims frequency.' },
+      { heading: 'Managing Your Professional Liability Exposure', bullets: ['Implement comprehensive fall prevention programs including assessment, care planning, environmental modifications, and staff training', 'Establish robust medication management protocols with multiple verification steps and electronic medication administration records', 'Maintain thorough, timely, and accurate documentation of all care provided, assessments performed, and communications with physicians and families', 'Train staff on incident reporting procedures and ensure that all incidents are documented and reported promptly', 'Conduct regular care plan reviews and update plans when resident conditions change', 'Establish a resident and family grievance process to address concerns before they escalate to claims', 'Maintain staffing levels that meet or exceed state requirements and document staffing ratios consistently'] },
     ],
     faqs: [
-      {
-        q: 'What happens if my FMCSA insurance filing lapses?',
-        a: 'When your insurer files a cancellation notice with the FMCSA, you have 30 days to secure replacement coverage and file a new BMC-91. If you fail to do so, your operating authority is revoked and your status changes to Not Authorized. You cannot legally operate as a for-hire carrier without active filings, and brokers will immediately stop tendering loads to you.',
-      },
-      {
-        q: 'Do I need the MCS-90 if I am a private carrier?',
-        a: 'The MCS-90 endorsement is required for for-hire motor carriers operating in interstate commerce. Private carriers hauling their own goods are generally not required to carry the MCS-90, though they must still maintain the minimum financial responsibility required by 49 CFR 387 and file proof of coverage with the FMCSA.',
-      },
-      {
-        q: 'Is cargo insurance required by the FMCSA?',
-        a: 'The FMCSA does not set a specific cargo insurance minimum for most property carriers. However, cargo insurance is effectively required by the marketplace. Brokers, shippers, and load boards universally require proof of cargo coverage, and the standard minimum is $100,000. Household goods carriers are an exception and do have specific FMCSA cargo liability requirements.',
-      },
+      { q: 'What is tail coverage and when do I need it?', a: 'Tail coverage is an extended reporting period that allows you to report claims after a claims-made policy has ended. You need tail coverage whenever you cancel or non-renew a claims-made professional liability policy, including when you switch insurers. Without tail coverage, incidents that occurred during the prior policy period but are reported after it ends will have no coverage.' },
+      { q: 'How long do families have to file a professional liability claim?', a: 'Statutes of limitation vary by state but typically range from one to four years from the date of the incident or the date the injury was discovered. Some states have specific statutes of limitation for nursing home claims that differ from general medical malpractice timelines. This is why maintaining coverage continuity, including tail coverage, is essential.' },
+      { q: 'Does professional liability cover punitive damages?', a: 'Coverage for punitive damages varies by state. Some states prohibit insurance coverage of punitive damages as a matter of public policy, while others allow it. Your policy and state law determine whether punitive damages are covered. Regardless, the defense costs associated with punitive damage claims are typically covered.' },
+      { q: 'Can individual staff members be sued separately from the facility?', a: 'Yes. Individual caregivers, nurses, and managers can be named personally in professional liability lawsuits. Most facility professional liability policies cover employees acting within the scope of their duties. However, licensed professionals should verify whether additional individual coverage is needed based on their state requirements.' },
     ],
-    relatedResources: ['new-authority-insurance', 'trucking-insurance-cost'],
-    relatedCoverages: ['auto-liability', 'motor-truck-cargo', 'general-liability'],
+    relatedResources: ['senior-living-insurance-cost', 'claims-guide'],
+    relatedCoverages: ['professional-liability', 'abuse-molestation', 'umbrella-excess'],
   },
 
   {
-    slug: 'new-authority-insurance',
-    title: 'Insurance for New Trucking Authority',
-    metaTitle: 'Insurance for New Trucking Authority | Guide',
-    metaDescription:
-      'Guide to getting trucking insurance with a new MC authority. What coverage you need, expected costs, and how to secure the best rates with no operating history.',
+    slug: 'abuse-molestation-coverage-guide',
+    title: 'Abuse & Molestation Coverage Guide for Senior Living',
+    metaTitle: 'Abuse and Molestation Insurance Guide for Senior Living',
+    metaDescription: 'Guide to abuse and molestation insurance for senior care facilities. Why standalone coverage is essential, what it covers, and how to protect your organization and residents.',
     category: 'Guide',
-    heroHeading: 'Insurance for New Trucking Authority',
-    heroSubheading:
-      'What every new motor carrier needs to know about securing coverage, meeting FMCSA filing requirements, and managing first-year insurance costs.',
-    overview:
-      'Getting insurance as a new trucking authority is one of the most challenging and expensive steps in launching a motor carrier. With no operating history for underwriters to evaluate, you represent an unknown risk, and insurers price that uncertainty into your premiums. This guide walks you through the process of obtaining coverage, the costs to expect, and strategies to position your operation for better rates as you build a track record.',
+    heroHeading: 'Abuse & Molestation Coverage Guide',
+    heroSubheading: 'Why every senior living facility needs dedicated abuse and molestation coverage and how to structure it properly.',
+    overview: 'Abuse and molestation allegations represent the highest-severity claims in senior living insurance. Standard general liability and professional liability policies frequently exclude or severely limit coverage for these claims, leaving facilities dangerously exposed. This guide explains why standalone abuse and molestation coverage is essential, what it covers, and how to structure your protection against this critical risk.',
     sections: [
-      {
-        heading: 'What Coverage You Need Before You Haul',
-        content:
-          'Before your operating authority becomes active, you must have several insurance policies in place and filed with the FMCSA. At a minimum, you need primary auto liability with a BMC-91 filing and MCS-90 endorsement. The minimum limit is $750,000 for general freight carriers, though most brokers and load boards require $1,000,000.\n\nBeyond the federal requirements, you will need motor truck cargo insurance to get access to freight. The standard minimum is $100,000, though many brokers require higher limits for specific commodities. Physical damage coverage is essential if you have a loan or lease on your equipment, and most operators carry it regardless because replacing a total loss out of pocket can be financially devastating.\n\nGeneral liability insurance at $1,000,000 per occurrence is standard for any business and is frequently required by shipper contracts and facility access agreements. Finally, if you are an owner-operator with no employees, occupational accident insurance provides income replacement and medical coverage that you would otherwise lack as an independent contractor not covered by workers compensation.',
-      },
-      {
-        heading: 'Why New Authority Insurance Costs More',
-        content:
-          'Insurers base their pricing on predictable risk, and a new carrier with no loss history is the opposite of predictable. The underwriter has no way to verify how you maintain equipment, how you select and manage drivers, or how your operation actually performs on the road. This uncertainty is reflected in premiums that run 20 to 40 percent higher than what an established carrier with the same equipment and lanes would pay.\n\nThe new authority market has also tightened considerably in recent years. Several insurers have exited the segment entirely after experiencing poor loss ratios with startup carriers. The carriers that remain in the market are selective and disciplined about pricing, which limits competition and keeps rates elevated. As a result, new authorities with fewer than two years of experience often have access to only three to five insurance markets, compared to the dozens available to experienced operators.',
-      },
-      {
-        heading: 'What Underwriters Look For',
-        bullets: [
-          'CDL experience of the owner and all listed drivers, ideally three or more years of verifiable OTR or regional experience',
-          'Clean MVR reports with no DUI, reckless driving, or at-fault accident history in the past three to five years',
-          'A clear CSA profile for any drivers who have operated under a previous carrier DOT number',
-          'Vehicle age and condition, with most new authority markets preferring equipment no older than 10 to 15 years',
-          'A defined operating plan including lanes, commodity types, and expected annual mileage',
-          'Business formation documents and proof that the USDOT and MC numbers are active',
-          'Completion of the FMCSA new entrant safety audit, if applicable',
-          'Prior insurance history, even if from a personal auto or non-trucking policy',
-        ],
-      },
-      {
-        heading: 'How to Get the Best Rate as a New Authority',
-        content:
-          'Start by working with a broker or agency that specializes in new authority placements. These specialists know which markets are actively writing new ventures and can match your profile to the best available options. A generalist agent who writes one or two trucking policies a year simply does not have the market access or underwriting relationships to place new authorities competitively.\n\nPresent a thorough submission package. Include your business plan, driver qualifications, equipment details, and a clear description of your intended operations. Underwriters respond favorably to applicants who demonstrate professionalism and preparedness. If you have prior CDL experience as a company driver, provide verification letters from previous employers showing your years of service and safety record.\n\nConsider starting with higher deductibles to reduce your initial premium. A $2,500 or $5,000 collision deductible will lower your physical damage cost, and you can adjust to a lower deductible once your rates come down after establishing a clean record. Invest in dash cameras and an ELD system before you apply for coverage, as many underwriters view these technologies favorably and some offer explicit discounts for their use.',
-      },
-      {
-        heading: 'Timeline and Process',
-        content:
-          'Insurance for a new authority can typically be bound within one to two weeks of submitting a complete application, though the timeline depends on how quickly you provide all required documentation. The process generally involves completing an application with your agency, submitting driver MVRs and vehicle information, receiving quotes from available markets, binding coverage and making your down payment, and having your insurer file the BMC-91 and MCS-90 with the FMCSA.\n\nOnce the FMCSA processes your insurance filing, your authority status will change from Pending to Authorized, and you can legally begin hauling freight. This filing process typically takes one to three business days after your insurer submits the paperwork. Do not dispatch any loads until your authority status is confirmed as active in the FMCSA SAFER System.',
-      },
+      { heading: 'Why Standalone Coverage Is Essential', content: 'Most general liability policies contain an abuse and molestation exclusion or sublimit that provides little meaningful protection. A typical GL policy might offer $25,000 to $100,000 in abuse-related coverage — a fraction of what a single claim can cost. Professional liability policies may offer somewhat broader coverage, but many also exclude or sublimit abuse claims.\n\nThe reason insurers limit abuse coverage on standard policies is that these claims generate disproportionately large verdicts and settlements. Juries are highly sympathetic to elderly victims of abuse, and plaintiff attorneys in elder care cases have become skilled at maximizing awards. A single abuse claim can easily exceed $1,000,000, and claims involving systemic abuse or multiple victims can generate verdicts of $5,000,000 or more.\n\nA standalone abuse and molestation policy provides dedicated limits that are not shared with or eroded by other types of claims. This ensures that the full policy limit is available when you need it most — when your organization is facing the most financially devastating type of claim in the senior living industry.' },
+      { heading: 'What Standalone Coverage Includes', content: 'Dedicated abuse and molestation policies provide broader protection than what is available under standard GL or professional liability policies. Coverage typically includes defense costs for all types of abuse allegations including physical, sexual, emotional, and financial abuse. The policy covers the organization, its employees, officers, directors, and volunteers.\n\nCritically, standalone policies also cover negligent hiring, supervision, training, and retention claims. These allegations — that the facility should have known about and prevented the abuse — often generate larger awards than the direct abuse claim itself. A comprehensive policy addresses both the perpetrator liability and the organizational negligence liability.\n\nMany standalone policies include regulatory defense coverage for state health department investigations, Adult Protective Services proceedings, and CMS enforcement actions related to abuse allegations. Some also provide crisis management and public relations expense coverage to help manage the reputational damage that inevitably follows an abuse allegation, whether substantiated or not.' },
+      { heading: 'Risk Management Best Practices', bullets: ['Conduct thorough background checks on all employees, including criminal history, sex offender registry, and OIG exclusion list checks', 'Implement a comprehensive abuse prevention training program for all staff, including recognition of warning signs and mandatory reporting obligations', 'Establish clear policies prohibiting all forms of abuse and defining consequences for violations', 'Install monitoring systems in common areas while respecting resident privacy rights', 'Create a culture of reporting where staff feel safe raising concerns without fear of retaliation', 'Conduct regular unannounced supervisory rounds, particularly during overnight and weekend shifts', 'Maintain thorough documentation of all complaints, investigations, and corrective actions'] },
     ],
     faqs: [
-      {
-        q: 'How long do I have to pay higher new authority rates?',
-        a: 'Most insurers consider you a new authority for the first two to three years. After that period, assuming you have maintained a clean loss record, your rates will begin to align with standard market pricing. The most significant premium decrease typically occurs at renewal after your second year of continuous coverage with no claims.',
-      },
-      {
-        q: 'Can I get new authority insurance with bad credit?',
-        a: 'Credit history is one of many factors underwriters consider, but it is not typically a disqualifying factor on its own for trucking insurance. A lower credit score may limit your available markets and could result in higher premiums. Some insurers also require a larger down payment from applicants with poor credit history.',
-      },
-      {
-        q: 'Do I need insurance before I get my MC number?',
-        a: 'You apply for your MC number through the FMCSA before you have insurance, but your authority will not become active until your insurer files the required BMC-91 proof of coverage. Most carriers begin the insurance process simultaneously with their authority application so that coverage is ready to bind as soon as the MC number is issued.',
-      },
-      {
-        q: 'What is the minimum down payment for new authority insurance?',
-        a: 'Down payments for new authority policies typically range from 25 to 40 percent of the annual premium. On a $15,000 annual policy, that means $3,750 to $6,000 at inception. Some programs offer lower down payments through premium financing, though interest charges increase the total cost. Be cautious of any program advertising zero down, as these often carry unfavorable terms.',
-      },
+      { q: 'How much abuse and molestation coverage should we carry?', a: 'Most senior living facilities should carry at least $1,000,000 per occurrence with a $3,000,000 aggregate. Skilled nursing facilities, memory care operations, and facilities in high-litigation states should consider higher limits. The cost of dedicated coverage is modest relative to the severity of potential claims.' },
+      { q: 'Does abuse coverage protect against false allegations?', a: 'Yes. Abuse and molestation coverage responds to allegations regardless of whether the abuse is proven. Defense costs are covered from the moment a claim is made, providing the financial resources to mount a proper defense against both legitimate and unfounded allegations.' },
+      { q: 'What if an employee commits abuse outside of work?', a: 'Abuse and molestation policies typically cover acts committed within the scope of the employment relationship or on the organization\'s premises. Acts committed entirely outside of the employment context are generally not covered under the facility\'s policy.' },
+      { q: 'Can we be held liable for abuse committed by one resident against another?', a: 'Yes. Facilities can be held liable for resident-on-resident abuse if the facility is alleged to have failed to adequately supervise residents or failed to separate residents with known behavioral risks. This exposure is particularly significant in memory care settings.' },
     ],
-    relatedResources: ['trucking-insurance-cost', 'fmcsa-insurance-requirements'],
-    relatedCoverages: ['auto-liability', 'motor-truck-cargo', 'physical-damage'],
+    relatedResources: ['professional-liability-guide', 'claims-guide'],
+    relatedCoverages: ['abuse-molestation', 'professional-liability', 'umbrella-excess'],
   },
 
   {
-    slug: 'lower-trucking-insurance-premiums',
-    title: 'How to Lower Your Trucking Insurance Premiums',
-    metaTitle: 'How to Lower Trucking Insurance Premiums',
-    metaDescription: 'Proven strategies to reduce your trucking insurance costs. Safety programs, technology discounts, deductible strategies, and risk management tips for motor c...',
+    slug: 'staffing-liability-guide',
+    title: 'Staffing Liability Guide for Senior Living',
+    metaTitle: 'Staffing Liability Guide for Senior Living Facilities',
+    metaDescription: 'Guide to managing staffing-related liability in senior care. Workers compensation, employment practices, staffing agency coverage, and hiring best practices.',
     category: 'Guide',
-    heroHeading: 'How to Lower Your Trucking Insurance Premiums',
-    heroSubheading:
-      'Actionable strategies that help owner-operators and fleet managers reduce insurance costs without sacrificing the coverage they need.',
-    overview:
-      'Insurance premiums are a controllable expense if you understand what drives them and take deliberate steps to improve your risk profile. The strategies in this guide are used by the most well-run fleets in the industry and are equally applicable to owner-operators managing a single truck. Most carriers who implement even a few of these practices see meaningful premium reductions within one to two renewal cycles.',
+    heroHeading: 'Staffing Liability Guide for Senior Living',
+    heroSubheading: 'How staffing decisions, employee relations, and workforce management affect your facility\'s insurance exposure.',
+    overview: 'Staffing is both the largest operational expense and one of the largest liability drivers for senior living facilities. The decisions you make about hiring, training, supervising, disciplining, and terminating employees directly affect your workers\' compensation costs, employment practices liability exposure, and professional liability risk. This guide covers the key staffing-related insurance exposures and practical strategies for managing them.',
     sections: [
-      {
-        heading: 'Build and Maintain a Clean Loss Record',
-        content:
-          'Nothing influences your insurance premium more than your claims history. Underwriters examine the past three to five years of losses when pricing your renewal, and they look at both frequency (how many claims you have) and severity (how much those claims cost). A single large claim can raise your rates, but frequent small claims are often viewed as a greater concern because they suggest systemic operational problems.\n\nDocument every safety measure you take. When you implement a new training program, install safety equipment, or discipline a driver for a violation, create a written record. When your underwriter reviews your account at renewal, a documented safety culture can make the difference between a rate increase and a rate hold. If you do have a claim, cooperate fully and promptly with the investigation to minimize the ultimate cost. The faster a claim closes, the less impact it has on your experience rating.',
-      },
-      {
-        heading: 'Invest in Safety Technology',
-        content:
-          'Forward-facing and dual-facing dash cameras are the single most impactful technology investment for insurance savings. Cameras serve two purposes: they deter unsafe driving behavior, and they provide evidence that can exonerate your driver in not-at-fault accidents. Many insurers offer premium credits of 8 to 15 percent for carriers with active camera programs, and the cameras pay for themselves by reducing fraudulent claims and disputed-fault accidents.\n\nTelematics and fleet management platforms that monitor speed, hard braking, following distance, and hours of service compliance give you real-time visibility into driver behavior. Use this data to coach drivers before bad habits lead to accidents. Some insurers partner with specific telematics providers and offer direct premium discounts when you share your safety data with them.\n\nElectronic logging devices are now mandated for most carriers, but going beyond basic compliance with a fully integrated ELD and fleet management system demonstrates operational maturity to underwriters. Collision mitigation systems, lane departure warnings, and automatic emergency braking are increasingly recognized by insurers as meaningful risk reducers.',
-      },
-      {
-        heading: 'Driver Management Strategies',
-        bullets: [
-          'Implement a rigorous driver hiring process that includes MVR review, PSP report verification, previous employer checks, and road testing',
-          'Conduct annual MVR pulls on every driver and take corrective action immediately when violations appear',
-          'Establish a written driver safety program with documented training on defensive driving, cargo securement, and hours of service compliance',
-          'Use a progressive discipline policy for safety violations that creates a clear paper trail showing how you manage risk',
-          'Require new drivers to complete a ride-along orientation period before operating independently',
-          'Monitor CSA BASIC scores quarterly and address any deterioration before it triggers underwriter concern',
-          'Offer safety bonuses or incentive programs that reward clean driving records and accident-free miles',
-        ],
-      },
-      {
-        heading: 'Optimize Your Coverage Structure',
-        content:
-          'Review your deductibles annually and consider whether higher deductibles make financial sense for your operation. Raising your collision deductible from $1,000 to $2,500 or $5,000 can reduce your physical damage premium by 10 to 25 percent. However, you need sufficient cash reserves to absorb the higher out-of-pocket cost when a claim occurs, so this strategy works best for established carriers with healthy balance sheets.\n\nEnsure your vehicle values are accurate. Over-insuring a truck inflates your physical damage premium, while under-insuring creates a coverage gap when you need to replace the vehicle. Update your vehicle schedule at every renewal with current market values rather than carrying stale numbers from when you originally insured the equipment.\n\nBundle your coverage lines with one insurer or agency wherever possible. Multi-policy programs often carry account pricing credits, and a single insurer with a comprehensive view of your operation can underwrite more favorably than multiple carriers each seeing only a fragment of your risk.',
-      },
-      {
-        heading: 'Work with the Right Insurance Partner',
-        content:
-          'Your choice of insurance broker or agency has a direct impact on your premium. A trucking insurance specialist with strong market relationships can present your risk more effectively to underwriters, negotiate pricing on your behalf, and identify coverage structures that a generalist agent would not know to offer.\n\nAsk your broker what loss control resources they provide. The best trucking insurance agencies offer fleet safety assessments, driver training materials, compliance consulting, and claims advocacy services that help you maintain the risk profile that earns the best rates. If your current broker simply processes paperwork and sends you a renewal bill, you are leaving money on the table.\n\nStart the renewal process 90 to 120 days before your policy expiration. This gives your broker time to market your account broadly, negotiate with multiple underwriters, and secure the most competitive terms. Last-minute renewals limit your options and often result in higher premiums because there is no time for competitive underwriting.',
-      },
+      { heading: 'Workers\' Compensation Exposure', content: 'Senior care workers face one of the highest workplace injury rates of any industry. The most common injuries include musculoskeletal disorders from lifting and repositioning residents, slip-and-fall injuries in wet environments such as bathrooms and kitchens, needlestick and bloodborne pathogen exposures, injuries from combative residents, and repetitive motion injuries from prolonged caregiving tasks.\n\nYour workers\' compensation costs are directly tied to your injury record through the experience modification rate system. Facilities that invest in mechanical lift equipment, safe patient handling training, proper body mechanics education, and aggressive return-to-work programs see measurable reductions in their experience modification rate and, consequently, their premium costs.\n\nCertain job classifications carry higher workers\' compensation rates than others. Certified nursing assistants and patient care technicians are typically the most expensive classifications. Administrative staff, dietary workers, and maintenance personnel carry lower rates. Proper classification of all employees is important for accurate premium calculation.' },
+      { heading: 'Employment Practices Liability', content: 'The high turnover rate in senior living creates constant employment practices exposure. Every hiring decision, disciplinary action, termination, and promotion (or failure to promote) is a potential trigger for an employment practices claim. The most common claims include wrongful termination, discrimination, harassment, retaliation, and wage and hour disputes.\n\nConsistent documentation of all employment decisions is the single most important risk management practice. When a termination is challenged, the first question an attorney will ask is whether the decision was documented, whether the employee received prior warnings, and whether similar situations were handled consistently across the organization. Facilities that lack consistent documentation are at a significant disadvantage in defending employment claims.' },
+      { heading: 'Staffing Agency Considerations', content: 'Many senior living facilities use staffing agencies to supplement their workforce, particularly for nursing and CNA positions. This arrangement creates specific insurance considerations. Who is responsible for workers\' compensation coverage for agency workers? Whose professional liability policy responds when an agency nurse makes a clinical error? Who carries employment practices liability for the agency worker\'s conduct?\n\nThe answers depend on the contractual arrangement with the agency. Most staffing agencies carry their own workers\' compensation and professional liability coverage for their employees. However, the facility should verify that agency coverage is adequate and should consider whether its own policies need to be endorsed to address potential gaps. Indemnification agreements and additional insured requirements should be part of every staffing agency contract.' },
+      { heading: 'Best Practices', bullets: ['Conduct thorough background checks including criminal history, OIG exclusion list, sex offender registry, license verification, and reference checks', 'Implement structured onboarding and orientation programs with documented competency validation', 'Provide ongoing training on safe patient handling, fall prevention, abuse prevention, and infection control', 'Document all employment decisions including hiring rationale, disciplinary actions, performance reviews, and termination reasons', 'Maintain consistent application of policies across all employees to reduce discrimination claims', 'Implement a robust return-to-work program for injured employees to reduce workers\' compensation costs', 'Require certificates of insurance from all staffing agencies and verify coverage annually'] },
     ],
     faqs: [
-      {
-        q: 'How much can dash cameras reduce my insurance premium?',
-        a: 'Most insurers offer premium credits of 8 to 15 percent for carriers with active forward-facing or dual-facing camera systems. The actual savings depend on your insurer, the camera system you use, and whether you actively review and use the footage for driver coaching. Beyond the direct premium credit, cameras also reduce claim costs by providing evidence in disputed-fault accidents.',
-      },
-      {
-        q: 'Does my FMCSA safety rating affect my insurance rates?',
-        a: 'Yes. A Satisfactory FMCSA safety rating signals to underwriters that your operation meets federal compliance standards. A Conditional or Unsatisfactory rating will significantly increase your premiums and may cause some insurers to decline coverage entirely. If you do not yet have a rating, completing the new entrant safety audit promptly is viewed favorably by underwriters.',
-      },
-      {
-        q: 'Will raising my deductible actually save me money?',
-        a: 'In most cases, yes. Increasing your collision deductible from $1,000 to $2,500 typically reduces your physical damage premium by 10 to 15 percent, and moving to $5,000 can save 15 to 25 percent. The key is having the financial reserves to absorb the higher deductible when a claim occurs. If a $5,000 out-of-pocket expense would create a cash flow crisis, a lower deductible provides more stability.',
-      },
+      { q: 'How does employee turnover affect insurance costs?', a: 'High turnover increases insurance costs in multiple ways. New employees have higher injury rates, increasing workers\' compensation costs. Frequent terminations increase employment practices liability exposure. Staffing shortages resulting from turnover can lead to care quality issues that drive professional liability claims.' },
+      { q: 'Are staffing agency workers covered under our insurance?', a: 'Typically, staffing agency workers are covered under the agency\'s workers\' compensation and general liability policies. However, the facility should verify that agency coverage is adequate, require the agency to name the facility as additional insured, and ensure that the facility\'s own professional liability policy addresses care provided by agency staff.' },
+      { q: 'What is the experience modification rate?', a: 'The experience modification rate (EMR or e-mod) is a multiplier applied to your workers\' compensation premium based on your claims history relative to similar operations. An EMR of 1.0 is average. Below 1.0 means better than average claims experience and lower premiums. Above 1.0 means worse than average and higher premiums.' },
+      { q: 'Can we be liable for an agency worker\'s clinical error?', a: 'Yes. Even though the worker is employed by the agency, the facility maintains the duty to supervise care delivery and ensure it meets the applicable standard. If an agency nurse commits a medication error in your facility, both the agency and the facility may be named in any resulting claim.' },
     ],
-    relatedResources: ['trucking-insurance-cost', 'trucking-insurance-claims-guide'],
-    relatedCoverages: ['auto-liability', 'physical-damage', 'occupational-accident'],
+    relatedResources: ['senior-living-insurance-cost', 'professional-liability-guide'],
+    relatedCoverages: ['workers-compensation', 'employment-practices', 'professional-liability'],
   },
 
   {
-    slug: 'commercial-auto-vs-trucking-insurance',
-    title: 'Commercial Auto Insurance vs Trucking Insurance',
-    metaTitle: 'Commercial Auto vs Trucking Insurance Explained',
-    metaDescription: 'Understand the critical differences between commercial auto and trucking insurance. Learn which coverage your operation needs and avoid costly gaps in protec...',
-    category: 'Comparison',
-    heroHeading: 'Commercial Auto Insurance vs Trucking Insurance',
-    heroSubheading:
-      'Two distinct coverage types that serve different operations, and choosing the wrong one can leave you dangerously exposed.',
-    overview:
-      'Commercial auto insurance and trucking insurance are often confused, but they are designed for fundamentally different operations. Commercial auto policies cover businesses that use vehicles as part of their work, such as contractors, delivery services, and sales fleets. Trucking insurance is a specialized program built for motor carriers operating under USDOT authority who haul freight for hire. Understanding which one fits your operation is essential to avoiding coverage gaps that can be financially devastating.',
-    sections: [
-      {
-        heading: 'What Commercial Auto Insurance Covers',
-        content:
-          'Commercial auto insurance is designed for businesses that own or operate vehicles in the course of their work but are not in the business of transporting goods for hire. This includes service companies using work trucks, sales organizations with company cars, delivery businesses using vans and straight trucks, and contractors hauling their own tools and materials to job sites.\n\nA standard commercial auto policy provides liability coverage for bodily injury and property damage caused by your business vehicles, plus optional physical damage coverage for your own vehicles. Policies are typically written on standard ISO forms and are widely available from most business insurance carriers. Premiums are generally lower than trucking insurance because the risk profile is less severe: commercial vehicles tend to be smaller, operate in more limited geographies, and are driven by employees rather than long-haul operators.',
-      },
-      {
-        heading: 'What Trucking Insurance Covers',
-        content:
-          'Trucking insurance is a specialized program designed for motor carriers operating under FMCSA authority. It addresses the unique regulatory requirements and risk exposures of for-hire transportation including the MCS-90 endorsement, BMC-91 filings, and compliance with 49 CFR Part 387 minimum financial responsibility standards.\n\nA trucking insurance program typically includes primary auto liability with the MCS-90 endorsement, physical damage, motor truck cargo liability, general liability, and may extend to non-trucking liability, trailer interchange coverage, and occupational accident or workers compensation. These coverages are coordinated to address the full spectrum of risk that a motor carrier faces, from at-fault accidents and cargo damage to regulatory compliance and contractual obligations.\n\nTrucking policies are underwritten by specialty markets that understand the industry. Underwriters evaluate operating authority history, CSA scores, commodity types, lane profiles, and fleet composition in ways that a standard commercial auto underwriter would not. This specialization means better risk assessment but also means fewer available markets compared to standard commercial auto.',
-      },
-      {
-        heading: 'Key Differences',
-        bullets: [
-          'Regulatory filings: trucking insurance includes the MCS-90 endorsement and BMC-91 filing required by the FMCSA, while commercial auto does not',
-          'Cargo coverage: trucking programs include motor truck cargo liability for freight in your care, custody, and control, which is not part of commercial auto',
-          'Underwriting approach: trucking policies are underwritten based on authority history, CSA data, and commodity types, while commercial auto focuses on vehicle use, driver records, and mileage',
-          'Coverage scope: trucking insurance addresses the full motor carrier risk profile including hired auto, trailer interchange, and bobtail or non-trucking liability',
-          'Premium level: trucking insurance premiums are significantly higher due to the greater severity exposure of heavy commercial vehicles operating interstate',
-          'Market availability: trucking insurance is written by a smaller group of specialty carriers, while commercial auto is broadly available across the insurance market',
-        ],
-      },
-      {
-        heading: 'When You Need Trucking Insurance',
-        content:
-          'You need trucking insurance if you operate under your own USDOT number and MC authority, if you haul freight for hire, or if you are an owner-operator running under your own operating authority. Any vehicle that requires FMCSA registration and operates in interstate commerce hauling goods for compensation must be covered under a trucking insurance program that satisfies federal financial responsibility requirements.\n\nA common and dangerous mistake is purchasing a standard commercial auto policy for a trucking operation because it is cheaper. The commercial auto policy will not include the MCS-90 endorsement or BMC-91 filing, which means your authority is not properly supported. More critically, a commercial auto insurer that does not write trucking risks may deny a claim involving a loaded tractor-trailer because the vehicle was being used for for-hire transportation, which falls outside the policy terms.',
-      },
-      {
-        heading: 'Coverage Gaps to Avoid',
-        content:
-          'The most dangerous gap is using a commercial auto policy for a for-hire trucking operation. Beyond the missing regulatory filings, a standard commercial auto policy may exclude coverage for vehicles over a certain weight class, for operations involving the transportation of goods for hire, or for accidents occurring during loaded interstate hauls. These exclusions can void your entire claim in the event of a serious accident.\n\nAnother common gap involves owner-operators who lease on to a carrier and purchase a non-trucking liability policy thinking it provides full coverage. NTL only applies when you are not under dispatch. If you have an accident while hauling a load or driving to pick up a load assignment, the NTL policy does not respond. You must understand exactly when your carrier\'s policy covers you and when your own coverage needs to apply.',
-      },
-    ],
-    faqs: [
-      {
-        q: 'Can I use a commercial auto policy for my trucking company?',
-        a: 'No. If you operate under USDOT authority and haul freight for hire, you need a trucking insurance program that includes the MCS-90 endorsement and BMC-91 filing. A standard commercial auto policy does not satisfy FMCSA requirements and may exclude coverage for for-hire transportation, leaving you uninsured when you need protection most.',
-      },
-      {
-        q: 'Is trucking insurance more expensive than commercial auto?',
-        a: 'Yes, significantly. Trucking insurance premiums are higher because the risk exposure is greater. Heavy commercial vehicles operating interstate present much higher severity potential than light-duty commercial vehicles used for local business purposes. A single tractor-trailer accident can produce claims exceeding $1,000,000, and insurers price this severity into trucking policies.',
-      },
-      {
-        q: 'Do hotshot carriers need trucking insurance or commercial auto?',
-        a: 'Hotshot carriers operating under their own MC authority and hauling freight for hire need trucking insurance, even if they are using medium-duty trucks rather than Class 8 tractors. The determining factor is not the size of the vehicle but whether you are operating as a for-hire motor carrier under FMCSA authority. Some insurers offer modified trucking programs for hotshot operators that reflect the different risk profile of lighter equipment.',
-      },
-    ],
-    relatedResources: ['fmcsa-insurance-requirements', 'primary-vs-non-trucking-liability'],
-    relatedCoverages: ['auto-liability', 'general-liability', 'motor-truck-cargo'],
-  },
-
-  {
-    slug: 'primary-vs-non-trucking-liability',
-    title: 'Primary Liability vs Non-Trucking Liability Explained',
-    metaTitle: 'Primary vs Non-Trucking Liability Insurance',
-    metaDescription: 'Learn the critical difference between primary liability and non-trucking liability insurance for truckers.',
-    category: 'Comparison',
-    heroHeading: 'Primary Liability vs Non-Trucking Liability Explained',
-    heroSubheading:
-      'Understanding when each coverage applies is essential for every owner-operator who leases onto a motor carrier.',
-    overview:
-      'Primary liability and non-trucking liability are two different coverage types that apply at different times during a trucker\'s operations. Confusing the two, or failing to coordinate them properly with your carrier\'s policy, is one of the most common and costly insurance mistakes owner-operators make. This guide explains exactly when each coverage responds, how they interact, and how to ensure you are never left without protection.',
-    sections: [
-      {
-        heading: 'Primary Liability Insurance',
-        content:
-          'Primary auto liability insurance is the foundational coverage required for any motor carrier operating under its own authority. It covers bodily injury and property damage that your commercial vehicle causes to third parties. When an owner-operator runs under their own MC number, their primary liability policy is what responds in an at-fault accident.\n\nFor owner-operators who lease onto a carrier, the carrier\'s primary liability policy typically covers the leased-on operator while they are under dispatch. Under FMCSA leasing regulations (49 CFR 376), the carrier must assume full responsibility for the operation of the leased vehicle during the term of the lease and when the vehicle is being used in the carrier\'s service. This means the carrier\'s insurance, not the owner-operator\'s, responds to liability claims arising from dispatched operations.\n\nThe key question for any leased-on owner-operator is: what exactly counts as being under dispatch? The answer varies by carrier and by lease agreement, and the gray areas are where coverage gaps occur. Some carriers define dispatch as only the time between load pickup and delivery. Others extend it to include driving to the shipper for pickup. Understanding your specific carrier\'s definition is critical.',
-      },
-      {
-        heading: 'Non-Trucking Liability Insurance',
-        content:
-          'Non-trucking liability, sometimes called NTL or deadhead insurance, provides coverage for owner-operators when they are using their truck for purposes not related to their carrier\'s business. If you are leased onto a carrier and you use your truck for personal errands, drive to a mechanic for maintenance, or travel home after completing a delivery, non-trucking liability covers you during those activities.\n\nNTL specifically excludes coverage when you are under dispatch or performing any activity related to your carrier\'s business. It is designed to fill the gap between your carrier\'s insurance, which covers you while working, and the times when you are using your commercial vehicle for non-business purposes. Without NTL, you have no liability coverage during personal use because your truck is a commercial vehicle that is not covered by a personal auto policy.\n\nPremiums for non-trucking liability are relatively modest, typically ranging from $400 to $1,200 per year, because the coverage only applies during limited periods of personal use when the vehicle is less likely to be involved in a high-severity accident.',
-      },
-      {
-        heading: 'Bobtail Liability: A Third Option',
-        content:
-          'Bobtail liability is sometimes confused with non-trucking liability, but there is an important distinction. Bobtail insurance specifically covers you while operating your tractor without a trailer attached, which is the literal meaning of bobtailing. Some bobtail policies cover you regardless of whether you are on business or personal use, while others mirror the NTL exclusion for dispatched operations.\n\nThe practical difference matters most when you are driving your tractor without a trailer to pick up an empty trailer or driving to your next load assignment. Under a strict non-trucking liability policy, this type of trip might be considered business-related and therefore excluded. A bobtail policy that covers all non-dispatched operation would still respond.\n\nMany modern policies blend elements of both coverages, and the specific policy language controls when coverage applies. Do not rely on the label; read the insuring agreement and exclusions to understand exactly what your policy covers.',
-      },
-      {
-        heading: 'Common Mistakes and Coverage Gaps',
-        bullets: [
-          'Assuming the carrier\'s insurance covers you 24/7 when it only applies during dispatched operations as defined in your lease agreement',
-          'Purchasing NTL but using your truck for business activities like deadheading to your next load, which NTL typically excludes',
-          'Failing to read the specific exclusions in your NTL policy, as definitions of personal use versus business use vary between insurers',
-          'Not carrying any coverage for non-dispatch periods, leaving you completely uninsured during personal use of your commercial vehicle',
-          'Confusing bobtail coverage with non-trucking liability and discovering the distinction only after a claim is denied',
-          'Dropping NTL coverage to save money and then having a serious at-fault accident while driving home from a delivery',
-        ],
-      },
-      {
-        heading: 'How to Coordinate Your Coverage',
-        content:
-          'Start by reading your carrier lease agreement carefully. It should specify when the carrier\'s insurance applies and when it does not. Then review your NTL or bobtail policy to confirm it covers the exact periods when the carrier\'s policy does not. The goal is seamless coverage with no gaps between the two policies.\n\nAsk your insurance agent to review both policies side by side and identify any scenarios where neither policy would respond. Common gray areas include driving to a shipper for your first load pickup of the day, deadheading between loads without an active dispatch, and using your truck for personal errands during a rest break between dispatched loads. If any gaps exist, discuss endorsement options or policy language changes that can close them.\n\nKeep your carrier\'s certificate of insurance on file and provide your NTL or bobtail certificate to your carrier. In the event of a claim, having both policies documented streamlines the process of determining which insurer responds and prevents delays in coverage.',
-      },
-    ],
-    faqs: [
-      {
-        q: 'Do I need non-trucking liability if I lease onto a carrier?',
-        a: 'Yes. Your carrier\'s insurance covers you only while you are under dispatch. Any time you use your truck for personal purposes, drive home, or operate the vehicle outside of your carrier\'s business, you need your own liability coverage. Non-trucking liability fills this gap at a relatively low cost, typically $400 to $1,200 per year.',
-      },
-      {
-        q: 'What is the difference between bobtail and non-trucking liability?',
-        a: 'Non-trucking liability covers personal use of your truck when you are not under dispatch. Bobtail liability covers operation of your tractor without a trailer, and depending on the policy, may apply during both business and personal use. The terms are sometimes used interchangeably, but the coverage triggers can differ significantly. Always read the specific policy language rather than relying on the label.',
-      },
-      {
-        q: 'Am I covered while deadheading to my next load?',
-        a: 'This depends on your carrier\'s definition of dispatch and the specific language in both the carrier\'s policy and your NTL policy. Some carriers consider you under dispatch until you notify them you are available, while others define dispatch as only the active load assignment. If your carrier\'s policy does not cover deadheading and your NTL excludes business-related driving, you could have a gap. Clarify this with your carrier and your insurance agent.',
-      },
-    ],
-    relatedResources: ['commercial-auto-vs-trucking-insurance', 'fmcsa-insurance-requirements'],
-    relatedCoverages: ['auto-liability', 'bobtail-liability', 'physical-damage'],
-  },
-
-  {
-    slug: 'occupational-accident-vs-workers-comp',
-    title: "Occupational Accident vs Workers' Comp for Truckers",
-    metaTitle: "Occupational Accident vs Workers' Comp | Trucking Insurance",
-    metaDescription: "Compare occupational accident insurance and workers' compensation for truckers. Coverage differences, compliance requirements, and which one your operation n...",
-    category: 'Comparison',
-    heroHeading: "Occupational Accident vs Workers' Comp for Truckers",
-    heroSubheading:
-      'Two approaches to protecting truckers against on-the-job injuries, each designed for a different employment classification.',
-    overview:
-      "Workers' compensation and occupational accident insurance both provide financial protection when a trucker is injured on the job, but they are designed for fundamentally different employment relationships. Workers' comp is a state-mandated insurance program for employees, while occupational accident insurance is a voluntary coverage designed for independent contractors. Understanding which applies to your operation, and ensuring your classification is correct, is both a compliance issue and a coverage issue.",
-    sections: [
-      {
-        heading: "Workers' Compensation Insurance",
-        content:
-          "Workers' compensation is a state-regulated insurance program that provides medical benefits, wage replacement, and disability payments to employees who are injured or become ill as a result of their job. Every state except Texas requires employers to carry workers' compensation coverage for their employees, though specific requirements, benefit levels, and exemptions vary by state.\n\nFor trucking companies with employee drivers, workers' comp is mandatory. The policy covers medical treatment related to the work injury, a portion of lost wages during recovery (typically 60 to 70 percent of the average weekly wage), permanent disability benefits if the injury results in lasting impairment, and death benefits to the family of an employee killed on the job.\n\nWorkers' compensation operates as a no-fault system. The injured employee receives benefits regardless of who caused the injury, and in exchange, the employee generally gives up the right to sue the employer for negligence. This quid pro quo provides certainty for both parties. Premiums are based on payroll, job classification codes, and the employer's experience modification factor, which reflects historical claim activity.",
-      },
-      {
-        heading: 'Occupational Accident Insurance',
-        content:
-          "Occupational accident insurance, commonly called OA or occ/acc, is a voluntary coverage designed specifically for independent contractors who are not eligible for workers' compensation. In trucking, this primarily means owner-operators and other ICs who are classified as self-employed business owners rather than employees of the carrier they lease onto.\n\nOA policies provide benefits similar to workers' comp, including accident medical expense coverage, disability income benefits (both temporary and permanent), and accidental death and dismemberment benefits. However, because OA is not regulated like workers' comp, the specific benefits, limits, and exclusions vary widely between policies. Some OA plans are comprehensive with $1,000,000 or more in accident medical coverage, while others offer minimal protection with low benefit limits and restrictive terms.\n\nMany motor carriers require leased-on owner-operators to carry occupational accident insurance as a condition of the lease agreement. Some carriers sponsor group OA programs that offer better rates and coverage terms than individual policies. If your carrier offers a group program, compare its benefits and costs against individual market options before enrolling.",
-      },
-      {
-        heading: 'Key Differences',
-        bullets: [
-          "Workers' comp is mandatory for employees in nearly every state; occupational accident insurance is voluntary for independent contractors",
-          "Workers' comp benefits are set by state statute and provide consistent, guaranteed coverage levels; OA benefits vary by policy and insurer",
-          "Workers' comp premiums are based on payroll and experience rating; OA premiums are per-person and based on coverage selections and risk factors",
-          "Workers' comp includes an exclusive remedy provision that generally prevents employees from suing the employer; OA carries no such protection for the carrier",
-          "Workers' comp covers occupational diseases and repetitive stress injuries; many OA policies only cover injuries caused by specific accidents",
-          "Workers' comp claims are managed through a state-regulated system with formal dispute resolution; OA claims are handled through the insurance contract and may involve arbitration",
-          "Workers' comp provides unlimited medical coverage for the work injury in most states; OA policies have defined medical expense limits that can be exhausted",
-        ],
-      },
-      {
-        heading: 'The Classification Question',
-        content:
-          "The threshold issue in choosing between workers' comp and occupational accident insurance is whether your drivers are employees or independent contractors. This classification is not a matter of preference: it is determined by the nature of the working relationship under federal and state law. The IRS, the Department of Labor, state workforce agencies, and courts all apply tests that examine the degree of control the carrier exercises over the driver.\n\nMisclassifying an employee as an independent contractor to avoid workers' compensation obligations is a serious legal and financial risk. If an injured driver classified as an IC is later determined to be an employee, the carrier faces retroactive workers' comp premiums, penalties for operating without required coverage, potential personal injury lawsuits that workers' comp would have otherwise barred, and regulatory enforcement actions.\n\nThe trucking industry has faced increased scrutiny on this issue in recent years, with several states aggressively reclassifying owner-operators as employees for workers' compensation purposes. Before relying on occupational accident insurance in place of workers' comp, confirm that your drivers genuinely meet the independent contractor tests applicable in your state and in the states where they operate.",
-      },
-      {
-        heading: 'Choosing the Right Coverage',
-        content:
-          "If your drivers are W-2 employees, you need workers' compensation insurance. There is no substitute or alternative. The penalty for failing to carry workers' comp when required ranges from fines and stop-work orders to criminal prosecution in some states.\n\nIf your drivers are legitimate 1099 independent contractors, occupational accident insurance is the appropriate coverage. When evaluating OA policies, look carefully at the accident medical expense limit (aim for at least $500,000, with $1,000,000 preferred), the weekly disability benefit amount and duration, whether the policy covers occupational diseases or only traumatic injuries, any exclusions for pre-existing conditions or specific types of accidents, and whether the policy includes a survivor benefit.\n\nSome carriers maintain both coverages: workers' comp for their employee drivers and an OA program for their leased owner-operators. This is often the most compliant and protective approach for carriers with a mixed workforce of employees and independent contractors.",
-      },
-    ],
-    faqs: [
-      {
-        q: "Does an owner-operator need workers' comp?",
-        a: "Owner-operators who are legitimately classified as independent contractors are generally not required to carry workers' compensation for themselves, though requirements vary by state. Some states require owner-operators to carry workers' comp or have specific exemption procedures. Occupational accident insurance is the standard alternative for ICs, but you should verify the requirements in your state of domicile and the states where you operate.",
-      },
-      {
-        q: 'What does occupational accident insurance typically cost?',
-        a: 'Individual occupational accident insurance premiums typically range from $100 to $300 per month depending on the benefit levels selected, the nature of your operations, and your risk profile. Group programs offered through carriers can sometimes reduce costs. Key variables include the accident medical expense limit, the disability benefit amount, and whether the policy includes accidental death coverage.',
-      },
-      {
-        q: 'Can a motor carrier require owner-operators to carry occupational accident insurance?',
-        a: "Yes. Many motor carriers require leased-on owner-operators to maintain occupational accident insurance as a condition of the lease agreement. This protects both the owner-operator and the carrier. Some carriers sponsor group OA programs and deduct the premium from settlement payments, while others require the owner-operator to obtain individual coverage and provide proof of insurance.",
-      },
-    ],
-    relatedResources: ['commercial-auto-vs-trucking-insurance', 'trucking-insurance-glossary'],
-    relatedCoverages: ['occupational-accident', 'workers-compensation', 'auto-liability'],
-  },
-
-  {
-    slug: 'trucking-insurance-claims-guide',
-    title: 'What to Do After a Trucking Accident: Claims Guide',
-    metaTitle: 'Trucking Accident Claims Guide | Step by Step',
-    metaDescription: 'Step-by-step guide for handling a trucking insurance claim after an accident. What to document, who to contact, and how to protect your rights throughout the...',
+    slug: 'resident-injury-prevention',
+    title: 'Resident Injury Prevention Guide',
+    metaTitle: 'Resident Injury Prevention Guide for Senior Living Facilities',
+    metaDescription: 'Evidence-based strategies for preventing falls, medication errors, pressure injuries, and other common resident injuries in senior living facilities.',
     category: 'Guide',
-    heroHeading: 'What to Do After a Trucking Accident: Claims Guide',
-    heroSubheading:
-      'A step-by-step roadmap for navigating the insurance claims process after a commercial vehicle accident.',
-    overview:
-      'How you handle the first hours and days after a trucking accident directly impacts the outcome of your insurance claim. Proper documentation, timely reporting, and cooperation with your insurer can mean the difference between a claim that resolves efficiently and one that drags on for months with a worse outcome. This guide covers every step of the process from the scene of the accident through final claim resolution.',
+    heroHeading: 'Resident Injury Prevention Guide',
+    heroSubheading: 'Proven strategies for reducing falls, medication errors, and other preventable injuries that drive insurance claims in senior living.',
+    overview: 'Preventable injuries are the primary driver of professional liability claims in senior living. Falls, medication errors, pressure injuries, and infections generate the majority of lawsuits and regulatory citations. Implementing evidence-based prevention programs not only protects residents but directly reduces your insurance costs through lower claim frequency and severity.',
     sections: [
-      {
-        heading: 'At the Scene: Immediate Steps',
-        content:
-          'Safety is the first priority. Check for injuries to yourself, your passengers, and occupants of other vehicles. Call 911 if anyone is injured or if there is significant property damage. Move vehicles out of traffic if it is safe to do so, and set up reflective triangles or flares to warn approaching traffic.\n\nOnce the scene is secured, begin documenting everything. Use your phone to take photographs of all vehicles involved from multiple angles, the accident scene including road conditions, traffic signals, and signage, any visible injuries, skid marks, debris patterns, and the positions of vehicles before they are moved. If you have a dash camera, preserve the footage immediately and note the time stamp of the incident.\n\nExchange information with the other driver or drivers, including name, phone number, insurance company and policy number, driver license number, license plate number, and vehicle make and model. Collect contact information from any witnesses. When law enforcement arrives, cooperate with the investigation, provide factual information, and obtain the accident report number.\n\nDo not admit fault, apologize for the accident, or make statements about what you think caused the collision. Anything you say at the scene can be used against you later. Stick to the facts and let the investigation determine fault.',
-      },
-      {
-        heading: 'Reporting the Accident',
-        content:
-          'Notify your insurance company or broker as soon as possible, ideally within 24 hours of the accident. Most trucking insurance policies require prompt notice of any accident or incident, and failure to report promptly can jeopardize your coverage. Have the following information ready when you call: date, time, and location of the accident, names and contact information for all parties involved, the police report number, a brief factual description of what happened, and the extent of injuries and property damage.\n\nIf you are an owner-operator leased onto a carrier, you must also notify the carrier immediately. The carrier\'s safety department will have reporting procedures to follow, and their insurance may be the primary responding policy depending on whether you were under dispatch at the time of the accident. Report to both your carrier and your own insurer to ensure all applicable policies are activated.\n\nFor accidents involving injuries, fatalities, or vehicles that must be towed from the scene, FMCSA regulations may require the carrier to file a crash report. Your carrier\'s safety department should handle this filing, but be aware of the obligation and confirm it has been completed.',
-      },
-      {
-        heading: 'Documentation Checklist',
-        bullets: [
-          'Photographs of all vehicle damage, the accident scene, road conditions, and any visible injuries',
-          'Dash camera footage covering the period before, during, and after the collision',
-          'The police accident report, which you can typically obtain from the responding agency within a few days',
-          'Names, phone numbers, and insurance information for all parties involved',
-          'Contact information for all witnesses at the scene',
-          'Written notes about what happened, recorded as soon as possible while details are fresh',
-          'Medical records and treatment documentation if you were injured, starting from the date of the accident',
-          'Repair estimates for your vehicle from qualified commercial truck repair facilities',
-          'Towing and storage receipts if your vehicle was removed from the scene',
-          'Copies of your bills of lading and dispatch records showing what you were hauling and your operational status at the time',
-          'Your ELD records for the 24 hours surrounding the accident',
-        ],
-      },
-      {
-        heading: 'Working with the Claims Adjuster',
-        content:
-          'Your insurance company will assign a claims adjuster to investigate the accident and manage your claim. The adjuster will contact you to take a recorded statement, review your documentation, inspect the vehicle damage, and assess liability. Cooperate fully with your adjuster, answer questions honestly, and provide all requested documentation promptly.\n\nIf the other party\'s insurer contacts you, you are not obligated to provide a recorded statement to them. Consult with your own insurer or an attorney before speaking with the other party\'s adjuster. Anything you say in a recorded statement can be used to minimize or deny your claim.\n\nFor physical damage claims, the adjuster or an appraiser will inspect your vehicle and prepare a damage estimate. If you disagree with the valuation, particularly in a total loss situation, you have the right to provide comparable vehicle listings, recent maintenance and upgrade documentation, and an independent appraisal to support a higher value. Many policies include an appraisal clause that provides a formal dispute resolution process when you and the insurer cannot agree on the value.',
-      },
-      {
-        heading: 'What to Expect in the Claims Process',
-        content:
-          'Simple claims involving only property damage and clear liability can resolve in two to four weeks. More complex claims involving injuries, disputed fault, or multiple parties can take several months to a year or longer. Throughout the process, stay in regular contact with your adjuster and respond promptly to any requests for additional information.\n\nIf your vehicle is being repaired, your insurer will work with the repair facility on estimates, supplemental damage findings, and payment. If the vehicle is declared a total loss, the insurer will offer a settlement based on the actual cash value of the vehicle at the time of loss, minus your deductible. If you carry agreed value or stated amount coverage, the settlement will be based on the pre-agreed value on your policy.\n\nFor cargo damage claims, your motor truck cargo insurer will investigate the cause and extent of the damage. Preserve any damaged cargo for inspection and do not dispose of it until the adjuster authorizes release. Cargo claims are resolved based on the value of the goods and the terms of the bill of lading, subject to your policy limits and deductible.',
-      },
+      { heading: 'Fall Prevention', content: 'Falls are the most frequent cause of injury and the most common trigger for professional liability claims in senior living. An effective fall prevention program begins with a standardized risk assessment for every resident at admission and at regular intervals thereafter. Risk factors include history of previous falls, medication use (particularly psychotropics, sedatives, and blood pressure medications), mobility limitations, cognitive impairment, and environmental hazards.\n\nEnvironmental modifications are equally important. Adequate lighting, non-slip flooring, grab bars in bathrooms, bed rails where appropriate, and clear pathways reduce fall risk across the facility. Personal interventions include proper footwear, mobility aids, toileting schedules, and exercise programs to maintain strength and balance.\n\nDocumentation of fall prevention efforts is critical to defending claims. When a fall occurs despite a documented prevention plan, the facility is in a much stronger legal position than when no plan exists or the plan was not followed.' },
+      { heading: 'Medication Error Prevention', content: 'Medication errors are the second most common trigger for professional liability claims in senior living. The most common errors include wrong medication, wrong dosage, missed medications, medications given at the wrong time, and administration to the wrong resident. Electronic medication administration records (eMARs) reduce errors by providing automated alerts and verification steps.\n\nMultiple verification steps in the medication administration process — checking the medication against the order, verifying the resident identity, confirming the correct dosage, documenting the administration time, and monitoring for adverse reactions — are the standard of care. Staff training on medication management should be ongoing and include competency testing.\n\nPharmacy consultation services, including regular medication regimen reviews, help identify potentially harmful drug interactions, unnecessary medications, and dosing issues. Many states require periodic medication reviews for licensed facilities.' },
+      { heading: 'Prevention Program ROI', bullets: ['Facilities with documented fall prevention programs experience 20 to 40 percent fewer fall-related claims', 'Safe patient handling programs using mechanical lifts can reduce staff lifting injuries by up to 60 percent', 'Electronic medication administration systems reduce medication errors by 30 to 50 percent compared to paper-based systems', 'Infection control programs reduce healthcare-associated infections by 25 to 50 percent in documented studies', 'Every dollar invested in prevention programs typically generates 3 to 5 dollars in reduced insurance and litigation costs', 'Insurers frequently offer premium credits of 5 to 15 percent for documented prevention programs', 'Lower claim frequency directly improves your experience modification rate and long-term insurance costs'] },
     ],
     faqs: [
-      {
-        q: 'How quickly do I need to report an accident to my insurer?',
-        a: 'Report every accident to your insurance company within 24 hours. Most trucking policies require prompt notice, and many specify that late reporting can be grounds for claim denial. Call your broker or insurer\'s claims hotline as soon as you have addressed immediate safety concerns at the scene. Early reporting gives the insurer the best opportunity to investigate, preserve evidence, and manage the claim effectively.',
-      },
-      {
-        q: 'Should I give a recorded statement to the other driver\'s insurance company?',
-        a: 'You are not obligated to provide a recorded statement to the other party\'s insurer, and doing so without guidance can harm your claim. Consult with your own insurance company or an attorney before speaking with the opposing adjuster. Your own insurer may advise you on what to say or handle communications on your behalf.',
-      },
-      {
-        q: 'What if I disagree with the insurance company\'s damage estimate?',
-        a: 'If you believe the damage estimate or total loss valuation is too low, provide supporting evidence such as comparable vehicle listings, documentation of recent upgrades and maintenance, and an independent appraisal from a qualified appraiser. Many trucking policies include an appraisal clause that provides a binding process when you and the insurer cannot agree on value. Discuss this option with your adjuster or broker.',
-      },
-      {
-        q: 'Does filing a claim always increase my premiums?',
-        a: 'Not always, but frequently. The impact depends on the type and severity of the claim and whether you were at fault. A large at-fault liability claim will almost certainly increase your premiums at renewal. A comprehensive claim for a weather event or theft may have less impact. Some insurers offer claim forgiveness for the first incident. The long-term cost of a premium increase sometimes exceeds the claim payment itself, so discuss the financial implications with your broker before filing small claims.',
-      },
+      { q: 'Do fall prevention programs reduce insurance premiums?', a: 'Yes. Facilities that implement and document comprehensive fall prevention programs can see premium reductions of 5 to 15 percent from insurers that offer credits for risk management programs. More importantly, the resulting reduction in claims improves your loss experience, which drives long-term premium savings through your claims history.' },
+      { q: 'What documentation is needed for a fall prevention program?', a: 'A defensible fall prevention program should include standardized risk assessments for all residents, individualized care plans addressing identified risk factors, documentation of environmental modifications, records of staff training, incident reports for all falls, and post-fall analysis documenting any care plan modifications.' },
+      { q: 'How often should medication regimen reviews be conducted?', a: 'Most states require monthly medication regimen reviews for skilled nursing facilities and periodic reviews for assisted living. Beyond regulatory requirements, best practice is to conduct reviews whenever a new medication is added, when a resident experiences a change in condition, and at least quarterly for residents taking multiple medications.' },
+      { q: 'Do electronic medication systems reduce liability exposure?', a: 'Electronic medication administration records (eMARs) reduce medication errors by providing automated alerts, barcode verification, and real-time documentation. These systems also create a comprehensive audit trail that supports defense against medication-related claims by demonstrating compliance with medication administration protocols.' },
     ],
-    relatedResources: ['lower-trucking-insurance-premiums', 'trucking-insurance-glossary'],
-    relatedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    relatedResources: ['professional-liability-guide', 'claims-guide'],
+    relatedCoverages: ['professional-liability', 'general-liability', 'workers-compensation'],
   },
 
   {
-    slug: 'trucking-insurance-glossary',
-    title: 'Trucking Insurance Glossary: Key Terms Explained',
-    metaTitle: 'Trucking Insurance Glossary | 30+ Key Terms',
-    metaDescription: 'Comprehensive glossary of trucking insurance terms. Clear definitions of MCS-90, BMC-91, bobtail liability, cargo insurance, and 30+ other essential industry...',
+    slug: 'regulatory-compliance-guide',
+    title: 'Regulatory Compliance Guide for Senior Living',
+    metaTitle: 'Regulatory Compliance Guide for Senior Living Facilities',
+    metaDescription: 'Guide to regulatory compliance for senior living facilities. State licensing, CMS requirements, fire safety, and how compliance affects insurance availability and costs.',
+    category: 'Guide',
+    heroHeading: 'Regulatory Compliance Guide for Senior Living',
+    heroSubheading: 'How state licensing, federal certification, and regulatory compliance affect your insurance program and facility operations.',
+    overview: 'Senior living facilities operate in one of the most heavily regulated industries in the United States. State licensing agencies, CMS, fire marshals, health departments, and multiple federal agencies all have oversight authority. Your compliance record directly affects your insurance availability, pricing, and claims outcomes. This guide covers the key regulatory frameworks and their insurance implications.',
+    sections: [
+      { heading: 'State Licensing Requirements', content: 'Every state has its own licensing framework for senior living facilities, and the requirements vary dramatically. Some states have detailed regulations specifying staffing ratios, training requirements, physical plant standards, and admission criteria. Others provide minimal oversight with broad discretion left to the facility operator.\n\nInsurance requirements for licensure vary by state and facility type. Most states require proof of general liability and professional liability coverage as a condition of licensure. Some states specify minimum limits, while others leave the adequacy determination to the facility. Workers\' compensation is required in virtually every state for operations with employees.\n\nMaintaining your license in good standing is essential to your insurability. Facilities that lose their license or face enforcement actions may find it difficult or impossible to obtain standard market insurance, forcing them into surplus lines or specialty markets at significantly higher costs.' },
+      { heading: 'CMS Certification and Surveys', content: 'Facilities that participate in Medicare and Medicaid — which includes most skilled nursing facilities and some assisted living communities — must meet CMS Conditions of Participation. CMS surveys evaluate compliance with these conditions and can result in deficiency citations, plans of correction, civil monetary penalties, denial of payment for new admissions, and in severe cases, termination from the program.\n\nYour CMS survey history is a key factor in insurance underwriting. Facilities with clean surveys and no immediate jeopardy citations are viewed favorably by underwriters. Facilities with a pattern of deficiencies, special focus facility designations, or enforcement actions face limited market access and higher premiums.\n\nState survey agencies also conduct inspections on behalf of CMS and may impose additional state-level sanctions. Understanding the survey process, maintaining compliance documentation, and promptly addressing any identified deficiencies are critical to both regulatory compliance and insurance program management.' },
+      { heading: 'Insurance Implications of Non-Compliance', bullets: ['Regulatory citations can trigger premium increases at renewal', 'Repeated deficiencies may result in non-renewal by your current insurer', 'Immediate jeopardy citations severely limit available insurance markets', 'CMS enforcement actions can trigger D&O claims from stakeholders', 'Fire code violations can void property insurance coverage for related losses', 'Staffing deficiencies documented in surveys strengthen plaintiff claims in negligence lawsuits', 'Maintaining a strong compliance record is one of the most effective ways to manage insurance costs'] },
+    ],
+    faqs: [
+      { q: 'How do survey deficiencies affect insurance premiums?', a: 'Minor deficiencies that are promptly corrected typically have minimal impact on premiums. Repeated deficiencies, patterns of non-compliance, and serious citations such as immediate jeopardy can result in significant premium increases, restricted coverage terms, or non-renewal. Insurers view your survey history as a leading indicator of claims risk.' },
+      { q: 'Do all states require insurance for senior living licenses?', a: 'The vast majority of states require proof of liability insurance as a condition of senior living licensure. Specific requirements vary by state and facility type. Some states mandate minimum coverage limits, while others simply require evidence of adequate insurance.' },
+      { q: 'Can CMS terminate a facility from Medicare for insurance-related issues?', a: 'CMS can take enforcement actions, including termination, for failure to meet Conditions of Participation. While insurance is not a direct CMS condition, failure to maintain insurance that your state requires for licensure can result in loss of your state license, which would in turn affect your CMS certification.' },
+      { q: 'How does fire code compliance affect property insurance?', a: 'Property insurers evaluate fire protection systems, sprinkler coverage, alarm systems, and building construction when pricing coverage. Facilities that do not meet fire code requirements may face coverage exclusions, higher premiums, or policy cancellation. Fire code violations cited during inspections should be corrected immediately.' },
+    ],
+    relatedResources: ['senior-living-insurance-cost', 'coi-guide'],
+    relatedCoverages: ['professional-liability', 'directors-officers', 'commercial-property'],
+  },
+
+  {
+    slug: 'coi-guide',
+    title: 'Certificate of Insurance Guide for Senior Living',
+    metaTitle: 'Certificate of Insurance Guide for Senior Living Facilities',
+    metaDescription: 'Guide to certificates of insurance for senior living facilities. How to read COIs, what to require from vendors, and managing insurance documentation for your facility.',
+    category: 'Guide',
+    heroHeading: 'Certificate of Insurance Guide for Senior Living',
+    heroSubheading: 'How to manage certificates of insurance, additional insured requirements, and vendor insurance compliance for your facility.',
+    overview: 'Certificates of insurance are a critical operational tool for senior living facilities. You receive COIs from vendors, contractors, and staffing agencies working at your facility. You provide COIs to management companies, lenders, and licensing agencies. Understanding how to read, request, and manage certificates of insurance helps you avoid coverage gaps and manage the contractual risk that comes with operating a complex care organization.',
+    sections: [
+      { heading: 'Understanding Certificates of Insurance', content: 'A certificate of insurance is a standardized document that provides a summary of an insurance policy\'s key terms, including the insurer, policy number, effective dates, coverage types, and limits. The most common form is the ACORD 25, which is used across the insurance industry.\n\nImportant: a certificate of insurance is not a contract and does not confer any rights to the certificate holder. It is simply evidence that coverage exists as of the date the certificate was issued. Coverage can be cancelled or modified after the certificate is issued, which is why ongoing verification is important.\n\nWhen reviewing a certificate, verify the coverage types listed match your contractual requirements, limits meet the minimums specified in your agreement, the policy dates are current, your organization is listed as an additional insured if required, and the insurer is financially stable (check AM Best ratings).' },
+      { heading: 'What to Require from Vendors and Contractors', content: 'Every vendor, contractor, and staffing agency working at your facility should provide a certificate of insurance before beginning work. At minimum, require proof of general liability, workers\' compensation, and commercial auto (if driving on your property). For healthcare staffing agencies, also require professional liability.\n\nAdditional insured status is a critical requirement that should be specified in all vendor contracts. When your facility is named as an additional insured on a vendor\'s general liability policy, you receive coverage under their policy for claims arising from the vendor\'s work at your facility. This provides a first line of defense before your own insurance is implicated.\n\nIndemnification and hold harmless clauses in vendor contracts work in conjunction with insurance requirements. The vendor agrees to indemnify you for claims arising from their work, and the insurance backing up that indemnification agreement should be verified through the certificate of insurance.' },
+      { heading: 'Best Practices for COI Management', bullets: ['Maintain a centralized tracking system for all vendor certificates with expiration date alerts', 'Require updated certificates annually or whenever policies renew', 'Specify minimum insurance requirements in all vendor contracts before work begins', 'Require additional insured endorsements naming your facility on all vendor GL policies', 'Request 30-day advance notice of cancellation or material change provisions', 'Verify workers\' compensation certificates for all staffing agencies providing personnel', 'Review certificates against contractual requirements — do not simply file them without verification', 'Keep records of all certificates for at least the statute of limitations period in your state'] },
+    ],
+    faqs: [
+      { q: 'How often should we verify vendor certificates of insurance?', a: 'Verify certificates at least annually and whenever you are notified of policy changes. Implement a tracking system that alerts you when certificates are approaching expiration. Before any new vendor begins work at your facility, verify that a current certificate is on file.' },
+      { q: 'What does additional insured mean and why is it important?', a: 'When your facility is named as an additional insured on a vendor\'s general liability policy, the vendor\'s insurance provides coverage for claims arising from the vendor\'s work at your facility. This creates a first layer of protection before your own policies are implicated, which helps preserve your claims history and limits.' },
+      { q: 'What minimum coverage limits should we require from vendors?', a: 'Common minimums include $1,000,000 per occurrence and $2,000,000 aggregate for general liability, workers\' compensation at statutory limits, and $1,000,000 combined single limit for commercial auto. Healthcare staffing agencies should carry professional liability of at least $1,000,000 per occurrence.' },
+      { q: 'Can a vendor\'s insurance lapse after they provide a certificate?', a: 'Yes. A certificate of insurance is a snapshot as of the date it was issued. Coverage can be cancelled or modified after the certificate is issued. This is why your contracts should require vendors to provide advance notice of any cancellation or material change in their insurance.' },
+    ],
+    relatedResources: ['regulatory-compliance-guide', 'senior-living-insurance-cost'],
+    relatedCoverages: ['general-liability', 'workers-compensation', 'professional-liability'],
+  },
+
+  {
+    slug: 'claims-guide',
+    title: 'Senior Living Insurance Claims Guide',
+    metaTitle: 'Insurance Claims Guide for Senior Living Facilities',
+    metaDescription: 'Step-by-step guide to handling insurance claims in senior living. Incident reporting, claims process, documentation requirements, and defense strategies.',
+    category: 'Guide',
+    heroHeading: 'Senior Living Insurance Claims Guide',
+    heroSubheading: 'How to report, manage, and resolve insurance claims effectively to protect your facility and minimize financial impact.',
+    overview: 'How you handle the first hours and days after an incident can determine the outcome of an insurance claim that may not be filed for months or years. Senior living facilities face a broad range of potential claims, from resident injury lawsuits and employee workers\' compensation claims to property damage events and regulatory actions. This guide provides a framework for managing claims across all coverage lines.',
+    sections: [
+      { heading: 'Incident Reporting', content: 'Prompt and thorough incident reporting is the foundation of effective claims management. Every incident involving a resident injury, employee injury, property damage, abuse allegation, or regulatory concern should be documented immediately. Delayed or incomplete incident reports are the single most common factor that weakens a facility\'s position in litigation.\n\nIncident reports should include the date, time, and location of the incident, the names of all parties involved and all witnesses, a factual description of what happened without opinions or conclusions about liability, the condition of the injured party and any immediate medical treatment provided, the names of staff members who responded, and photographs of the scene if applicable.\n\nReport the incident to your insurance carrier or broker as soon as possible — ideally within 24 hours of the event. Early reporting allows the insurer to begin investigation while evidence is fresh and witnesses are available. Delayed reporting can result in coverage disputes and weaker defense positions.' },
+      { heading: 'Working with Your Insurance Carrier', content: 'Once a claim is reported, your insurance carrier will assign an adjuster and, if a lawsuit is filed, defense counsel. Your responsibilities during the claims process include cooperating fully with the investigation, preserving all documents related to the incident, making staff available for interviews, providing medical and care records as requested, and following defense counsel\'s guidance on communications.\n\nDo not admit liability, make statements to plaintiff attorneys, or attempt to settle a claim without your insurer\'s involvement. Your policy requires cooperation with the claims process, and unauthorized actions can jeopardize your coverage.\n\nMaintain regular communication with your broker and the claims team. Ask questions about the process, understand the timeline, and provide any additional information promptly. Facilities that are engaged and responsive in the claims process typically achieve better outcomes than those that are passive.' },
+      { heading: 'Key Claims Management Principles', bullets: ['Report all incidents to your insurance carrier within 24 hours, even if you believe no claim will result', 'Document everything factually — avoid opinions, blame, or conclusions in incident reports', 'Preserve all records including medical charts, care plans, staffing logs, and communication records', 'Do not admit liability or make statements to plaintiff attorneys without insurer guidance', 'Cooperate fully with claims investigations and provide requested information promptly', 'Follow defense counsel direction on all litigation-related communications and decisions', 'Maintain a claims management log tracking all open claims, their status, and next steps', 'Conduct post-incident analysis to identify and correct systemic issues that contributed to the event'] },
+    ],
+    faqs: [
+      { q: 'When should we report an incident to our insurance carrier?', a: 'Report all incidents that could potentially result in a claim within 24 hours. This includes resident injuries, employee injuries, property damage events, abuse allegations, and regulatory citations. Early reporting is always better — your insurer would rather receive a report that does not become a claim than learn about a serious claim months after the incident.' },
+      { q: 'Should we admit fault to a resident\'s family after an incident?', a: 'No. While expressing concern and compassion is appropriate, admitting fault or liability can seriously damage your legal position. Direct all liability-related communications through your insurance carrier and defense counsel. You can acknowledge the incident, express concern for the resident\'s wellbeing, and explain what steps you are taking without admitting fault.' },
+      { q: 'How long does a typical senior living insurance claim take to resolve?', a: 'Claims timelines vary widely. Simple property claims may resolve in weeks. Workers\' compensation claims typically resolve within one to two years. Professional liability claims involving resident injuries can take two to five years or longer from incident to resolution, particularly if litigation is involved.' },
+      { q: 'Can we handle small claims without involving our insurer?', a: 'Your policy requires you to report all potential claims to the insurer. Attempting to handle claims independently can void your coverage and expose the facility to financial liability. Even seemingly minor incidents can develop into significant claims, and early insurer involvement ensures proper documentation and defense from the outset.' },
+    ],
+    relatedResources: ['professional-liability-guide', 'resident-injury-prevention'],
+    relatedCoverages: ['professional-liability', 'general-liability', 'workers-compensation'],
+  },
+
+  {
+    slug: 'glossary',
+    title: 'Senior Living Insurance Glossary',
+    metaTitle: 'Senior Living Insurance Glossary — Key Terms Explained',
+    metaDescription: 'Glossary of senior living insurance terms. Definitions for professional liability, abuse and molestation coverage, experience modification rate, and 40+ terms every facility operator should know.',
     category: 'Reference',
-    heroHeading: 'Trucking Insurance Glossary: Key Terms Explained',
-    heroSubheading:
-      'Clear, plain-language definitions of the terms you will encounter when purchasing and managing trucking insurance.',
-    overview:
-      'Trucking insurance has its own vocabulary, and understanding these terms is essential for making informed coverage decisions. This glossary covers more than 30 terms that motor carriers, owner-operators, and fleet managers encounter regularly when dealing with insurance policies, regulatory filings, and claims. Each definition is written in practical language with context on how the term applies to your operation.',
+    heroHeading: 'Senior Living Insurance Glossary',
+    heroSubheading: 'Clear definitions for the insurance terms every senior living operator, administrator, and board member should understand.',
+    overview: 'The insurance industry uses specialized terminology that can be confusing for facility operators who need to make informed decisions about their coverage. This glossary defines the most important terms used in senior living insurance, from coverage concepts and policy structures to regulatory and claims terminology.',
     sections: [
-      {
-        heading: 'Regulatory and Filing Terms',
-        content:
-          'BMC-91: The form used by an insurance company to file proof of a motor carrier\'s public liability coverage with the FMCSA. The BMC-91 certifies that the carrier maintains at least the federally required minimum liability insurance.\n\nBMC-91X: The version of the BMC-91 filing used when coverage is provided by a surplus lines insurer rather than an admitted insurance carrier. It serves the same purpose as the standard BMC-91.\n\nBMC-84: A surety bond required for freight brokers and freight forwarders in the amount of $75,000. This bond protects carriers and shippers against financial loss resulting from the broker\'s failure to meet its obligations.\n\nBMC-85: A trust fund agreement that serves as an alternative to the BMC-84 surety bond for freight brokers. The broker deposits $75,000 into a qualifying trust fund rather than purchasing a surety bond.\n\nMCS-90: A mandatory endorsement attached to the liability policy of every for-hire interstate motor carrier. The MCS-90 guarantees that the insurer will pay valid public liability claims up to the minimum required limit, even if a policy exclusion would otherwise apply.\n\nFMCSA: The Federal Motor Carrier Safety Administration, the agency within the U.S. Department of Transportation that regulates the trucking industry. The FMCSA sets insurance requirements, safety standards, and licensing rules for motor carriers.\n\nUSDOT Number: A unique identification number assigned by the FMCSA to every commercial motor carrier operating in interstate commerce. The USDOT number is used to track safety information and compliance status.\n\nMC Number: The Motor Carrier operating authority number issued by the FMCSA to for-hire carriers. An active MC number with proper insurance filings is required before a carrier can legally transport freight for compensation in interstate commerce.\n\nCSA: Compliance, Safety, Accountability, the FMCSA\'s data-driven safety program. CSA assigns scores in seven Behavioral Analysis and Safety Improvement Categories (BASICs) based on inspection, crash, and violation data. Insurers use CSA scores as an underwriting factor.\n\nSAFER System: Safety and Fitness Electronic Records System, the FMCSA\'s online database where the public can access motor carrier registration, safety, and insurance information. Brokers and shippers check the SAFER System to verify a carrier\'s authority and insurance status.',
-      },
-      {
-        heading: 'Liability Coverage Terms',
-        content:
-          'Primary Auto Liability: The foundational liability coverage that pays for bodily injury and property damage your commercial vehicle causes to third parties. Required by the FMCSA for all motor carriers at minimum limits ranging from $750,000 to $5,000,000 depending on commodities transported.\n\nGeneral Liability: Coverage for bodily injury and property damage claims arising from your business operations that are not related to the operation of a vehicle. This includes slip-and-fall injuries at your terminal, damage caused by your employees during loading and unloading, and other premises and operations liability.\n\nUmbrella/Excess Liability: A policy that provides additional liability limits above and beyond your primary auto liability and general liability policies. An umbrella policy increases your total available limit for catastrophic claims that exceed your underlying coverage.\n\nNon-Trucking Liability (NTL): Coverage for owner-operators who lease onto a carrier, providing liability protection during personal use of the truck when the driver is not under dispatch. Also called deadhead liability or bobtail insurance, though these terms have technical distinctions.\n\nBobtail Liability: Coverage for operating a tractor without an attached trailer. Depending on the policy, bobtail coverage may apply during both business and personal use or may be limited to non-business operations similar to NTL.\n\nHired Auto Liability: Coverage for liability arising from vehicles you rent, borrow, or hire for business use. This extends your liability protection to vehicles you do not own but are temporarily using in your operations.\n\nTrailer Interchange Coverage: Insurance that covers physical damage to trailers you are pulling under a trailer interchange agreement with another party. Standard physical damage policies often exclude non-owned trailers, making this endorsement necessary when you haul trailers owned by others.',
-      },
-      {
-        heading: 'Property and Cargo Terms',
-        content:
-          'Physical Damage: Insurance covering damage to your own vehicles. Physical damage policies include two components: collision coverage (damage from striking another object or overturning) and comprehensive coverage (damage from theft, fire, weather, vandalism, and other non-collision events).\n\nCollision Coverage: The component of physical damage insurance that pays to repair or replace your vehicle after it collides with another vehicle, object, or overturns. Coverage applies regardless of fault.\n\nComprehensive Coverage: The component of physical damage insurance that covers non-collision damage including theft, fire, vandalism, windstorm, hail, flood, falling objects, and animal strikes.\n\nMotor Truck Cargo Insurance: Coverage for loss or damage to freight in your care, custody, and control while you are transporting it. Cargo insurance responds when goods are damaged, destroyed, or stolen during transit, loading, or unloading.\n\nActual Cash Value (ACV): A valuation method that determines the value of a damaged or total loss vehicle based on its fair market value at the time of the loss, accounting for depreciation. ACV is the standard valuation basis in most physical damage policies.\n\nAgreed Value: A valuation method where you and the insurer pre-agree on the value of the vehicle at policy inception. In a total loss, the insurer pays the agreed amount rather than an ACV assessment. This eliminates depreciation disputes and ensures a predictable settlement.\n\nStated Amount: A valuation method where you declare the value of the vehicle on the policy. In a total loss, the insurer pays the lesser of the stated amount, the actual cash value, or the cost of repair. Stated amount is not the same as agreed value because the insurer can still apply depreciation.\n\nDeductible: The amount you pay out of pocket before your insurance coverage begins to pay on a claim. Higher deductibles reduce your premium but increase your financial exposure when a loss occurs.',
-      },
-      {
-        heading: 'Workers Protection Terms',
-        content:
-          "Workers' Compensation: State-mandated insurance that provides medical benefits, wage replacement, and disability payments to employees injured on the job. Required for trucking companies with employee drivers in every state except Texas.\n\nOccupational Accident Insurance (OA): Voluntary coverage designed for independent contractors that provides benefits similar to workers' compensation, including accident medical expenses, disability income, and accidental death and dismemberment benefits. The standard injury coverage for owner-operators who are not classified as employees.\n\nEmployers Liability: A component of the workers' compensation policy that covers lawsuits brought by employees alleging employer negligence. While the exclusive remedy provision of workers' comp generally bars employee lawsuits, exceptions exist, and employers liability responds in those situations.\n\nExperience Modification Factor (EMR or E-Mod): A multiplier applied to workers' compensation premiums based on a company's historical claim experience compared to the industry average. An EMR below 1.0 indicates better-than-average loss experience and results in lower premiums. An EMR above 1.0 indicates worse-than-average experience and higher premiums.",
-      },
-      {
-        heading: 'Underwriting and Policy Terms',
-        content:
-          'Premium: The amount you pay for your insurance coverage, typically expressed as an annual amount and payable in installments. Premiums are determined by underwriting factors including your loss history, driver records, fleet size, commodities hauled, and operating radius.\n\nLoss Run: A report from your current or prior insurance company showing your claims history over a specified period, typically three to five years. Loss runs include claim dates, types, amounts paid, and amounts reserved. Underwriters require loss runs when quoting your renewal or new business.\n\nLoss Ratio: The ratio of claims paid by the insurer to premiums collected, expressed as a percentage. A loss ratio of 60 percent means the insurer paid 60 cents in claims for every dollar of premium collected. High loss ratios lead to premium increases or non-renewal.\n\nMVR (Motor Vehicle Report): A record of a driver\'s history from the state department of motor vehicles, including violations, accidents, license suspensions, and DUI convictions. Underwriters pull MVRs for every driver on a trucking policy as a primary risk assessment tool.\n\nPSP (Pre-Employment Screening Program): An FMCSA program that provides motor carriers access to a driver\'s crash and inspection history from the previous five years. PSP reports are used in the hiring process to evaluate driver safety records.\n\nExclusion: A specific risk, situation, or type of loss that your insurance policy does not cover. Understanding exclusions is critical because a claim falling within an exclusion will be denied regardless of how much premium you pay.\n\nEndorsement: A written modification to your insurance policy that adds, removes, or changes coverage terms. Endorsements can broaden or restrict the base policy and are attached as addenda to the policy document.\n\nCertificate of Insurance (COI): A document issued by your insurer that summarizes your coverage types, limits, and effective dates. Brokers, shippers, and other parties frequently require COIs as proof that you maintain adequate insurance.\n\nPremium Finance: An arrangement where a finance company pays your insurance premium to the insurer and you repay the finance company in monthly installments with interest. Premium financing reduces the upfront cash required to bind coverage but increases the total cost.\n\nSubrogation: The process by which your insurer, after paying your claim, seeks reimbursement from the party that caused the loss. If another driver was at fault in your accident, your insurer may pursue subrogation against that driver\'s insurance to recover the claim payment.\n\nIndemnity: The principle that insurance restores you to the financial position you were in before the loss, no better and no worse. Insurance payments are designed to indemnify you for your actual loss, not to provide a profit.\n\nAdditional Insured: A person or organization added to your insurance policy who receives coverage under your policy for claims arising from your operations. Shippers and brokers frequently require motor carriers to add them as additional insureds on their liability policies.',
-      },
+      { heading: 'Coverage & Policy Terms', content: 'Additional Insured — A person or entity added to an insurance policy that is not the named insured, typically through an endorsement. Vendors, landlords, and management companies often require additional insured status on your GL policy.\n\nAggregate Limit — The maximum amount an insurer will pay for all claims during a policy period, regardless of the number of claims. A $3,000,000 aggregate means the insurer will pay up to $3,000,000 total, even if multiple claims are filed.\n\nClaims-Made Policy — A policy that covers claims first reported during the policy period, regardless of when the incident occurred (subject to the retroactive date). Most professional liability in senior living is written on a claims-made basis.\n\nDeductible — The amount the insured must pay out of pocket before the insurance policy responds. Higher deductibles reduce premiums but increase the facility\'s per-claim financial exposure.\n\nEndorsement — A written modification to an insurance policy that changes the coverage terms, limits, or conditions. Endorsements can add, remove, or modify coverage.\n\nExclusion — A provision in an insurance policy that removes coverage for specific types of claims, circumstances, or perils. Understanding exclusions is critical to knowing what your policy does not cover.\n\nOccurrence Policy — A policy that covers incidents that occur during the policy period, regardless of when the claim is reported. Less common than claims-made for professional liability but preferred when available.\n\nRetroactive Date — The earliest date from which incidents are covered under a claims-made policy. Incidents occurring before the retroactive date are not covered, even if the claim is reported during the current policy period.\n\nSelf-Insured Retention (SIR) — Similar to a deductible, but the insured is responsible for managing and paying claims up to the retention amount before the insurer becomes involved. Common on umbrella and excess policies.\n\nTail Coverage (Extended Reporting Period) — An extension purchased when a claims-made policy is cancelled or non-renewed that allows the insured to report claims after the policy ends for incidents that occurred during the policy period.' },
+      { heading: 'Senior Living-Specific Terms', content: 'Abuse and Molestation Coverage — Dedicated insurance for claims alleging physical, sexual, emotional, or financial abuse of residents. Often excluded or sublimited on standard GL and professional liability policies.\n\nElopement Coverage — Professional liability protection for claims arising from residents leaving the facility without authorization or supervision, particularly relevant for memory care operations.\n\nExperience Modification Rate (EMR/E-Mod) — A multiplier applied to workers\' compensation premiums based on a facility\'s claims history relative to similar operations. An EMR below 1.0 results in lower premiums; above 1.0 results in higher premiums.\n\nImmediate Jeopardy — A CMS survey citation indicating that non-compliance has caused, or is likely to cause, serious injury, harm, impairment, or death to a resident. Immediate jeopardy citations significantly affect insurance availability and pricing.\n\nProfessional Liability (Malpractice/E&O) — Coverage for claims alleging that the facility or its staff failed to provide care meeting the accepted professional standard, resulting in harm to a resident.\n\nRegulatory Defense Coverage — Insurance protection for legal costs associated with state health department investigations, CMS surveys, and other regulatory proceedings.\n\nResident-on-Resident Incident — An altercation or injury between residents, particularly relevant in memory care settings where residents with cognitive impairment may exhibit aggressive behavior.\n\nStandard of Care — The level of care that a reasonably competent facility providing the same type of services would provide under similar circumstances. The standard varies by facility type and state regulations.' },
     ],
     faqs: [
-      {
-        q: 'What is the difference between a COI and the actual insurance policy?',
-        a: 'A certificate of insurance (COI) is a summary document that shows your coverage types, limits, and effective dates. It does not confer any coverage rights or alter the terms of the policy itself. The actual insurance policy is the full legal contract between you and the insurer containing the insuring agreement, exclusions, conditions, and endorsements. When questions arise about what is or is not covered, the policy language controls, not the COI.',
-      },
-      {
-        q: 'What does it mean to be named as an additional insured?',
-        a: 'When another party is named as an additional insured on your policy, they receive coverage under your policy for claims arising from your operations. For example, if a shipper is an additional insured on your auto liability policy and is sued because your truck caused an accident while hauling their freight, your policy would respond to defend and indemnify the shipper. This is a common contractual requirement in the trucking industry.',
-      },
-      {
-        q: 'How is a loss run different from a claims history?',
-        a: 'A loss run is an official report generated by your insurance company that provides a verified record of all claims filed under your policy during a specified period. A claims history is a more general term for your record of past claims. Underwriters require loss runs specifically because they are verified documents from the insurer, not self-reported. You can request loss runs from your current and prior insurance carriers at any time.',
-      },
+      { q: 'What is the most important insurance term for senior living operators to understand?', a: 'Claims-made vs. occurrence is arguably the most important distinction because it determines when your coverage applies and whether you need tail coverage when changing insurers. Misunderstanding this concept can leave a facility with no coverage for past incidents when switching insurance carriers.' },
+      { q: 'What does per occurrence vs. aggregate mean?', a: 'Per occurrence is the maximum the insurer will pay for any single claim or incident. Aggregate is the maximum the insurer will pay for all claims combined during the policy period. For example, a $1M/$3M policy pays up to $1,000,000 per claim and up to $3,000,000 total for all claims in the policy year.' },
+      { q: 'What is an umbrella policy and how does it work?', a: 'An umbrella or excess liability policy provides additional limits above your underlying policies (general liability, professional liability, auto, employer\'s liability). It responds when a claim exceeds the limits of the underlying policy, providing an additional layer of financial protection for catastrophic claims.' },
+      { q: 'What does additional insured status provide?', a: 'When your facility is an additional insured on someone else\'s policy, their insurance provides coverage for you for claims arising from their operations. This is commonly required from vendors and contractors working at your facility so that their insurance responds first to claims arising from their work.' },
     ],
-    relatedResources: ['fmcsa-insurance-requirements', 'trucking-insurance-claims-guide'],
-    relatedCoverages: ['auto-liability', 'motor-truck-cargo', 'general-liability'],
+    relatedResources: ['senior-living-insurance-cost', 'professional-liability-guide'],
+    relatedCoverages: ['general-liability', 'professional-liability', 'umbrella-excess'],
   },
 ];
 

@@ -13,12 +13,12 @@ export async function generateMetadata({ params }) {
     title: post.metaTitle,
     description: post.metaDescription,
     alternates: {
-      canonical: `https://alkemeins.com/trucking/blog/${post.slug}/`,
+      canonical: `https://alkemeins.com/senior-living/blog/${post.slug}/`,
     },
     openGraph: {
       title: `${post.metaTitle} | ALKEME Insurance Services`,
       description: post.metaDescription,
-      url: `https://alkemeins.com/trucking/blog/${post.slug}/`,
+      url: `https://alkemeins.com/senior-living/blog/${post.slug}/`,
       type: 'article',
     },
   };
@@ -39,8 +39,8 @@ export default async function BlogPage({ params }) {
       author: { '@type': 'Organization', name: 'ALKEME Insurance Services', url: 'https://alkemeins.com' },
       publisher: { '@type': 'Organization', name: 'ALKEME Insurance Services', url: 'https://alkemeins.com' },
       description: post.metaDescription,
-      url: `https://alkemeins.com/trucking/blog/${post.slug}/`,
-      mainEntityOfPage: `https://alkemeins.com/trucking/blog/${post.slug}/`,
+      url: `https://alkemeins.com/senior-living/blog/${post.slug}/`,
+      mainEntityOfPage: `https://alkemeins.com/senior-living/blog/${post.slug}/`,
     },
     ...(post.faqs?.length ? [{
       '@context': 'https://schema.org',

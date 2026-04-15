@@ -51,7 +51,7 @@ function NearbyStates({ currentSlug }) {
   return (
     <div ref={ref} className="bg-stone fade-in-view" style={{ padding: '4rem 0' }}>
       <div className="max-w-[68rem] mx-auto px-[60px] max-lg:px-6 max-md:px-4">
-        <h2 className="text-brand font-bold leading-[1.3] tracking-tight mb-6" style={{ fontSize: '1.5rem' }}>Trucking Insurance in Nearby States</h2>
+        <h2 className="text-brand font-bold leading-[1.3] tracking-tight mb-6" style={{ fontSize: '1.5rem' }}>Senior Living Insurance in Nearby States</h2>
         <div className="flex flex-wrap gap-3">
           {nearby.map(s => (
             <Link key={s.slug} href={`/states/${s.slug}/`} className="border-2 border-ash rounded-[2rem] px-5 py-2 text-brand font-semibold hover:border-blue-dark hover:text-blue-dark no-underline" style={{ fontSize: '0.85rem', transition: 'all 0.24s' }}>
@@ -94,10 +94,10 @@ function InternalLinks() {
             <h3 className="text-gold font-bold uppercase tracking-[0.12em] mb-4" style={{ fontSize: '0.8rem' }}>Resources</h3>
             <div className="space-y-2">
               {[
-                { slug: 'trucking-insurance-cost', label: 'How Much Does Trucking Insurance Cost?' },
-                { slug: 'fmcsa-insurance-requirements', label: 'FMCSA Requirements' },
-                { slug: 'new-authority-insurance', label: 'New Authority Insurance' },
-                { slug: 'lower-trucking-insurance-premiums', label: 'Lower Your Premiums' },
+                { slug: 'senior-living-insurance-cost', label: 'How Much Does Senior Living Insurance Cost?' },
+                { slug: 'regulatory-compliance-guide', label: 'Regulatory Compliance' },
+                { slug: 'professional-liability-guide', label: 'Professional Liability Guide' },
+                { slug: 'staffing-liability-guide', label: 'Staffing Liability Guide' },
               ].map(r => (
                 <Link key={r.slug} href={`/resources/${r.slug}/`} className="block text-cream hover:text-gold no-underline" style={{ fontSize: '0.85rem', transition: 'color 0.2s' }}>
                   {r.label}
@@ -140,7 +140,7 @@ export default function StatePageContent({ state }) {
         <section className="bg-stone" style={{ padding: '5rem 0' }}>
           <div className="max-w-[900px] mx-auto px-[60px] max-lg:px-6 max-md:px-4">
             <h2 className="text-brand font-bold leading-[1.3] tracking-tight mb-8 text-center" style={{ fontSize: 'clamp(1.8rem, 3vw, 2.2rem)' }}>
-              Trucking Insurance FAQ — {state.name}
+              Senior Living Insurance FAQ — {state.name}
             </h2>
             <div className="space-y-4">
               {state.faqs.map((faq, i) => <FaqItem key={i} faq={faq} />)}

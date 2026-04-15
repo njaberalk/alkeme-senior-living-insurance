@@ -62,7 +62,7 @@ export default function CityPageContent({ city }) {
         <section className="bg-stone" style={{ padding: '5rem 0' }}>
           <div className="max-w-[900px] mx-auto px-[60px] max-lg:px-6 max-md:px-4">
             <h2 className="text-brand font-bold leading-[1.3] tracking-tight mb-8 text-center" style={{ fontSize: 'clamp(1.8rem, 3vw, 2.2rem)' }}>
-              Trucking Insurance FAQ — {city.city}, {city.abbreviation}
+              Senior Living Insurance FAQ — {city.city}, {city.abbreviation}
             </h2>
             <div className="space-y-4">
               {city.faqs.map((faq, i) => <FaqItem key={i} faq={faq} />)}
@@ -102,7 +102,7 @@ export default function CityPageContent({ city }) {
             <div>
               <h3 className="text-gold font-bold uppercase tracking-[0.12em] mb-4" style={{ fontSize: '0.8rem' }}>Statewide Coverage</h3>
               <Link href={`/states/${city.stateSlug}/`} className="block text-cream hover:text-gold no-underline mb-2" style={{ fontSize: '0.9rem', transition: 'color 0.2s' }}>
-                Trucking Insurance in {city.state} →
+                Senior Living Insurance in {city.state} →
               </Link>
               <p className="text-cream/50" style={{ fontSize: '0.8rem' }}>View state requirements, corridors, and coverage details</p>
             </div>
@@ -120,9 +120,9 @@ export default function CityPageContent({ city }) {
               <h3 className="text-gold font-bold uppercase tracking-[0.12em] mb-4" style={{ fontSize: '0.8rem' }}>Resources</h3>
               <div className="space-y-2">
                 {[
-                  { slug: 'trucking-insurance-cost', label: 'How Much Does It Cost?' },
-                  { slug: 'fmcsa-insurance-requirements', label: 'FMCSA Requirements' },
-                  { slug: 'new-authority-insurance', label: 'New Authority Insurance' },
+                  { slug: 'senior-living-insurance-cost', label: 'How Much Does It Cost?' },
+                  { slug: 'regulatory-compliance-guide', label: 'Regulatory Compliance' },
+                  { slug: 'professional-liability-guide', label: 'New Authority Insurance' },
                 ].map(r => (
                   <Link key={r.slug} href={`/resources/${r.slug}/`} className="block text-cream hover:text-gold no-underline" style={{ fontSize: '0.85rem', transition: 'color 0.2s' }}>
                     {r.label}

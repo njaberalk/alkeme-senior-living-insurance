@@ -8,7 +8,7 @@ import { blogPosts } from '../data/blog';
 export const dynamic = 'force-static';
 
 export default function sitemap() {
-  const baseUrl = 'https://alkemeins.com/trucking';
+  const baseUrl = 'https://alkemeins.com/senior-living';
 
   return [
     { url: `${baseUrl}/`, lastModified: new Date(), changeFrequency: 'weekly', priority: 1.0 },

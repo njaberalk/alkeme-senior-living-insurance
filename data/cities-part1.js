@@ -1,1102 +1,2144 @@
 export const citiesPart1 = [
   {
-    slug: 'dallas-tx',
-    city: 'Dallas',
-    state: 'Texas',
-    stateSlug: 'texas',
-    abbreviation: 'TX',
-    metaTitle: 'Trucking Insurance in Dallas, TX',
-    metaDescription: 'Commercial trucking insurance in Dallas, Texas. Coverage for carriers on I-35, I-20, and I-30 corridors.',
-    heroHeading: 'Dallas Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in the Dallas-Fort Worth metroplex.',
-    overview: 'Dallas is a top U.S. freight hub where I-35, I-20, and I-30 converge, driving massive volumes of cross-country and cross-border commerce.',
-    sections: [
-      { heading: 'Trucking in Dallas', content: 'Dallas ranks among the busiest freight markets in the nation, anchored by major distribution centers, intermodal yards, and a dense concentration of carriers serving retail, manufacturing, and energy sectors across the Sun Belt.' },
-      { heading: 'Key Corridors', content: 'I-35 connects Dallas to Laredo and the Mexican border to the south and Oklahoma City to the north. I-20 runs east-west linking Dallas to Shreveport and Midland-Odessa. I-30 provides a direct route to Little Rock and beyond.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for high-traffic urban corridors', 'Physical damage for long-haul rigs on I-20 and I-35', 'Motor truck cargo for retail and manufacturing freight', 'Non-trucking liability for owner-operators'] },
+    "slug": "los-angeles-ca",
+    "city": "Los Angeles",
+    "state": "California",
+    "stateSlug": "california",
+    "abbreviation": "CA",
+    "metaTitle": "Senior Living Insurance in Los Angeles, CA",
+    "metaDescription": "Senior living insurance in Los Angeles, California. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Los Angeles Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Los Angeles, CA.",
+    "overview": "Los Angeles is a key market for senior living facilities in California, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Los Angeles",
+        "content": "Los Angeles's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Los Angeles market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'What insurance do Dallas-based carriers need?', a: 'At minimum, auto liability and cargo coverage. Most carriers also add physical damage and non-trucking liability.' },
-      { q: 'Does heavy metro traffic affect premiums?', a: 'Yes. Dallas-Fort Worth congestion increases accident exposure, which insurers factor into rates.' },
+    "faqs": [
+      {
+        "q": "What insurance do Los Angeles senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Los Angeles market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Los Angeles senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'houston-tx',
-    city: 'Houston',
-    state: 'Texas',
-    stateSlug: 'texas',
-    abbreviation: 'TX',
-    metaTitle: 'Trucking Insurance in Houston, TX',
-    metaDescription: 'Commercial trucking insurance in Houston, Texas. Coverage for carriers on I-10, I-45, and I-69 corridors.',
-    heroHeading: 'Houston Trucking Insurance',
-    heroSubheading: 'Protecting carriers in the nation\'s energy and port capital.',
-    overview: 'Houston\'s Port of Houston and petrochemical complex make it one of the largest freight origins in the United States.',
-    sections: [
-      { heading: 'Trucking in Houston', content: 'Houston generates enormous freight volumes from its refineries, petrochemical plants, and the Port of Houston, one of the busiest ports in the country. Carriers haul everything from crude oil to consumer goods across the metro.' },
-      { heading: 'Key Corridors', content: 'I-10 runs east to Beaumont and west to San Antonio. I-45 connects Houston to Dallas. I-69 links the city to the Rio Grande Valley. The Sam Houston Tollway and Beltway 8 handle heavy local truck traffic.' },
-      { heading: 'Coverage Recommendations', bullets: ['Hazmat endorsements for petrochemical haulers', 'Auto liability for congested urban routes', 'Motor truck cargo for port drayage operations', 'Physical damage for flatbed and tanker fleets'] },
+    "slug": "san-diego-ca",
+    "city": "San Diego",
+    "state": "California",
+    "stateSlug": "california",
+    "abbreviation": "CA",
+    "metaTitle": "Senior Living Insurance in San Diego, CA",
+    "metaDescription": "Senior living insurance in San Diego, California. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "San Diego Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in San Diego, CA.",
+    "overview": "San Diego is a key market for senior living facilities in California, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in San Diego",
+        "content": "San Diego's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the San Diego market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Do Houston carriers need special hazmat coverage?', a: 'Carriers hauling petroleum or chemicals need pollution liability and MCS-90 endorsements in addition to standard coverage.' },
-      { q: 'How does hurricane season affect trucking insurance here?', a: 'Flood and weather-related claims can spike premiums. Carriers should review comprehensive physical damage coverage before storm season.' },
+    "faqs": [
+      {
+        "q": "What insurance do San Diego senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the San Diego market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for San Diego senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'san-antonio-tx',
-    city: 'San Antonio',
-    state: 'Texas',
-    stateSlug: 'texas',
-    abbreviation: 'TX',
-    metaTitle: 'Trucking Insurance in San Antonio, TX',
-    metaDescription: 'Commercial trucking insurance in San Antonio, Texas. Coverage for carriers on I-10, I-35, and I-37 corridors.',
-    heroHeading: 'San Antonio Trucking Insurance',
-    heroSubheading: 'Coverage for carriers at the crossroads of I-10 and I-35.',
-    overview: 'San Antonio sits at the junction of I-10 and I-35, making it a critical waypoint for freight moving between Mexico, the Gulf Coast, and the Midwest.',
-    sections: [
-      { heading: 'Trucking in San Antonio', content: 'San Antonio serves as a key distribution point for cross-border trade with Mexico. The city\'s military installations, manufacturing sector, and growing population fuel steady freight demand.' },
-      { heading: 'Key Corridors', content: 'I-35 runs north to Austin and Dallas and south toward Laredo. I-10 stretches east to Houston and west to El Paso. I-37 connects San Antonio to Corpus Christi and the Gulf Coast.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for cross-border routes', 'Motor truck cargo for NAFTA freight', 'Physical damage for long-haul equipment', 'Trailer interchange for intermodal operations'] },
+    "slug": "san-francisco-ca",
+    "city": "San Francisco",
+    "state": "California",
+    "stateSlug": "california",
+    "abbreviation": "CA",
+    "metaTitle": "Senior Living Insurance in San Francisco, CA",
+    "metaDescription": "Senior living insurance in San Francisco, California. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "San Francisco Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in San Francisco, CA.",
+    "overview": "San Francisco is a key market for senior living facilities in California, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in San Francisco",
+        "content": "San Francisco's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the San Francisco market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Is cross-border insurance different for San Antonio carriers?', a: 'Carriers crossing into Mexico need separate Mexican liability policies. U.S. coverage typically ends at the border.' },
-      { q: 'What corridors see the most truck traffic?', a: 'I-35 between San Antonio and Laredo is one of the heaviest truck corridors in the nation due to cross-border trade.' },
+    "faqs": [
+      {
+        "q": "What insurance do San Francisco senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the San Francisco market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for San Francisco senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'chicago-il',
-    city: 'Chicago',
-    state: 'Illinois',
-    stateSlug: 'illinois',
-    abbreviation: 'IL',
-    metaTitle: 'Trucking Insurance in Chicago, IL',
-    metaDescription: 'Commercial trucking insurance in Chicago, Illinois. Coverage for carriers on I-90, I-94, I-80, and I-55 corridors.',
-    heroHeading: 'Chicago Trucking Insurance',
-    heroSubheading: 'Insurance for carriers in America\'s freight crossroads.',
-    overview: 'Chicago is the largest intermodal hub in North America, with more rail and truck freight passing through the metro than any other U.S. city.',
-    sections: [
-      { heading: 'Trucking in Chicago', content: 'Chicago\'s central location and massive intermodal facilities make it the top freight hub in the country. Carriers serve retail distribution centers, manufacturing plants, and agricultural shippers across the region.' },
-      { heading: 'Key Corridors', content: 'I-90 and I-94 connect Chicago to Milwaukee and Detroit. I-80 runs east-west south of the city. I-55 heads to St. Louis. I-57 runs south to Memphis. I-294 and I-355 handle suburban truck traffic.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for dense urban and tollway driving', 'Physical damage for intermodal drayage trucks', 'Motor truck cargo for high-value retail freight', 'Workers compensation for warehouse cross-dock operations'] },
+    "slug": "san-jose-ca",
+    "city": "San Jose",
+    "state": "California",
+    "stateSlug": "california",
+    "abbreviation": "CA",
+    "metaTitle": "Senior Living Insurance in San Jose, CA",
+    "metaDescription": "Senior living insurance in San Jose, California. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "San Jose Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in San Jose, CA.",
+    "overview": "San Jose is a key market for senior living facilities in California, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in San Jose",
+        "content": "San Jose's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the San Jose market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Why are Chicago trucking insurance rates high?', a: 'Cook County has a plaintiff-friendly legal environment and heavy traffic congestion, both of which drive up claims costs and premiums.' },
-      { q: 'What types of freight move through Chicago?', a: 'Consumer goods, food products, automotive parts, and agricultural commodities are the largest categories.' },
+    "faqs": [
+      {
+        "q": "What insurance do San Jose senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the San Jose market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for San Jose senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'memphis-tn',
-    city: 'Memphis',
-    state: 'Tennessee',
-    stateSlug: 'tennessee',
-    abbreviation: 'TN',
-    metaTitle: 'Trucking Insurance in Memphis, TN',
-    metaDescription: 'Commercial trucking insurance in Memphis, Tennessee. Coverage for carriers on I-40, I-55, and I-240 corridors.',
-    heroHeading: 'Memphis Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in America\'s distribution center.',
-    overview: 'Memphis is a top logistics hub anchored by FedEx\'s global headquarters, major rail yards, and the busiest cargo airport in North America.',
-    sections: [
-      { heading: 'Trucking in Memphis', content: 'Memphis\'s central location and multimodal infrastructure make it a premier distribution hub. The city is home to massive warehousing complexes and serves as a transfer point between truck, rail, air, and barge freight.' },
-      { heading: 'Key Corridors', content: 'I-40 runs east to Nashville and west to Little Rock. I-55 connects Memphis to St. Louis to the north and Jackson, Mississippi to the south. I-240 and I-269 loop around the metro area.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for high-volume last-mile delivery', 'Motor truck cargo for distribution center freight', 'Physical damage for regional fleet equipment', 'General liability for warehouse operations'] },
+    "slug": "sacramento-ca",
+    "city": "Sacramento",
+    "state": "California",
+    "stateSlug": "california",
+    "abbreviation": "CA",
+    "metaTitle": "Senior Living Insurance in Sacramento, CA",
+    "metaDescription": "Senior living insurance in Sacramento, California. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Sacramento Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Sacramento, CA.",
+    "overview": "Sacramento is a key market for senior living facilities in California, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Sacramento",
+        "content": "Sacramento's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Sacramento market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Does Memphis\'s logistics density affect insurance?', a: 'Yes. High truck volumes in the warehouse districts increase accident frequency, which affects premiums.' },
-      { q: 'What makes Memphis unique for trucking?', a: 'Memphis offers truck, rail, air, and river barge connections, giving carriers flexible intermodal options.' },
+    "faqs": [
+      {
+        "q": "What insurance do Sacramento senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Sacramento market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Sacramento senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'atlanta-ga',
-    city: 'Atlanta',
-    state: 'Georgia',
-    stateSlug: 'georgia',
-    abbreviation: 'GA',
-    metaTitle: 'Trucking Insurance in Atlanta, GA',
-    metaDescription: 'Commercial trucking insurance in Atlanta, Georgia. Coverage for carriers on I-75, I-85, and I-20 corridors.',
-    heroHeading: 'Atlanta Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in the Southeast\'s busiest freight market.',
-    overview: 'Atlanta is the Southeast\'s dominant distribution hub where I-75, I-85, and I-20 converge, connecting carriers to ports, manufacturers, and consumers across the region.',
-    sections: [
-      { heading: 'Trucking in Atlanta', content: 'Atlanta\'s strategic position in the Southeast makes it a primary distribution point for consumer goods, food, and building materials. The metro area hosts hundreds of distribution centers and a thriving carrier community.' },
-      { heading: 'Key Corridors', content: 'I-75 runs north to Chattanooga and south to Macon and Florida. I-85 connects to Charlotte and Montgomery. I-20 runs east to Augusta and west to Birmingham. I-285 loops the metro.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for congested metro corridors', 'Physical damage for Southeast regional fleets', 'Motor truck cargo for retail distribution', 'Umbrella coverage for high-exposure operations'] },
+    "slug": "miami-fl",
+    "city": "Miami",
+    "state": "Florida",
+    "stateSlug": "florida",
+    "abbreviation": "FL",
+    "metaTitle": "Senior Living Insurance in Miami, FL",
+    "metaDescription": "Senior living insurance in Miami, Florida. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Miami Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Miami, FL.",
+    "overview": "Miami is a key market for senior living facilities in Florida, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Miami",
+        "content": "Miami's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Miami market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Is Georgia a tough state for trucking claims?', a: 'Georgia has seen rising nuclear verdicts in trucking cases, making adequate liability limits essential.' },
-      { q: 'What freight moves through Atlanta?', a: 'Consumer packaged goods, building materials, food and beverage, and e-commerce fulfillment are major categories.' },
+    "faqs": [
+      {
+        "q": "What insurance do Miami senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Miami market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Miami senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'los-angeles-ca',
-    city: 'Los Angeles',
-    state: 'California',
-    stateSlug: 'california',
-    abbreviation: 'CA',
-    metaTitle: 'Trucking Insurance in Los Angeles, CA',
-    metaDescription: 'Commercial trucking insurance in Los Angeles, California. Coverage for carriers on I-5, I-10, I-710, and I-405 corridors.',
-    heroHeading: 'Los Angeles Trucking Insurance',
-    heroSubheading: 'Insurance for carriers serving the nation\'s busiest port complex.',
-    overview: 'Los Angeles and its twin ports of LA and Long Beach handle more container volume than any other U.S. gateway, generating massive drayage and long-haul freight demand.',
-    sections: [
-      { heading: 'Trucking in Los Angeles', content: 'LA\'s port complex drives a huge drayage market, while the Inland Empire\'s warehouse corridor fuels regional and long-haul trucking. Carriers move imported goods, produce, and manufactured products throughout the West.' },
-      { heading: 'Key Corridors', content: 'I-710 connects the ports to rail yards and warehouses. I-5 runs north-south through the state. I-10 heads east toward San Bernardino and Phoenix. I-405 handles heavy local traffic. I-15 links to Las Vegas.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for heavy port drayage traffic', 'Motor truck cargo for containerized imports', 'Physical damage for equipment in congested corridors', 'Pollution liability for older diesel fleets under CARB rules'] },
+    "slug": "tampa-fl",
+    "city": "Tampa",
+    "state": "Florida",
+    "stateSlug": "florida",
+    "abbreviation": "FL",
+    "metaTitle": "Senior Living Insurance in Tampa, FL",
+    "metaDescription": "Senior living insurance in Tampa, Florida. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Tampa Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Tampa, FL.",
+    "overview": "Tampa is a key market for senior living facilities in Florida, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Tampa",
+        "content": "Tampa's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Tampa market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Does California regulation affect trucking insurance?', a: 'Yes. CARB emissions rules, AB5 labor classification, and strict safety enforcement all affect coverage needs and costs.' },
-      { q: 'What is port drayage insurance?', a: 'Drayage insurance covers short-haul container moves between ports, rail yards, and warehouses, typically requiring auto liability and cargo coverage.' },
+    "faqs": [
+      {
+        "q": "What insurance do Tampa senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Tampa market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Tampa senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'indianapolis-in',
-    city: 'Indianapolis',
-    state: 'Indiana',
-    stateSlug: 'indiana',
-    abbreviation: 'IN',
-    metaTitle: 'Trucking Insurance in Indianapolis, IN',
-    metaDescription: 'Commercial trucking insurance in Indianapolis, Indiana. Coverage for carriers on I-70, I-65, and I-74 corridors.',
-    heroHeading: 'Indianapolis Trucking Insurance',
-    heroSubheading: 'Coverage for carriers at the Crossroads of America.',
-    overview: 'Indianapolis lives up to Indiana\'s motto as the Crossroads of America, with I-70 and I-65 intersecting to create one of the Midwest\'s top freight distribution points.',
-    sections: [
-      { heading: 'Trucking in Indianapolis', content: 'Indianapolis is a major Midwest distribution center with large warehouse parks and a strong concentration of carriers. The city\'s central location allows single-day truck delivery to a large share of the U.S. population.' },
-      { heading: 'Key Corridors', content: 'I-70 runs east to Columbus and west to St. Louis. I-65 connects to Chicago in the north and Louisville to the south. I-74 links to Cincinnati. I-465 loops the metro area.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for Midwest regional routes', 'Motor truck cargo for distribution center loads', 'Physical damage for fleet equipment', 'Non-trucking liability for owner-operators'] },
+    "slug": "orlando-fl",
+    "city": "Orlando",
+    "state": "Florida",
+    "stateSlug": "florida",
+    "abbreviation": "FL",
+    "metaTitle": "Senior Living Insurance in Orlando, FL",
+    "metaDescription": "Senior living insurance in Orlando, Florida. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Orlando Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Orlando, FL.",
+    "overview": "Orlando is a key market for senior living facilities in Florida, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Orlando",
+        "content": "Orlando's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Orlando market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Why is Indianapolis a popular carrier base?', a: 'Its central location enables one-day delivery to roughly 75% of the U.S. population, making it cost-effective for distribution.' },
-      { q: 'What commodities move through Indianapolis?', a: 'Automotive parts, pharmaceuticals, consumer goods, and food products are major freight categories.' },
+    "faqs": [
+      {
+        "q": "What insurance do Orlando senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Orlando market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Orlando senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'columbus-oh',
-    city: 'Columbus',
-    state: 'Ohio',
-    stateSlug: 'ohio',
-    abbreviation: 'OH',
-    metaTitle: 'Trucking Insurance in Columbus, OH',
-    metaDescription: 'Commercial trucking insurance in Columbus, Ohio. Coverage for carriers on I-70, I-71, and I-270 corridors.',
-    heroHeading: 'Columbus Trucking Insurance',
-    heroSubheading: 'Insurance for carriers in Ohio\'s largest freight market.',
-    overview: 'Columbus is a fast-growing logistics hub at the junction of I-70 and I-71, with major e-commerce fulfillment centers driving freight demand.',
-    sections: [
-      { heading: 'Trucking in Columbus', content: 'Columbus has emerged as a top-tier logistics market fueled by e-commerce fulfillment centers, food distribution, and automotive supply chains. The city\'s population growth has expanded both inbound and outbound freight volumes.' },
-      { heading: 'Key Corridors', content: 'I-70 runs east to Wheeling and west to Indianapolis. I-71 connects Columbus to Cleveland and Cincinnati. I-270 circles the metro. US-33 links to the Southeast Ohio corridor.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for regional delivery routes', 'Motor truck cargo for e-commerce fulfillment', 'Physical damage for last-mile delivery fleets', 'Workers compensation for warehouse operations'] },
+    "slug": "jacksonville-fl",
+    "city": "Jacksonville",
+    "state": "Florida",
+    "stateSlug": "florida",
+    "abbreviation": "FL",
+    "metaTitle": "Senior Living Insurance in Jacksonville, FL",
+    "metaDescription": "Senior living insurance in Jacksonville, Florida. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Jacksonville Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Jacksonville, FL.",
+    "overview": "Jacksonville is a key market for senior living facilities in Florida, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Jacksonville",
+        "content": "Jacksonville's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Jacksonville market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Why has Columbus grown as a freight hub?', a: 'Major investments from Amazon, retail chains, and food distributors have made Columbus one of the fastest-growing logistics markets.' },
-      { q: 'What insurance challenges exist in Ohio?', a: 'Ohio\'s winter weather increases accident risk from November through March, affecting claims frequency.' },
+    "faqs": [
+      {
+        "q": "What insurance do Jacksonville senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Jacksonville market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Jacksonville senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'louisville-ky',
-    city: 'Louisville',
-    state: 'Kentucky',
-    stateSlug: 'kentucky',
-    abbreviation: 'KY',
-    metaTitle: 'Trucking Insurance in Louisville, KY',
-    metaDescription: 'Commercial trucking insurance in Louisville, Kentucky. Coverage for carriers on I-65, I-64, and I-71 corridors.',
-    heroHeading: 'Louisville Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in the UPS Worldport region.',
-    overview: 'Louisville is a premier logistics city anchored by UPS Worldport, strong bourbon and manufacturing freight, and a central location on the Ohio River.',
-    sections: [
-      { heading: 'Trucking in Louisville', content: 'Louisville\'s logistics ecosystem revolves around UPS Worldport, the world\'s largest automated package-handling facility. The city also serves bourbon distilleries, automotive plants, and consumer goods distribution.' },
-      { heading: 'Key Corridors', content: 'I-65 runs north to Indianapolis and south to Nashville. I-64 connects to Lexington and St. Louis. I-71 heads northeast to Cincinnati and Columbus. I-265 circles the metro.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for regional and long-haul routes', 'Motor truck cargo for high-value package freight', 'Physical damage for fleet vehicles', 'Non-trucking liability for independent contractors'] },
+    "slug": "fort-lauderdale-fl",
+    "city": "Fort Lauderdale",
+    "state": "Florida",
+    "stateSlug": "florida",
+    "abbreviation": "FL",
+    "metaTitle": "Senior Living Insurance in Fort Lauderdale, FL",
+    "metaDescription": "Senior living insurance in Fort Lauderdale, Florida. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Fort Lauderdale Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Fort Lauderdale, FL.",
+    "overview": "Fort Lauderdale is a key market for senior living facilities in Florida, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Fort Lauderdale",
+        "content": "Fort Lauderdale's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Fort Lauderdale market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'How does UPS affect Louisville\'s trucking market?', a: 'UPS Worldport generates enormous demand for drayage, LTL, and last-mile carriers in the Louisville area.' },
-      { q: 'Is Kentucky a no-fault insurance state?', a: 'Kentucky uses a choice no-fault system for personal auto, but commercial trucking follows standard liability rules.' },
+    "faqs": [
+      {
+        "q": "What insurance do Fort Lauderdale senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Fort Lauderdale market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Fort Lauderdale senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'nashville-tn',
-    city: 'Nashville',
-    state: 'Tennessee',
-    stateSlug: 'tennessee',
-    abbreviation: 'TN',
-    metaTitle: 'Trucking Insurance in Nashville, TN',
-    metaDescription: 'Commercial trucking insurance in Nashville, Tennessee. Coverage for carriers on I-40, I-65, and I-24 corridors.',
-    heroHeading: 'Nashville Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in Middle Tennessee\'s growing freight market.',
-    overview: 'Nashville sits at the intersection of I-40, I-65, and I-24, making it a central distribution point for the Southeast and Midwest.',
-    sections: [
-      { heading: 'Trucking in Nashville', content: 'Nashville\'s rapid population and economic growth have boosted freight demand, particularly in construction materials, healthcare products, and consumer goods. The city is home to several major carrier headquarters.' },
-      { heading: 'Key Corridors', content: 'I-40 runs east to Knoxville and west to Memphis. I-65 connects to Louisville in the north and Birmingham to the south. I-24 links Nashville to Chattanooga and St. Louis.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for Southeast regional lanes', 'Motor truck cargo for healthcare and consumer freight', 'Physical damage for growing fleets', 'Occupational accident for owner-operators'] },
+    "slug": "sarasota-fl",
+    "city": "Sarasota",
+    "state": "Florida",
+    "stateSlug": "florida",
+    "abbreviation": "FL",
+    "metaTitle": "Senior Living Insurance in Sarasota, FL",
+    "metaDescription": "Senior living insurance in Sarasota, Florida. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Sarasota Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Sarasota, FL.",
+    "overview": "Sarasota is a key market for senior living facilities in Florida, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Sarasota",
+        "content": "Sarasota's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Sarasota market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Is Nashville a good base for trucking companies?', a: 'Yes. Nashville\'s central location provides efficient access to Southeast, Midwest, and Gulf Coast markets.' },
-      { q: 'What risks do Nashville carriers face?', a: 'Severe weather including tornadoes and ice storms can disrupt operations, especially along I-24 and I-40.' },
+    "faqs": [
+      {
+        "q": "What insurance do Sarasota senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Sarasota market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Sarasota senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'kansas-city-mo',
-    city: 'Kansas City',
-    state: 'Missouri',
-    stateSlug: 'missouri',
-    abbreviation: 'MO',
-    metaTitle: 'Trucking Insurance in Kansas City, MO',
-    metaDescription: 'Commercial trucking insurance in Kansas City, Missouri. Coverage for carriers on I-70, I-35, and I-29 corridors.',
-    heroHeading: 'Kansas City Trucking Insurance',
-    heroSubheading: 'Insurance for carriers at the center of the national highway grid.',
-    overview: 'Kansas City is a major intermodal and trucking hub where I-70 and I-35 cross, providing efficient access to markets in every direction.',
-    sections: [
-      { heading: 'Trucking in Kansas City', content: 'Kansas City is one of the nation\'s top intermodal centers with major rail yards operated by BNSF and Union Pacific. Trucking activity supports agricultural exports, automotive manufacturing, and consumer goods distribution.' },
-      { heading: 'Key Corridors', content: 'I-70 runs east to St. Louis and west to Denver. I-35 connects to Des Moines in the north and Wichita to the south. I-29 heads north to Omaha and the Dakotas. I-435 and I-635 serve metro freight traffic.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for long-haul and regional routes', 'Motor truck cargo for agricultural and manufactured goods', 'Physical damage for intermodal drayage fleets', 'Trailer interchange coverage for rail yard operations'] },
+    "slug": "naples-fl",
+    "city": "Naples",
+    "state": "Florida",
+    "stateSlug": "florida",
+    "abbreviation": "FL",
+    "metaTitle": "Senior Living Insurance in Naples, FL",
+    "metaDescription": "Senior living insurance in Naples, Florida. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Naples Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Naples, FL.",
+    "overview": "Naples is a key market for senior living facilities in Florida, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Naples",
+        "content": "Naples's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Naples market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Why do many carriers base in Kansas City?', a: 'The city offers central geography, affordable operating costs, and excellent rail and highway infrastructure.' },
-      { q: 'Does Kansas City\'s weather affect trucking insurance?', a: 'Yes. Ice storms and severe winter weather along I-70 and I-35 increase seasonal accident risk.' },
+    "faqs": [
+      {
+        "q": "What insurance do Naples senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Naples market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Naples senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'laredo-tx',
-    city: 'Laredo',
-    state: 'Texas',
-    stateSlug: 'texas',
-    abbreviation: 'TX',
-    metaTitle: 'Trucking Insurance in Laredo, TX',
-    metaDescription: 'Commercial trucking insurance in Laredo, Texas. Coverage for carriers on I-35 and the U.S.-Mexico border crossing.',
-    heroHeading: 'Laredo Trucking Insurance',
-    heroSubheading: 'Coverage for carriers at the busiest U.S.-Mexico border crossing.',
-    overview: 'Laredo is the number-one U.S. land port for trade with Mexico, with more truck crossings than any other border city.',
-    sections: [
-      { heading: 'Trucking in Laredo', content: 'Laredo handles more international trade by truck than any other U.S. border city. Carriers here move automotive parts, produce, electronics, and manufactured goods between Mexico and destinations throughout the U.S.' },
-      { heading: 'Key Corridors', content: 'I-35 is the primary artery running north from Laredo to San Antonio, Dallas, and beyond. US-83 runs along the border. Mexican Highway 85 connects to Monterrey on the south side.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for cross-border operations', 'Motor truck cargo for international shipments', 'Customs bond coverage for border freight', 'Physical damage for equipment in heavy-use corridors'] },
+    "slug": "boca-raton-fl",
+    "city": "Boca Raton",
+    "state": "Florida",
+    "stateSlug": "florida",
+    "abbreviation": "FL",
+    "metaTitle": "Senior Living Insurance in Boca Raton, FL",
+    "metaDescription": "Senior living insurance in Boca Raton, Florida. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Boca Raton Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Boca Raton, FL.",
+    "overview": "Boca Raton is a key market for senior living facilities in Florida, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Boca Raton",
+        "content": "Boca Raton's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Boca Raton market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Do carriers need Mexican insurance to cross the border?', a: 'Yes. U.S. policies do not cover operations in Mexico. A separate Mexican liability policy is required.' },
-      { q: 'What are common Laredo freight types?', a: 'Automotive parts, fresh produce, electronics, and consumer goods dominate cross-border truck traffic.' },
+    "faqs": [
+      {
+        "q": "What insurance do Boca Raton senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Boca Raton market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Boca Raton senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'el-paso-tx',
-    city: 'El Paso',
-    state: 'Texas',
-    stateSlug: 'texas',
-    abbreviation: 'TX',
-    metaTitle: 'Trucking Insurance in El Paso, TX',
-    metaDescription: 'Commercial trucking insurance in El Paso, Texas. Coverage for carriers on I-10 and the U.S.-Mexico border.',
-    heroHeading: 'El Paso Trucking Insurance',
-    heroSubheading: 'Insurance for carriers at the western Texas border crossing.',
-    overview: 'El Paso is a major U.S.-Mexico trade gateway on I-10, connecting cross-border manufacturing freight with markets across the Southwest and beyond.',
-    sections: [
-      { heading: 'Trucking in El Paso', content: 'El Paso and its sister city Ciudad Juarez form one of the largest binational manufacturing zones in the world. Maquiladora output drives heavy truck traffic across the international bridges daily.' },
-      { heading: 'Key Corridors', content: 'I-10 is the main highway running east to San Antonio and west to Tucson and Los Angeles. US-54 heads north to Alamogordo. US-85 connects south to the border crossings. I-25 begins nearby in Las Cruces.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for border and long-haul routes', 'Motor truck cargo for maquiladora freight', 'Physical damage for desert highway operations', 'Non-trucking liability for independent operators'] },
+    "slug": "houston-tx",
+    "city": "Houston",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "abbreviation": "TX",
+    "metaTitle": "Senior Living Insurance in Houston, TX",
+    "metaDescription": "Senior living insurance in Houston, Texas. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Houston Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Houston, TX.",
+    "overview": "Houston is a key market for senior living facilities in Texas, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Houston",
+        "content": "Houston's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Houston market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'What freight moves through El Paso?', a: 'Electronics, automotive components, textiles, and food products are the primary commodities crossing the border here.' },
-      { q: 'Are El Paso insurance rates affected by border operations?', a: 'Cross-border complexity and high truck volumes at the ports of entry can influence rates for carriers based here.' },
+    "faqs": [
+      {
+        "q": "What insurance do Houston senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Houston market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Houston senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'jacksonville-fl',
-    city: 'Jacksonville',
-    state: 'Florida',
-    stateSlug: 'florida',
-    abbreviation: 'FL',
-    metaTitle: 'Trucking Insurance in Jacksonville, FL',
-    metaDescription: 'Commercial trucking insurance in Jacksonville, Florida. Coverage for carriers on I-95, I-10, and I-295 corridors.',
-    heroHeading: 'Jacksonville Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in Northeast Florida\'s port and logistics hub.',
-    overview: 'Jacksonville combines a deep-water port with intersecting interstates to serve as a gateway for freight entering and leaving Florida.',
-    sections: [
-      { heading: 'Trucking in Jacksonville', content: 'Jacksonville\'s JAXPORT handles automobiles, containers, and bulk cargo, generating strong drayage demand. The city also serves as a distribution hub for freight destined throughout the Florida peninsula.' },
-      { heading: 'Key Corridors', content: 'I-95 runs north to Savannah and south to Miami. I-10 heads west to Tallahassee and beyond. I-295 loops the metro. US-301 and US-1 provide secondary routes.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for I-95 corridor operations', 'Motor truck cargo for port drayage', 'Physical damage for auto-hauler fleets', 'General liability for intermodal operations'] },
+    "slug": "dallas-tx",
+    "city": "Dallas",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "abbreviation": "TX",
+    "metaTitle": "Senior Living Insurance in Dallas, TX",
+    "metaDescription": "Senior living insurance in Dallas, Texas. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Dallas Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Dallas, TX.",
+    "overview": "Dallas is a key market for senior living facilities in Texas, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Dallas",
+        "content": "Dallas's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Dallas market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Is Florida a high-cost state for trucking insurance?', a: 'Florida has elevated insurance costs due to high traffic density, hurricane exposure, and an active litigation environment.' },
-      { q: 'What makes Jacksonville important for trucking?', a: 'It is the primary freight gateway into Florida and one of the top vehicle-import ports in the nation.' },
+    "faqs": [
+      {
+        "q": "What insurance do Dallas senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Dallas market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Dallas senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'charlotte-nc',
-    city: 'Charlotte',
-    state: 'North Carolina',
-    stateSlug: 'north-carolina',
-    abbreviation: 'NC',
-    metaTitle: 'Trucking Insurance in Charlotte, NC',
-    metaDescription: 'Commercial trucking insurance in Charlotte, North Carolina. Coverage for carriers on I-85, I-77, and I-485 corridors.',
-    heroHeading: 'Charlotte Trucking Insurance',
-    heroSubheading: 'Insurance for carriers in the Carolina Piedmont freight market.',
-    overview: 'Charlotte is the largest city in the Carolinas and a growing distribution hub along the I-85 corridor between Atlanta and the Northeast.',
-    sections: [
-      { heading: 'Trucking in Charlotte', content: 'Charlotte\'s position on the I-85 corridor and growing metro population have attracted major distribution centers. The city serves manufacturing, food distribution, and e-commerce fulfillment operations.' },
-      { heading: 'Key Corridors', content: 'I-85 connects Charlotte to Atlanta and the Piedmont Triad. I-77 runs north to Virginia and south to Columbia, SC. I-485 loops the metro. I-40 is accessible via Greensboro to the north.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for I-85 regional lanes', 'Motor truck cargo for manufacturing freight', 'Physical damage for fleet equipment', 'Umbrella coverage for higher liability limits'] },
+    "slug": "san-antonio-tx",
+    "city": "San Antonio",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "abbreviation": "TX",
+    "metaTitle": "Senior Living Insurance in San Antonio, TX",
+    "metaDescription": "Senior living insurance in San Antonio, Texas. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "San Antonio Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in San Antonio, TX.",
+    "overview": "San Antonio is a key market for senior living facilities in Texas, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in San Antonio",
+        "content": "San Antonio's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the San Antonio market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'What industries drive Charlotte trucking demand?', a: 'Manufacturing, financial services support, food distribution, and e-commerce fulfillment generate significant freight volumes.' },
-      { q: 'How does North Carolina regulate trucking insurance?', a: 'North Carolina requires minimum liability coverage and has specific filing requirements for intrastate carriers.' },
+    "faqs": [
+      {
+        "q": "What insurance do San Antonio senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the San Antonio market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for San Antonio senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'fort-worth-tx',
-    city: 'Fort Worth',
-    state: 'Texas',
-    stateSlug: 'texas',
-    abbreviation: 'TX',
-    metaTitle: 'Trucking Insurance in Fort Worth, TX',
-    metaDescription: 'Commercial trucking insurance in Fort Worth, Texas. Coverage for carriers on I-35W, I-30, and I-20 corridors.',
-    heroHeading: 'Fort Worth Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in the western DFW metroplex.',
-    overview: 'Fort Worth anchors the western side of the Dallas-Fort Worth metroplex, with strong freight ties to energy, agriculture, and manufacturing industries.',
-    sections: [
-      { heading: 'Trucking in Fort Worth', content: 'Fort Worth serves as a hub for energy-sector trucking, livestock transport, and general freight distribution. The BNSF Railway headquarters and Alliance Global Logistics Hub drive intermodal activity.' },
-      { heading: 'Key Corridors', content: 'I-35W runs north to Denton and south to Waco. I-30 connects to Dallas. I-20 runs east-west. TX-170 and TX-121 serve the Alliance logistics corridor north of the city.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for metro and regional operations', 'Motor truck cargo for energy and agricultural freight', 'Physical damage for oilfield service equipment', 'Occupational accident for owner-operators'] },
+    "slug": "austin-tx",
+    "city": "Austin",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "abbreviation": "TX",
+    "metaTitle": "Senior Living Insurance in Austin, TX",
+    "metaDescription": "Senior living insurance in Austin, Texas. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Austin Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Austin, TX.",
+    "overview": "Austin is a key market for senior living facilities in Texas, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Austin",
+        "content": "Austin's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Austin market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'How is Fort Worth different from Dallas for trucking?', a: 'Fort Worth has a stronger concentration of energy, agriculture, and intermodal freight compared to Dallas\'s retail and consumer goods focus.' },
-      { q: 'What is the Alliance corridor?', a: 'AllianceTexas is a massive inland port and logistics hub north of Fort Worth with integrated air, rail, and truck facilities.' },
+    "faqs": [
+      {
+        "q": "What insurance do Austin senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Austin market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Austin senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'st-louis-mo',
-    city: 'St. Louis',
-    state: 'Missouri',
-    stateSlug: 'missouri',
-    abbreviation: 'MO',
-    metaTitle: 'Trucking Insurance in St. Louis, MO',
-    metaDescription: 'Commercial trucking insurance in St. Louis, Missouri. Coverage for carriers on I-70, I-64, I-55, and I-44 corridors.',
-    heroHeading: 'St. Louis Trucking Insurance',
-    heroSubheading: 'Insurance for carriers at the Gateway to the West.',
-    overview: 'St. Louis sits at the confluence of the Missouri and Mississippi Rivers with four major interstates converging, making it a natural freight crossroads.',
-    sections: [
-      { heading: 'Trucking in St. Louis', content: 'St. Louis serves as a key distribution center for the central U.S. The metro area\'s manufacturing base, river port, and rail connections support a diverse carrier community hauling automotive, food, and chemical products.' },
-      { heading: 'Key Corridors', content: 'I-70 runs east to Indianapolis and west to Kansas City. I-64 heads east to Louisville. I-55 connects to Memphis in the south and Chicago in the north. I-44 runs southwest to Tulsa and Oklahoma City.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for multi-state regional routes', 'Motor truck cargo for manufacturing freight', 'Physical damage for fleet vehicles', 'Pollution liability for chemical haulers'] },
+    "slug": "fort-worth-tx",
+    "city": "Fort Worth",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "abbreviation": "TX",
+    "metaTitle": "Senior Living Insurance in Fort Worth, TX",
+    "metaDescription": "Senior living insurance in Fort Worth, Texas. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Fort Worth Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Fort Worth, TX.",
+    "overview": "Fort Worth is a key market for senior living facilities in Texas, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Fort Worth",
+        "content": "Fort Worth's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Fort Worth market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Does the Missouri-Illinois border affect insurance?', a: 'Carriers operating in both states need to meet each state\'s regulatory and insurance filing requirements.' },
-      { q: 'What freight originates in St. Louis?', a: 'Automotive parts, beer and beverages, chemicals, and food products are major outbound commodities.' },
+    "faqs": [
+      {
+        "q": "What insurance do Fort Worth senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Fort Worth market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Fort Worth senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'detroit-mi',
-    city: 'Detroit',
-    state: 'Michigan',
-    stateSlug: 'michigan',
-    abbreviation: 'MI',
-    metaTitle: 'Trucking Insurance in Detroit, MI',
-    metaDescription: 'Commercial trucking insurance in Detroit, Michigan. Coverage for carriers on I-75, I-94, I-96, and the Ambassador Bridge corridor.',
-    heroHeading: 'Detroit Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in the automotive capital and cross-border trade hub.',
-    overview: 'Detroit is the center of the U.S. automotive industry and the busiest commercial border crossing with Canada, driving heavy freight volumes.',
-    sections: [
-      { heading: 'Trucking in Detroit', content: 'Detroit\'s trucking market revolves around automotive manufacturing, with carriers moving parts and finished vehicles between plants, suppliers, and dealers. The Ambassador Bridge and Detroit-Windsor Tunnel handle enormous cross-border trade with Canada.' },
-      { heading: 'Key Corridors', content: 'I-75 runs north through Michigan and south to Toledo and Cincinnati. I-94 connects to Chicago and Ann Arbor. I-96 heads west to Grand Rapids. I-275 and M-10 handle metro freight traffic.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for just-in-time automotive routes', 'Motor truck cargo for high-value auto parts', 'Physical damage for specialized car-hauler equipment', 'Cross-border coverage for U.S.-Canada operations'] },
+    "slug": "new-york-city-ny",
+    "city": "New York City",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "abbreviation": "NY",
+    "metaTitle": "Senior Living Insurance in New York City, NY",
+    "metaDescription": "Senior living insurance in New York City, New York. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "New York City Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in New York City, NY.",
+    "overview": "New York City is a key market for senior living facilities in New York, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in New York City",
+        "content": "New York City's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the New York City market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Does Michigan no-fault law affect trucking insurance?', a: 'Michigan\'s no-fault system applies to personal auto. Commercial trucking follows federal liability requirements, though Michigan-specific rules can affect costs.' },
-      { q: 'What is the Gordie Howe Bridge?', a: 'The Gordie Howe International Bridge is a new crossing between Detroit and Windsor that will increase cross-border trucking capacity.' },
+    "faqs": [
+      {
+        "q": "What insurance do New York City senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the New York City market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for New York City senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'phoenix-az',
-    city: 'Phoenix',
-    state: 'Arizona',
-    stateSlug: 'arizona',
-    abbreviation: 'AZ',
-    metaTitle: 'Trucking Insurance in Phoenix, AZ',
-    metaDescription: 'Commercial trucking insurance in Phoenix, Arizona. Coverage for carriers on I-10, I-17, and I-40 corridors.',
-    heroHeading: 'Phoenix Trucking Insurance',
-    heroSubheading: 'Insurance for carriers in the fastest-growing Southwest freight market.',
-    overview: 'Phoenix is the Southwest\'s largest metro area, with rapid population growth driving construction, consumer goods, and produce freight demand.',
-    sections: [
-      { heading: 'Trucking in Phoenix', content: 'Phoenix\'s booming population fuels demand for construction materials, consumer goods, and food products. The city serves as a distribution hub for Arizona and a transfer point between California, Texas, and Mexico.' },
-      { heading: 'Key Corridors', content: 'I-10 runs east to Tucson and west to Los Angeles. I-17 heads north to Flagstaff and connects to I-40. Loop 101, Loop 202, and Loop 303 carry heavy metro truck traffic.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for desert long-haul routes', 'Physical damage for heat-exposed equipment', 'Motor truck cargo for construction materials', 'Non-trucking liability for owner-operators'] },
+    "slug": "buffalo-ny",
+    "city": "Buffalo",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "abbreviation": "NY",
+    "metaTitle": "Senior Living Insurance in Buffalo, NY",
+    "metaDescription": "Senior living insurance in Buffalo, New York. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Buffalo Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Buffalo, NY.",
+    "overview": "Buffalo is a key market for senior living facilities in New York, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Buffalo",
+        "content": "Buffalo's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Buffalo market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Does desert heat affect trucking insurance?', a: 'Extreme heat causes tire blowouts and mechanical failures, which can increase claims and affect premiums.' },
-      { q: 'What freight moves through Phoenix?', a: 'Construction materials, produce from Nogales, consumer goods, and electronics are major categories.' },
+    "faqs": [
+      {
+        "q": "What insurance do Buffalo senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Buffalo market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Buffalo senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'denver-co',
-    city: 'Denver',
-    state: 'Colorado',
-    stateSlug: 'colorado',
-    abbreviation: 'CO',
-    metaTitle: 'Trucking Insurance in Denver, CO',
-    metaDescription: 'Commercial trucking insurance in Denver, Colorado. Coverage for carriers on I-25, I-70, and I-76 corridors.',
-    heroHeading: 'Denver Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in the Rocky Mountain freight hub.',
-    overview: 'Denver is the primary distribution center for the Rocky Mountain region, sitting at the junction of I-25 and I-70.',
-    sections: [
-      { heading: 'Trucking in Denver', content: 'Denver serves as the distribution gateway for Colorado, Wyoming, and surrounding mountain states. Carriers handle consumer goods, energy equipment, agricultural products, and construction materials for the growing Front Range population.' },
-      { heading: 'Key Corridors', content: 'I-25 runs north to Cheyenne and south to Colorado Springs and Albuquerque. I-70 heads east to Kansas and west through the Eisenhower Tunnel to the Western Slope. I-76 connects to Nebraska. E-470 serves metro freight.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for mountain and plains routes', 'Physical damage for high-altitude and winter conditions', 'Motor truck cargo for energy and agricultural freight', 'Reefer breakdown coverage for temperature-controlled loads'] },
+    "slug": "rochester-ny",
+    "city": "Rochester",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "abbreviation": "NY",
+    "metaTitle": "Senior Living Insurance in Rochester, NY",
+    "metaDescription": "Senior living insurance in Rochester, New York. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Rochester Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Rochester, NY.",
+    "overview": "Rochester is a key market for senior living facilities in New York, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Rochester",
+        "content": "Rochester's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Rochester market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'How does mountain driving affect insurance?', a: 'Steep grades on I-70 increase brake failures and runaway truck incidents, leading to higher premiums for mountain route carriers.' },
-      { q: 'What are Denver\'s key freight industries?', a: 'Energy, agriculture, craft brewing, technology, and construction drive the region\'s trucking demand.' },
+    "faqs": [
+      {
+        "q": "What insurance do Rochester senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Rochester market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Rochester senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'san-bernardino-ca',
-    city: 'San Bernardino',
-    state: 'California',
-    stateSlug: 'california',
-    abbreviation: 'CA',
-    metaTitle: 'Trucking Insurance in San Bernardino, CA',
-    metaDescription: 'Commercial trucking insurance in San Bernardino, California. Coverage for carriers on I-10, I-15, and I-215 corridors.',
-    heroHeading: 'San Bernardino Trucking Insurance',
-    heroSubheading: 'Insurance for carriers in the Inland Empire warehouse corridor.',
-    overview: 'San Bernardino is the heart of the Inland Empire, the nation\'s largest warehouse and distribution market, handling goods flowing from the ports of Los Angeles and Long Beach.',
-    sections: [
-      { heading: 'Trucking in San Bernardino', content: 'The Inland Empire contains over one billion square feet of warehouse space, making San Bernardino ground zero for goods distribution in the western U.S. Carriers here handle everything from port drayage to last-mile delivery.' },
-      { heading: 'Key Corridors', content: 'I-10 connects to Los Angeles and Palm Springs. I-15 runs north to Barstow and Las Vegas and south to San Diego via I-215. SR-210 and SR-60 handle local distribution traffic.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for high-density warehouse district driving', 'Motor truck cargo for consumer goods distribution', 'Physical damage for drayage and delivery fleets', 'Workers compensation for loading dock operations'] },
+    "slug": "albany-ny",
+    "city": "Albany",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "abbreviation": "NY",
+    "metaTitle": "Senior Living Insurance in Albany, NY",
+    "metaDescription": "Senior living insurance in Albany, New York. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Albany Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Albany, NY.",
+    "overview": "Albany is a key market for senior living facilities in New York, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Albany",
+        "content": "Albany's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Albany market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Why is San Bernardino so important for trucking?', a: 'It is the primary inland distribution point for containerized imports arriving at the LA-Long Beach port complex.' },
-      { q: 'Do CARB rules affect carriers here?', a: 'Yes. California\'s Air Resources Board regulations require cleaner trucks and can affect equipment and insurance costs.' },
+    "faqs": [
+      {
+        "q": "What insurance do Albany senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Albany market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Albany senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'savannah-ga',
-    city: 'Savannah',
-    state: 'Georgia',
-    stateSlug: 'georgia',
-    abbreviation: 'GA',
-    metaTitle: 'Trucking Insurance in Savannah, GA',
-    metaDescription: 'Commercial trucking insurance in Savannah, Georgia. Coverage for carriers on I-16, I-95, and port drayage routes.',
-    heroHeading: 'Savannah Trucking Insurance',
-    heroSubheading: 'Coverage for carriers serving the fastest-growing U.S. container port.',
-    overview: 'Savannah\'s Port of Savannah is one of the fastest-growing container ports in the U.S., generating massive drayage and regional trucking demand.',
-    sections: [
-      { heading: 'Trucking in Savannah', content: 'The Georgia Ports Authority\'s Garden City Terminal has expanded rapidly, drawing distribution centers and carriers to the Savannah area. Truck drayage connects the port to inland markets throughout the Southeast.' },
-      { heading: 'Key Corridors', content: 'I-16 connects Savannah to Macon and Atlanta. I-95 runs north to Charleston and south to Jacksonville. US-17 and US-80 serve local port access routes.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for port drayage operations', 'Motor truck cargo for containerized imports', 'Physical damage for chassis and container equipment', 'General liability for warehouse and cross-dock work'] },
+    "slug": "white-plains-ny",
+    "city": "White Plains",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "abbreviation": "NY",
+    "metaTitle": "Senior Living Insurance in White Plains, NY",
+    "metaDescription": "Senior living insurance in White Plains, New York. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "White Plains Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in White Plains, NY.",
+    "overview": "White Plains is a key market for senior living facilities in New York, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in White Plains",
+        "content": "White Plains's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the White Plains market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'What type of insurance do port drayage carriers need?', a: 'Drayage carriers need auto liability, motor truck cargo, and often trailer interchange coverage for port chassis.' },
-      { q: 'Is Savannah\'s port still growing?', a: 'Yes. Savannah has been one of the fastest-growing container ports in the country, with ongoing terminal expansion.' },
+    "faqs": [
+      {
+        "q": "What insurance do White Plains senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the White Plains market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for White Plains senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'norfolk-va',
-    city: 'Norfolk',
-    state: 'Virginia',
-    stateSlug: 'virginia',
-    abbreviation: 'VA',
-    metaTitle: 'Trucking Insurance in Norfolk, VA',
-    metaDescription: 'Commercial trucking insurance in Norfolk, Virginia. Coverage for carriers on I-64, I-264, and Port of Virginia routes.',
-    heroHeading: 'Norfolk Trucking Insurance',
-    heroSubheading: 'Insurance for carriers serving the Port of Virginia.',
-    overview: 'Norfolk is home to the Port of Virginia, one of the deepest natural harbors on the East Coast, handling significant container and military freight.',
-    sections: [
-      { heading: 'Trucking in Norfolk', content: 'The Port of Virginia\'s deep-water terminals in Norfolk and Portsmouth serve as a major East Coast import-export gateway. Carriers move containers, military supplies, and agricultural exports through the Hampton Roads region.' },
-      { heading: 'Key Corridors', content: 'I-64 connects Norfolk to Richmond and beyond. I-264 runs through the Norfolk-Virginia Beach metro. US-460 heads west to the Appalachian region. The Hampton Roads Bridge-Tunnel and Monitor-Merrimac Bridge-Tunnel are key chokepoints.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for port drayage and regional lanes', 'Motor truck cargo for import-export freight', 'Physical damage for port equipment', 'Umbrella coverage for military contract haulers'] },
+    "slug": "philadelphia-pa",
+    "city": "Philadelphia",
+    "state": "Pennsylvania",
+    "stateSlug": "pennsylvania",
+    "abbreviation": "PA",
+    "metaTitle": "Senior Living Insurance in Philadelphia, PA",
+    "metaDescription": "Senior living insurance in Philadelphia, Pennsylvania. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Philadelphia Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Philadelphia, PA.",
+    "overview": "Philadelphia is a key market for senior living facilities in Pennsylvania, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Philadelphia",
+        "content": "Philadelphia's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Philadelphia market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'What makes Norfolk unique for trucking?', a: 'Norfolk\'s deep harbor accommodates the largest container ships, and the adjacent military bases generate specialized freight demand.' },
-      { q: 'Are there congestion issues for carriers?', a: 'Bridge-tunnel crossings can cause delays, especially during peak traffic hours and summer tourist season.' },
+    "faqs": [
+      {
+        "q": "What insurance do Philadelphia senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Philadelphia market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Philadelphia senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'seattle-wa',
-    city: 'Seattle',
-    state: 'Washington',
-    stateSlug: 'washington',
-    abbreviation: 'WA',
-    metaTitle: 'Trucking Insurance in Seattle, WA',
-    metaDescription: 'Commercial trucking insurance in Seattle, Washington. Coverage for carriers on I-5, I-90, and I-405 corridors.',
-    heroHeading: 'Seattle Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in the Pacific Northwest\'s busiest freight market.',
-    overview: 'Seattle\'s port complex and tech-driven economy make it the Pacific Northwest\'s top freight hub, with strong ties to Asian trade routes.',
-    sections: [
-      { heading: 'Trucking in Seattle', content: 'The ports of Seattle and Tacoma form the Northwest Seaport Alliance, a major gateway for Asian imports. Carriers serve port drayage, tech industry distribution, agricultural exports, and timber products.' },
-      { heading: 'Key Corridors', content: 'I-5 is the primary north-south artery connecting to Portland and Vancouver, BC. I-90 heads east across the Cascades to Spokane. I-405 runs through the Eastside suburbs. SR-167 and SR-18 serve the port and warehouse districts.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for port and urban routes', 'Motor truck cargo for containerized Asian imports', 'Physical damage for equipment in wet conditions', 'Environmental liability for timber and ag haulers'] },
+    "slug": "pittsburgh-pa",
+    "city": "Pittsburgh",
+    "state": "Pennsylvania",
+    "stateSlug": "pennsylvania",
+    "abbreviation": "PA",
+    "metaTitle": "Senior Living Insurance in Pittsburgh, PA",
+    "metaDescription": "Senior living insurance in Pittsburgh, Pennsylvania. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Pittsburgh Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Pittsburgh, PA.",
+    "overview": "Pittsburgh is a key market for senior living facilities in Pennsylvania, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Pittsburgh",
+        "content": "Pittsburgh's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Pittsburgh market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'How does Washington state regulate trucking?', a: 'Washington has weight and size restrictions, particularly on mountain passes, and requires state-specific permits for oversize loads.' },
-      { q: 'Does Seattle rain affect trucking insurance?', a: 'Wet roads year-round increase accident risk, which insurers factor into Pacific Northwest premiums.' },
+    "faqs": [
+      {
+        "q": "What insurance do Pittsburgh senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Pittsburgh market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Pittsburgh senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'portland-or',
-    city: 'Portland',
-    state: 'Oregon',
-    stateSlug: 'oregon',
-    abbreviation: 'OR',
-    metaTitle: 'Trucking Insurance in Portland, OR',
-    metaDescription: 'Commercial trucking insurance in Portland, Oregon. Coverage for carriers on I-5, I-84, and I-205 corridors.',
-    heroHeading: 'Portland Trucking Insurance',
-    heroSubheading: 'Insurance for carriers in the Columbia River freight corridor.',
-    overview: 'Portland sits at the confluence of the Willamette and Columbia Rivers with access to I-5 and I-84, serving as a key Pacific Northwest distribution point.',
-    sections: [
-      { heading: 'Trucking in Portland', content: 'Portland\'s port facilities, rail yards, and interstate access support a diverse freight market including agricultural exports, timber products, tech components, and consumer goods for the Pacific Northwest.' },
-      { heading: 'Key Corridors', content: 'I-5 runs north to Seattle and south to Salem and Eugene. I-84 heads east along the Columbia Gorge to Boise. I-205 loops east of the metro. I-405 runs through downtown.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for I-5 corridor operations', 'Motor truck cargo for agricultural and timber freight', 'Physical damage for equipment on mountain routes', 'Reefer breakdown for temperature-controlled produce loads'] },
+    "slug": "allentown-pa",
+    "city": "Allentown",
+    "state": "Pennsylvania",
+    "stateSlug": "pennsylvania",
+    "abbreviation": "PA",
+    "metaTitle": "Senior Living Insurance in Allentown, PA",
+    "metaDescription": "Senior living insurance in Allentown, Pennsylvania. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Allentown Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Allentown, PA.",
+    "overview": "Allentown is a key market for senior living facilities in Pennsylvania, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Allentown",
+        "content": "Allentown's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Allentown market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'What commodities move through Portland?', a: 'Wheat, timber, potatoes, tech components, and containerized goods are major commodities.' },
-      { q: 'Does Oregon have special trucking regulations?', a: 'Oregon uses a weight-mile tax instead of fuel tax for heavy trucks, and has specific environmental requirements.' },
+    "faqs": [
+      {
+        "q": "What insurance do Allentown senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Allentown market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Allentown senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'las-vegas-nv',
-    city: 'Las Vegas',
-    state: 'Nevada',
-    stateSlug: 'nevada',
-    abbreviation: 'NV',
-    metaTitle: 'Trucking Insurance in Las Vegas, NV',
-    metaDescription: 'Commercial trucking insurance in Las Vegas, Nevada. Coverage for carriers on I-15, I-11, and US-95 corridors.',
-    heroHeading: 'Las Vegas Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in the Nevada freight market.',
-    overview: 'Las Vegas is a major distribution point for the Southwest, with I-15 connecting it to Los Angeles and Salt Lake City.',
-    sections: [
-      { heading: 'Trucking in Las Vegas', content: 'Las Vegas requires constant inbound freight to support its hospitality industry, convention business, and fast-growing residential population. Carriers haul food, beverages, construction materials, and consumer goods into the valley daily.' },
-      { heading: 'Key Corridors', content: 'I-15 runs south to Los Angeles and north to Salt Lake City. I-11 connects to Henderson and eventually Phoenix. US-95 heads northwest toward Reno. I-515 and the Bruce Woodbury Beltway handle metro traffic.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for desert interstate routes', 'Motor truck cargo for hospitality and food service freight', 'Physical damage for heat-exposed equipment', 'Non-trucking liability for independent operators'] },
+    "slug": "columbus-oh",
+    "city": "Columbus",
+    "state": "Ohio",
+    "stateSlug": "ohio",
+    "abbreviation": "OH",
+    "metaTitle": "Senior Living Insurance in Columbus, OH",
+    "metaDescription": "Senior living insurance in Columbus, Ohio. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Columbus Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Columbus, OH.",
+    "overview": "Columbus is a key market for senior living facilities in Ohio, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Columbus",
+        "content": "Columbus's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Columbus market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'What unique risks do Las Vegas carriers face?', a: 'Extreme summer heat, long desert stretches with limited services, and heavy tourist traffic on I-15 are key risk factors.' },
-      { q: 'Is Nevada favorable for trucking companies?', a: 'Nevada has no state income tax and moderate regulatory requirements, attracting carriers to base operations there.' },
+    "faqs": [
+      {
+        "q": "What insurance do Columbus senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Columbus market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Columbus senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'tampa-fl',
-    city: 'Tampa',
-    state: 'Florida',
-    stateSlug: 'florida',
-    abbreviation: 'FL',
-    metaTitle: 'Trucking Insurance in Tampa, FL',
-    metaDescription: 'Commercial trucking insurance in Tampa, Florida. Coverage for carriers on I-75, I-4, and I-275 corridors.',
-    heroHeading: 'Tampa Trucking Insurance',
-    heroSubheading: 'Insurance for carriers in the Tampa Bay freight market.',
-    overview: 'Tampa is a major distribution hub for central Florida, with the Port of Tampa Bay and intersecting interstates driving freight activity.',
-    sections: [
-      { heading: 'Trucking in Tampa', content: 'Tampa Bay\'s port handles bulk cargo, petroleum, and building materials while the metro area\'s growth fuels demand for consumer goods, food, and construction freight. The region serves as a distribution base for the Florida peninsula.' },
-      { heading: 'Key Corridors', content: 'I-75 runs north to Atlanta and south to Fort Myers. I-4 connects Tampa to Orlando and Daytona Beach. I-275 serves the St. Petersburg and downtown corridors. US-301 provides a secondary north-south route.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for Florida interstate corridors', 'Motor truck cargo for construction and consumer freight', 'Physical damage for hurricane-exposed equipment', 'General liability for port operations'] },
+    "slug": "cleveland-oh",
+    "city": "Cleveland",
+    "state": "Ohio",
+    "stateSlug": "ohio",
+    "abbreviation": "OH",
+    "metaTitle": "Senior Living Insurance in Cleveland, OH",
+    "metaDescription": "Senior living insurance in Cleveland, Ohio. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Cleveland Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Cleveland, OH.",
+    "overview": "Cleveland is a key market for senior living facilities in Ohio, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Cleveland",
+        "content": "Cleveland's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Cleveland market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Does hurricane risk affect Tampa trucking insurance?', a: 'Yes. Coastal exposure to hurricanes can affect physical damage and business interruption coverage costs.' },
-      { q: 'What moves through the Port of Tampa?', a: 'Petroleum products, phosphate, building materials, and containers are the port\'s primary commodities.' },
+    "faqs": [
+      {
+        "q": "What insurance do Cleveland senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Cleveland market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Cleveland senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'miami-fl',
-    city: 'Miami',
-    state: 'Florida',
-    stateSlug: 'florida',
-    abbreviation: 'FL',
-    metaTitle: 'Trucking Insurance in Miami, FL',
-    metaDescription: 'Commercial trucking insurance in Miami, Florida. Coverage for carriers on I-95, I-75, and Florida\'s Turnpike.',
-    heroHeading: 'Miami Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in South Florida\'s trade gateway.',
-    overview: 'Miami is the primary U.S. gateway for trade with Latin America and the Caribbean, with PortMiami and Miami International Airport driving import-export freight.',
-    sections: [
-      { heading: 'Trucking in Miami', content: 'Miami\'s freight market is driven by international trade, with carriers hauling perishable goods, electronics, textiles, and consumer products between the port, airport, and distribution centers across South Florida.' },
-      { heading: 'Key Corridors', content: 'I-95 runs north along the coast to Fort Lauderdale and beyond. I-75 connects to Naples and the west coast via Alligator Alley. Florida\'s Turnpike heads north to Orlando. US-1 and the Palmetto Expressway handle local traffic.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for congested urban routes', 'Motor truck cargo for perishable imports', 'Reefer breakdown for temperature-sensitive freight', 'Physical damage with comprehensive hurricane coverage'] },
+    "slug": "cincinnati-oh",
+    "city": "Cincinnati",
+    "state": "Ohio",
+    "stateSlug": "ohio",
+    "abbreviation": "OH",
+    "metaTitle": "Senior Living Insurance in Cincinnati, OH",
+    "metaDescription": "Senior living insurance in Cincinnati, Ohio. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Cincinnati Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Cincinnati, OH.",
+    "overview": "Cincinnati is a key market for senior living facilities in Ohio, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Cincinnati",
+        "content": "Cincinnati's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Cincinnati market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'What type of cargo is common in Miami?', a: 'Fresh produce, flowers, seafood, electronics, and apparel dominate Miami\'s import-export freight mix.' },
-      { q: 'Are Miami insurance rates higher than other Florida cities?', a: 'Yes. Dense traffic, high theft risk, and hurricane exposure contribute to elevated premiums in South Florida.' },
+    "faqs": [
+      {
+        "q": "What insurance do Cincinnati senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Cincinnati market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Cincinnati senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'minneapolis-mn',
-    city: 'Minneapolis',
-    state: 'Minnesota',
-    stateSlug: 'minnesota',
-    abbreviation: 'MN',
-    metaTitle: 'Trucking Insurance in Minneapolis, MN',
-    metaDescription: 'Commercial trucking insurance in Minneapolis, Minnesota. Coverage for carriers on I-94, I-35, and I-494 corridors.',
-    heroHeading: 'Minneapolis Trucking Insurance',
-    heroSubheading: 'Insurance for carriers in the Upper Midwest\'s largest freight market.',
-    overview: 'Minneapolis-St. Paul is the Upper Midwest\'s transportation hub, with strong agricultural, manufacturing, and retail distribution freight.',
-    sections: [
-      { heading: 'Trucking in Minneapolis', content: 'The Twin Cities metro is a major distribution center for the Upper Midwest, home to Target, General Mills, and other companies generating significant freight volumes. Agricultural commodities from the surrounding region flow through Minneapolis for processing and distribution.' },
-      { heading: 'Key Corridors', content: 'I-94 runs east to Milwaukee and west to Fargo. I-35 splits into I-35W and I-35E through the metro, connecting to Duluth and Des Moines. I-494 and I-694 loop the metro. I-90 runs east-west across southern Minnesota.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for Upper Midwest regional lanes', 'Motor truck cargo for agricultural and retail freight', 'Physical damage with winter weather protection', 'Non-trucking liability for independent contractors'] },
+    "slug": "chicago-il",
+    "city": "Chicago",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "abbreviation": "IL",
+    "metaTitle": "Senior Living Insurance in Chicago, IL",
+    "metaDescription": "Senior living insurance in Chicago, Illinois. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Chicago Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Chicago, IL.",
+    "overview": "Chicago is a key market for senior living facilities in Illinois, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Chicago",
+        "content": "Chicago's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Chicago market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'How does Minnesota winter affect trucking insurance?', a: 'Severe cold, ice, and snow from November through March significantly increase accident risk and can raise premiums.' },
-      { q: 'What agricultural freight moves through Minneapolis?', a: 'Corn, soybeans, wheat, sugar beets, and processed food products are major agricultural commodities.' },
+    "faqs": [
+      {
+        "q": "What insurance do Chicago senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Chicago market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Chicago senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'milwaukee-wi',
-    city: 'Milwaukee',
-    state: 'Wisconsin',
-    stateSlug: 'wisconsin',
-    abbreviation: 'WI',
-    metaTitle: 'Trucking Insurance in Milwaukee, WI',
-    metaDescription: 'Commercial trucking insurance in Milwaukee, Wisconsin. Coverage for carriers on I-94, I-43, and I-894 corridors.',
-    heroHeading: 'Milwaukee Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in southeastern Wisconsin\'s industrial corridor.',
-    overview: 'Milwaukee is a manufacturing and distribution hub in southeastern Wisconsin with strong freight ties to Chicago and the broader Midwest.',
-    sections: [
-      { heading: 'Trucking in Milwaukee', content: 'Milwaukee\'s industrial base generates heavy freight from manufacturers of machinery, electronics, food products, and paper goods. The city\'s proximity to Chicago expands its distribution reach throughout the Midwest.' },
-      { heading: 'Key Corridors', content: 'I-94 connects Milwaukee to Chicago and Madison. I-43 runs north to Green Bay. I-894 and I-794 serve the metro area. I-41 heads west toward Oshkosh and Appleton.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for I-94 corridor operations', 'Motor truck cargo for manufactured goods', 'Physical damage for industrial hauling equipment', 'Workers compensation for loading and unloading'] },
+    "slug": "springfield-il",
+    "city": "Springfield",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "abbreviation": "IL",
+    "metaTitle": "Senior Living Insurance in Springfield, IL",
+    "metaDescription": "Senior living insurance in Springfield, Illinois. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Springfield Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Springfield, IL.",
+    "overview": "Springfield is a key market for senior living facilities in Illinois, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Springfield",
+        "content": "Springfield's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Springfield market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'What industries drive Milwaukee freight?', a: 'Manufacturing, food processing, paper products, and brewing generate the city\'s primary freight volumes.' },
-      { q: 'How close is Milwaukee to Chicago for freight?', a: 'Milwaukee is about 90 miles from Chicago on I-94, placing it within the broader Chicagoland freight market.' },
+    "faqs": [
+      {
+        "q": "What insurance do Springfield senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Springfield market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Springfield senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'salt-lake-city-ut',
-    city: 'Salt Lake City',
-    state: 'Utah',
-    stateSlug: 'utah',
-    abbreviation: 'UT',
-    metaTitle: 'Trucking Insurance in Salt Lake City, UT',
-    metaDescription: 'Commercial trucking insurance in Salt Lake City, Utah. Coverage for carriers on I-15, I-80, and I-84 corridors.',
-    heroHeading: 'Salt Lake City Trucking Insurance',
-    heroSubheading: 'Insurance for carriers in the Intermountain West\'s freight hub.',
-    overview: 'Salt Lake City is the Intermountain West\'s primary distribution center, with I-15 and I-80 connecting western markets.',
-    sections: [
-      { heading: 'Trucking in Salt Lake City', content: 'Salt Lake City serves as the distribution gateway for Utah, Idaho, Wyoming, and Nevada. The city\'s growing population and tech sector have increased consumer goods and construction freight demand alongside traditional mining and agricultural commodities.' },
-      { heading: 'Key Corridors', content: 'I-15 runs north to Idaho Falls and south to Las Vegas. I-80 heads east through the Wasatch Range and west across the Salt Flats to Reno. I-84 connects to Boise. I-215 loops the valley.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for mountain and desert routes', 'Motor truck cargo for mining and construction freight', 'Physical damage for winter mountain driving', 'Non-trucking liability for owner-operators'] },
+    "slug": "naperville-il",
+    "city": "Naperville",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "abbreviation": "IL",
+    "metaTitle": "Senior Living Insurance in Naperville, IL",
+    "metaDescription": "Senior living insurance in Naperville, Illinois. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Naperville Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Naperville, IL.",
+    "overview": "Naperville is a key market for senior living facilities in Illinois, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Naperville",
+        "content": "Naperville's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Naperville market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'What risks are unique to Salt Lake City carriers?', a: 'Mountain passes, winter inversions reducing visibility, and long desert stretches on I-80 west are key risk factors.' },
-      { q: 'What freight flows through Salt Lake City?', a: 'Mining products, construction materials, consumer goods, and agricultural commodities are primary categories.' },
+    "faqs": [
+      {
+        "q": "What insurance do Naperville senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Naperville market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Naperville senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'oklahoma-city-ok',
-    city: 'Oklahoma City',
-    state: 'Oklahoma',
-    stateSlug: 'oklahoma',
-    abbreviation: 'OK',
-    metaTitle: 'Trucking Insurance in Oklahoma City, OK',
-    metaDescription: 'Commercial trucking insurance in Oklahoma City, Oklahoma. Coverage for carriers on I-35, I-40, and I-44 corridors.',
-    heroHeading: 'Oklahoma City Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in Oklahoma\'s central freight market.',
-    overview: 'Oklahoma City sits at the crossroads of I-35 and I-40, serving as a distribution hub for energy, agriculture, and consumer freight in the Southern Plains.',
-    sections: [
-      { heading: 'Trucking in Oklahoma City', content: 'Oklahoma City\'s trucking market is driven by the energy sector, agricultural exports, and consumer goods distribution. The city\'s central location and affordable costs attract carriers serving regional and long-haul routes.' },
-      { heading: 'Key Corridors', content: 'I-35 runs north to Wichita and south to Dallas. I-40 heads east to Little Rock and west to Amarillo. I-44 connects to Tulsa and St. Louis. The Kilpatrick and Hefner-Chennault Turnpikes serve metro freight.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for Plains state regional routes', 'Motor truck cargo for energy and agricultural freight', 'Physical damage for oilfield service trucks', 'Pollution liability for crude oil haulers'] },
+    "slug": "detroit-mi",
+    "city": "Detroit",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "abbreviation": "MI",
+    "metaTitle": "Senior Living Insurance in Detroit, MI",
+    "metaDescription": "Senior living insurance in Detroit, Michigan. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Detroit Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Detroit, MI.",
+    "overview": "Detroit is a key market for senior living facilities in Michigan, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Detroit",
+        "content": "Detroit's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Detroit market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'How does the energy industry affect trucking here?', a: 'Oil and gas activity drives demand for specialized hauling including frac sand, pipe, equipment, and crude oil.' },
-      { q: 'Is severe weather a concern for carriers?', a: 'Yes. Oklahoma is in Tornado Alley, and severe storms and hail can damage equipment and disrupt operations.' },
+    "faqs": [
+      {
+        "q": "What insurance do Detroit senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Detroit market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Detroit senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'tulsa-ok',
-    city: 'Tulsa',
-    state: 'Oklahoma',
-    stateSlug: 'oklahoma',
-    abbreviation: 'OK',
-    metaTitle: 'Trucking Insurance in Tulsa, OK',
-    metaDescription: 'Commercial trucking insurance in Tulsa, Oklahoma. Coverage for carriers on I-44, US-75, and the Muskogee Turnpike.',
-    heroHeading: 'Tulsa Trucking Insurance',
-    heroSubheading: 'Insurance for carriers in eastern Oklahoma\'s energy and manufacturing hub.',
-    overview: 'Tulsa is eastern Oklahoma\'s freight center, with energy, aerospace manufacturing, and agricultural freight driving trucking demand.',
-    sections: [
-      { heading: 'Trucking in Tulsa', content: 'Tulsa\'s economy blends energy, aerospace manufacturing, and agriculture, creating diverse freight demand. The Port of Catoosa on the Arkansas River Navigational System adds barge-to-truck intermodal capability.' },
-      { heading: 'Key Corridors', content: 'I-44 connects Tulsa to Oklahoma City and St. Louis. US-75 runs north to Bartlesville and south to the Dallas area. The Muskogee Turnpike and Creek Turnpike serve regional routes. US-412 heads east to Arkansas.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for regional and energy-sector routes', 'Motor truck cargo for aerospace and manufactured parts', 'Physical damage for oilfield equipment', 'Non-trucking liability for independent operators'] },
+    "slug": "grand-rapids-mi",
+    "city": "Grand Rapids",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "abbreviation": "MI",
+    "metaTitle": "Senior Living Insurance in Grand Rapids, MI",
+    "metaDescription": "Senior living insurance in Grand Rapids, Michigan. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Grand Rapids Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Grand Rapids, MI.",
+    "overview": "Grand Rapids is a key market for senior living facilities in Michigan, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Grand Rapids",
+        "content": "Grand Rapids's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Grand Rapids market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'What is the Port of Catoosa?', a: 'It is the most inland river port in the U.S., connecting Tulsa to the Mississippi River system via the Arkansas River and generating truck-barge intermodal freight.' },
-      { q: 'What industries drive Tulsa freight?', a: 'Oil and gas, aerospace manufacturing, agriculture, and building materials are the primary freight generators.' },
+    "faqs": [
+      {
+        "q": "What insurance do Grand Rapids senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Grand Rapids market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Grand Rapids senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'little-rock-ar',
-    city: 'Little Rock',
-    state: 'Arkansas',
-    stateSlug: 'arkansas',
-    abbreviation: 'AR',
-    metaTitle: 'Trucking Insurance in Little Rock, AR',
-    metaDescription: 'Commercial trucking insurance in Little Rock, Arkansas. Coverage for carriers on I-40, I-30, and I-430 corridors.',
-    heroHeading: 'Little Rock Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in Arkansas\'s central freight market.',
-    overview: 'Little Rock is Arkansas\'s freight hub where I-40 and I-30 converge, supporting trucking for retail, poultry, and manufacturing industries.',
-    sections: [
-      { heading: 'Trucking in Little Rock', content: 'Little Rock benefits from Arkansas\'s strong trucking heritage, which includes major carriers like J.B. Hunt, ABF Freight, and USA Truck headquartered in the state. The city serves as a distribution center for retail, poultry, and forest products.' },
-      { heading: 'Key Corridors', content: 'I-40 runs east to Memphis and west to Fort Smith. I-30 heads southwest to Texarkana and Dallas. I-430 and I-440 loop the metro. US-65 and US-67 serve north-south regional routes.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for regional and long-haul lanes', 'Motor truck cargo for poultry and food products', 'Reefer breakdown for temperature-controlled poultry loads', 'Physical damage for regional fleet equipment'] },
+    "slug": "ann-arbor-mi",
+    "city": "Ann Arbor",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "abbreviation": "MI",
+    "metaTitle": "Senior Living Insurance in Ann Arbor, MI",
+    "metaDescription": "Senior living insurance in Ann Arbor, Michigan. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Ann Arbor Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Ann Arbor, MI.",
+    "overview": "Ann Arbor is a key market for senior living facilities in Michigan, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Ann Arbor",
+        "content": "Ann Arbor's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Ann Arbor market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Why is Arkansas important for trucking?', a: 'Arkansas is home to several of the nation\'s largest carriers and shippers, including Walmart\'s headquarters, creating strong freight demand.' },
-      { q: 'What freight originates in Arkansas?', a: 'Poultry, rice, timber products, steel, and retail distribution freight are major categories.' },
+    "faqs": [
+      {
+        "q": "What insurance do Ann Arbor senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Ann Arbor market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Ann Arbor senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'birmingham-al',
-    city: 'Birmingham',
-    state: 'Alabama',
-    stateSlug: 'alabama',
-    abbreviation: 'AL',
-    metaTitle: 'Trucking Insurance in Birmingham, AL',
-    metaDescription: 'Commercial trucking insurance in Birmingham, Alabama. Coverage for carriers on I-65, I-20, and I-59 corridors.',
-    heroHeading: 'Birmingham Trucking Insurance',
-    heroSubheading: 'Insurance for carriers in Alabama\'s industrial freight hub.',
-    overview: 'Birmingham is Alabama\'s largest city and a key freight hub where I-65, I-20, and I-59 converge, connecting the Southeast\'s industrial and distribution markets.',
-    sections: [
-      { heading: 'Trucking in Birmingham', content: 'Birmingham\'s freight market is anchored by steel production, automotive manufacturing, and distribution operations. The city\'s interstate convergence makes it a natural transfer and distribution point for the central Southeast.' },
-      { heading: 'Key Corridors', content: 'I-65 runs north to Nashville and south to Mobile and the Gulf Coast. I-20 connects to Atlanta and Mississippi. I-59 heads northeast to Chattanooga. I-459 loops the southern metro.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for Southeast regional routes', 'Motor truck cargo for steel and automotive freight', 'Physical damage for heavy-haul equipment', 'General liability for industrial hauling operations'] },
+    "slug": "charlotte-nc",
+    "city": "Charlotte",
+    "state": "North Carolina",
+    "stateSlug": "north-carolina",
+    "abbreviation": "NC",
+    "metaTitle": "Senior Living Insurance in Charlotte, NC",
+    "metaDescription": "Senior living insurance in Charlotte, North Carolina. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Charlotte Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Charlotte, NC.",
+    "overview": "Charlotte is a key market for senior living facilities in North Carolina, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Charlotte",
+        "content": "Charlotte's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Charlotte market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'What industries drive Birmingham freight?', a: 'Steel, automotive manufacturing, coal, and distribution centers generate the bulk of Birmingham\'s trucking demand.' },
-      { q: 'How does Alabama\'s legal environment affect trucking insurance?', a: 'Alabama has seen rising jury verdicts in trucking cases, making adequate liability coverage critical.' },
+    "faqs": [
+      {
+        "q": "What insurance do Charlotte senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Charlotte market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Charlotte senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'baton-rouge-la',
-    city: 'Baton Rouge',
-    state: 'Louisiana',
-    stateSlug: 'louisiana',
-    abbreviation: 'LA',
-    metaTitle: 'Trucking Insurance in Baton Rouge, LA',
-    metaDescription: 'Commercial trucking insurance in Baton Rouge, Louisiana. Coverage for carriers on I-10, I-12, and US-61 corridors.',
-    heroHeading: 'Baton Rouge Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in Louisiana\'s petrochemical corridor.',
-    overview: 'Baton Rouge sits in the heart of Louisiana\'s petrochemical corridor along the Mississippi River, generating heavy specialized hauling demand.',
-    sections: [
-      { heading: 'Trucking in Baton Rouge', content: 'Baton Rouge\'s petrochemical refineries and chemical plants generate enormous demand for tanker trucks, flatbeds, and specialized haulers. The Mississippi River port adds bulk commodity transfer capabilities.' },
-      { heading: 'Key Corridors', content: 'I-10 runs east to New Orleans and west to Lafayette. I-12 connects to Slidell and the Gulf Coast. US-61 heads north to Natchez and Memphis. US-190 runs east-west through the metro.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for industrial plant routes', 'Pollution liability for chemical and petroleum haulers', 'Motor truck cargo for petrochemical products', 'Physical damage for specialized tanker equipment'] },
+    "slug": "raleigh-nc",
+    "city": "Raleigh",
+    "state": "North Carolina",
+    "stateSlug": "north-carolina",
+    "abbreviation": "NC",
+    "metaTitle": "Senior Living Insurance in Raleigh, NC",
+    "metaDescription": "Senior living insurance in Raleigh, North Carolina. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Raleigh Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Raleigh, NC.",
+    "overview": "Raleigh is a key market for senior living facilities in North Carolina, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Raleigh",
+        "content": "Raleigh's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Raleigh market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Do petrochemical haulers need special insurance?', a: 'Yes. Carriers hauling hazardous materials need higher liability limits, pollution coverage, and MCS-90 endorsements.' },
-      { q: 'How does hurricane season affect Baton Rouge carriers?', a: 'Storms can shut down refineries and flood routes, causing both business interruption and physical damage claims.' },
+    "faqs": [
+      {
+        "q": "What insurance do Raleigh senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Raleigh market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Raleigh senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'new-orleans-la',
-    city: 'New Orleans',
-    state: 'Louisiana',
-    stateSlug: 'louisiana',
-    abbreviation: 'LA',
-    metaTitle: 'Trucking Insurance in New Orleans, LA',
-    metaDescription: 'Commercial trucking insurance in New Orleans, Louisiana. Coverage for carriers on I-10, I-610, and port drayage routes.',
-    heroHeading: 'New Orleans Trucking Insurance',
-    heroSubheading: 'Insurance for carriers serving the Gulf Coast\'s historic port city.',
-    overview: 'New Orleans is a major Gulf Coast port city where the Mississippi River meets international shipping lanes, creating diverse freight demand.',
-    sections: [
-      { heading: 'Trucking in New Orleans', content: 'The Port of New Orleans handles containerized cargo, breakbulk freight, and agricultural exports. Carriers serve the port, petrochemical facilities, and the city\'s tourism-driven economy with food, beverage, and consumer goods deliveries.' },
-      { heading: 'Key Corridors', content: 'I-10 is the primary east-west route connecting to Baton Rouge and the Mississippi Gulf Coast. I-610 bypasses downtown. US-90 runs along the Gulf Coast. The Crescent City Connection and Causeway bridge are key crossing points.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for port and urban routes', 'Motor truck cargo for port freight and agricultural exports', 'Physical damage with flood and hurricane coverage', 'Pollution liability for bulk liquid haulers'] },
+    "slug": "asheville-nc",
+    "city": "Asheville",
+    "state": "North Carolina",
+    "stateSlug": "north-carolina",
+    "abbreviation": "NC",
+    "metaTitle": "Senior Living Insurance in Asheville, NC",
+    "metaDescription": "Senior living insurance in Asheville, North Carolina. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Asheville Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Asheville, NC.",
+    "overview": "Asheville is a key market for senior living facilities in North Carolina, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Asheville",
+        "content": "Asheville's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Asheville market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Is flood insurance important for New Orleans carriers?', a: 'Yes. Low elevation and hurricane exposure make comprehensive physical damage coverage with flood protection essential.' },
-      { q: 'What commodities flow through the Port of New Orleans?', a: 'Coffee, rubber, steel, containers, grain, and forest products are major port commodities.' },
+    "faqs": [
+      {
+        "q": "What insurance do Asheville senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Asheville market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Asheville senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'cincinnati-oh',
-    city: 'Cincinnati',
-    state: 'Ohio',
-    stateSlug: 'ohio',
-    abbreviation: 'OH',
-    metaTitle: 'Trucking Insurance in Cincinnati, OH',
-    metaDescription: 'Commercial trucking insurance in Cincinnati, Ohio. Coverage for carriers on I-75, I-71, and I-74 corridors.',
-    heroHeading: 'Cincinnati Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in the tri-state Ohio River freight market.',
-    overview: 'Cincinnati is a tri-state logistics hub where Ohio, Kentucky, and Indiana meet, with strong consumer goods and manufacturing freight.',
-    sections: [
-      { heading: 'Trucking in Cincinnati', content: 'Cincinnati\'s logistics market benefits from its central location and the presence of major consumer goods companies. The metro area spans three states, creating a diverse carrier community serving manufacturing, food, and retail distribution.' },
-      { heading: 'Key Corridors', content: 'I-75 runs north to Dayton and south through Kentucky to Lexington. I-71 connects to Columbus and Louisville. I-74 heads west to Indianapolis. I-275 loops the tri-state metro area.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for tri-state operations', 'Motor truck cargo for consumer goods freight', 'Physical damage for fleet equipment', 'Workers compensation covering multiple state requirements'] },
+    "slug": "atlanta-ga",
+    "city": "Atlanta",
+    "state": "Georgia",
+    "stateSlug": "georgia",
+    "abbreviation": "GA",
+    "metaTitle": "Senior Living Insurance in Atlanta, GA",
+    "metaDescription": "Senior living insurance in Atlanta, Georgia. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Atlanta Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Atlanta, GA.",
+    "overview": "Atlanta is a key market for senior living facilities in Georgia, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Atlanta",
+        "content": "Atlanta's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Atlanta market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Does operating in three states complicate insurance?', a: 'Carriers based in the Cincinnati tri-state area need to comply with Ohio, Kentucky, and Indiana regulations, which can add complexity to coverage.' },
-      { q: 'What companies drive Cincinnati freight?', a: 'Procter & Gamble, Kroger, and other major consumer goods companies headquartered here generate significant freight volumes.' },
+    "faqs": [
+      {
+        "q": "What insurance do Atlanta senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Atlanta market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Atlanta senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'cleveland-oh',
-    city: 'Cleveland',
-    state: 'Ohio',
-    stateSlug: 'ohio',
-    abbreviation: 'OH',
-    metaTitle: 'Trucking Insurance in Cleveland, OH',
-    metaDescription: 'Commercial trucking insurance in Cleveland, Ohio. Coverage for carriers on I-90, I-77, and I-480 corridors.',
-    heroHeading: 'Cleveland Trucking Insurance',
-    heroSubheading: 'Insurance for carriers in northeast Ohio\'s industrial freight market.',
-    overview: 'Cleveland is a major industrial and manufacturing hub on Lake Erie with strong freight connections to the Midwest, Northeast, and Canada.',
-    sections: [
-      { heading: 'Trucking in Cleveland', content: 'Cleveland\'s manufacturing heritage supports a robust trucking market focused on steel, automotive parts, chemicals, and industrial equipment. The Port of Cleveland on Lake Erie adds bulk freight capability.' },
-      { heading: 'Key Corridors', content: 'I-90 runs east to Erie and west toward Toledo. I-77 heads south to Akron and Canton. I-480 and I-271 serve the southern and eastern suburbs. I-71 connects to Columbus. The Ohio Turnpike (I-80/I-90) is a major commercial route.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for Great Lakes regional routes', 'Motor truck cargo for industrial and steel freight', 'Physical damage for harsh winter conditions', 'Pollution liability for chemical haulers'] },
+    "slug": "savannah-ga",
+    "city": "Savannah",
+    "state": "Georgia",
+    "stateSlug": "georgia",
+    "abbreviation": "GA",
+    "metaTitle": "Senior Living Insurance in Savannah, GA",
+    "metaDescription": "Senior living insurance in Savannah, Georgia. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Savannah Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Savannah, GA.",
+    "overview": "Savannah is a key market for senior living facilities in Georgia, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Savannah",
+        "content": "Savannah's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Savannah market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'How does lake-effect snow impact Cleveland trucking?', a: 'Lake-effect storms can produce sudden heavy snowfall, increasing accident risk on I-90 and I-71 during winter months.' },
-      { q: 'What industries drive Cleveland freight?', a: 'Steel, automotive manufacturing, chemicals, healthcare products, and industrial equipment are primary freight generators.' },
+    "faqs": [
+      {
+        "q": "What insurance do Savannah senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Savannah market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Savannah senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'pittsburgh-pa',
-    city: 'Pittsburgh',
-    state: 'Pennsylvania',
-    stateSlug: 'pennsylvania',
-    abbreviation: 'PA',
-    metaTitle: 'Trucking Insurance in Pittsburgh, PA',
-    metaDescription: 'Commercial trucking insurance in Pittsburgh, Pennsylvania. Coverage for carriers on I-76, I-79, and I-376 corridors.',
-    heroHeading: 'Pittsburgh Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in western Pennsylvania\'s industrial corridor.',
-    overview: 'Pittsburgh sits at the confluence of three rivers with challenging terrain that shapes its unique freight market serving manufacturing, energy, and technology industries.',
-    sections: [
-      { heading: 'Trucking in Pittsburgh', content: 'Pittsburgh\'s freight market reflects its industrial transition, with carriers hauling steel, natural gas equipment, healthcare products, and technology components. The city\'s hilly terrain and numerous bridges create unique driving challenges.' },
-      { heading: 'Key Corridors', content: 'I-76 (Pennsylvania Turnpike) connects to Philadelphia. I-79 runs north to Erie and south to Morgantown. I-376 serves the metro. I-70 passes south of the city. US-22 and US-30 provide additional east-west routes.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for challenging terrain routes', 'Motor truck cargo for steel and industrial freight', 'Physical damage for equipment on steep grades', 'Non-trucking liability for Marcellus Shale operators'] },
+    "slug": "phoenix-az",
+    "city": "Phoenix",
+    "state": "Arizona",
+    "stateSlug": "arizona",
+    "abbreviation": "AZ",
+    "metaTitle": "Senior Living Insurance in Phoenix, AZ",
+    "metaDescription": "Senior living insurance in Phoenix, Arizona. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Phoenix Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Phoenix, AZ.",
+    "overview": "Phoenix is a key market for senior living facilities in Arizona, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Phoenix",
+        "content": "Phoenix's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Phoenix market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Does Pittsburgh\'s terrain affect trucking insurance?', a: 'Yes. Steep grades, narrow roads, and numerous bridges increase accident risk, which insurers factor into premiums.' },
-      { q: 'Has natural gas changed Pittsburgh\'s freight market?', a: 'Marcellus Shale gas development has created significant demand for frac sand, water, equipment, and pipe hauling.' },
+    "faqs": [
+      {
+        "q": "What insurance do Phoenix senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Phoenix market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Phoenix senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'philadelphia-pa',
-    city: 'Philadelphia',
-    state: 'Pennsylvania',
-    stateSlug: 'pennsylvania',
-    abbreviation: 'PA',
-    metaTitle: 'Trucking Insurance in Philadelphia, PA',
-    metaDescription: 'Commercial trucking insurance in Philadelphia, Pennsylvania. Coverage for carriers on I-95, I-76, and I-476 corridors.',
-    heroHeading: 'Philadelphia Trucking Insurance',
-    heroSubheading: 'Insurance for carriers in the Delaware Valley freight market.',
-    overview: 'Philadelphia is the largest city in Pennsylvania and a major East Coast freight market with port facilities, rail yards, and dense distribution activity.',
-    sections: [
-      { heading: 'Trucking in Philadelphia', content: 'Philadelphia\'s freight market is driven by port operations on the Delaware River, pharmaceutical manufacturing, food distribution, and consumer goods for the large metro population. The city sits along the I-95 corridor between New York and Washington.' },
-      { heading: 'Key Corridors', content: 'I-95 runs along the Delaware River connecting to New York and Baltimore. I-76 heads west to Pittsburgh via the Pennsylvania Turnpike. I-476 (Blue Route) serves the western suburbs. I-676 and I-276 complete the metro network.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for dense Northeast Corridor traffic', 'Motor truck cargo for pharmaceutical and food freight', 'Physical damage for urban fleet operations', 'Umbrella coverage for high-exposure corridors'] },
+    "slug": "scottsdale-az",
+    "city": "Scottsdale",
+    "state": "Arizona",
+    "stateSlug": "arizona",
+    "abbreviation": "AZ",
+    "metaTitle": "Senior Living Insurance in Scottsdale, AZ",
+    "metaDescription": "Senior living insurance in Scottsdale, Arizona. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Scottsdale Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Scottsdale, AZ.",
+    "overview": "Scottsdale is a key market for senior living facilities in Arizona, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Scottsdale",
+        "content": "Scottsdale's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Scottsdale market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Is Philadelphia expensive for trucking insurance?', a: 'Yes. Dense traffic, a plaintiff-friendly legal environment, and high accident frequency contribute to elevated premiums.' },
-      { q: 'What moves through PhilaPort?', a: 'Perishable cargo, cocoa, fruit, containers, and breakbulk freight are handled at the port\'s Delaware River terminals.' },
+    "faqs": [
+      {
+        "q": "What insurance do Scottsdale senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Scottsdale market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Scottsdale senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'newark-nj',
-    city: 'Newark',
-    state: 'New Jersey',
-    stateSlug: 'new-jersey',
-    abbreviation: 'NJ',
-    metaTitle: 'Trucking Insurance in Newark, NJ',
-    metaDescription: 'Commercial trucking insurance in Newark, New Jersey. Coverage for carriers on I-95, I-78, and the New Jersey Turnpike.',
-    heroHeading: 'Newark Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in the Port Newark-Elizabeth freight hub.',
-    overview: 'Newark is home to Port Newark-Elizabeth, the largest container port on the East Coast, making it one of the busiest trucking markets in the nation.',
-    sections: [
-      { heading: 'Trucking in Newark', content: 'Port Newark-Elizabeth Marine Terminal drives enormous drayage demand, with thousands of truck moves daily. Carriers also serve the dense warehouse and distribution network across northern New Jersey supplying the New York metro area.' },
-      { heading: 'Key Corridors', content: 'The New Jersey Turnpike (I-95) is the primary north-south artery. I-78 heads west to Pennsylvania. I-280 serves the western suburbs. Routes 1 and 9 handle local port traffic. The Garden State Parkway and I-287 provide regional connections.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for high-density port corridors', 'Motor truck cargo for containerized imports', 'Physical damage for drayage equipment', 'Trailer interchange for port chassis operations'] },
+    "slug": "tucson-az",
+    "city": "Tucson",
+    "state": "Arizona",
+    "stateSlug": "arizona",
+    "abbreviation": "AZ",
+    "metaTitle": "Senior Living Insurance in Tucson, AZ",
+    "metaDescription": "Senior living insurance in Tucson, Arizona. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Tucson Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Tucson, AZ.",
+    "overview": "Tucson is a key market for senior living facilities in Arizona, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Tucson",
+        "content": "Tucson's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Tucson market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Why is Newark trucking insurance expensive?', a: 'Extreme traffic congestion, high accident rates, and New Jersey\'s legal environment make it one of the most expensive markets in the country.' },
-      { q: 'What is the port drayage market like in Newark?', a: 'Port Newark is the East Coast\'s largest container port, generating thousands of daily drayage moves to warehouses across northern New Jersey.' },
+    "faqs": [
+      {
+        "q": "What insurance do Tucson senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Tucson market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Tucson senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'baltimore-md',
-    city: 'Baltimore',
-    state: 'Maryland',
-    stateSlug: 'maryland',
-    abbreviation: 'MD',
-    metaTitle: 'Trucking Insurance in Baltimore, MD',
-    metaDescription: 'Commercial trucking insurance in Baltimore, Maryland. Coverage for carriers on I-95, I-695, and I-83 corridors.',
-    heroHeading: 'Baltimore Trucking Insurance',
-    heroSubheading: 'Insurance for carriers in the mid-Atlantic port city.',
-    overview: 'Baltimore\'s deep-water port and position on the I-95 corridor make it a key mid-Atlantic freight hub for auto imports, bulk commodities, and consumer goods.',
-    sections: [
-      { heading: 'Trucking in Baltimore', content: 'The Port of Baltimore is a leading U.S. port for roll-on/roll-off vehicle imports and farm equipment. Carriers also serve distribution centers, manufacturing plants, and government facilities in the metro area.' },
-      { heading: 'Key Corridors', content: 'I-95 runs through the city connecting to Washington, DC and Philadelphia. I-695 (Baltimore Beltway) loops the metro. I-83 heads north to Harrisburg. I-70 runs west to Frederick and beyond. I-895 and I-97 serve port and southern routes.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for I-95 corridor operations', 'Motor truck cargo for auto and ro-ro port freight', 'Physical damage for car-hauler equipment', 'General liability for port terminal operations'] },
+    "slug": "boston-ma",
+    "city": "Boston",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "abbreviation": "MA",
+    "metaTitle": "Senior Living Insurance in Boston, MA",
+    "metaDescription": "Senior living insurance in Boston, Massachusetts. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Boston Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Boston, MA.",
+    "overview": "Boston is a key market for senior living facilities in Massachusetts, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Boston",
+        "content": "Boston's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Boston market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'What makes Baltimore\'s port unique?', a: 'Baltimore is the top U.S. port for roll-on/roll-off cargo, handling more automobiles and farm machinery than any other port.' },
-      { q: 'How does the I-95 corridor affect insurance rates?', a: 'I-95 through Baltimore is one of the most congested freight corridors in the country, contributing to higher accident frequency and premiums.' },
+    "faqs": [
+      {
+        "q": "What insurance do Boston senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Boston market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Boston senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'richmond-va',
-    city: 'Richmond',
-    state: 'Virginia',
-    stateSlug: 'virginia',
-    abbreviation: 'VA',
-    metaTitle: 'Trucking Insurance in Richmond, VA',
-    metaDescription: 'Commercial trucking insurance in Richmond, Virginia. Coverage for carriers on I-95, I-64, and I-295 corridors.',
-    heroHeading: 'Richmond Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in central Virginia\'s distribution market.',
-    overview: 'Richmond sits on I-95 between Washington, DC and the Carolinas, serving as a regional distribution hub for the mid-Atlantic.',
-    sections: [
-      { heading: 'Trucking in Richmond', content: 'Richmond\'s location on I-95 and proximity to the Port of Virginia make it a natural distribution center for the mid-Atlantic. The city serves tobacco, food processing, manufacturing, and government logistics freight.' },
-      { heading: 'Key Corridors', content: 'I-95 is the primary north-south route. I-64 heads east to Norfolk and west to Charlottesville. I-295 loops the eastern metro. I-85 runs south to the North Carolina border. US-360 and US-60 serve regional routes.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for I-95 corridor and regional lanes', 'Motor truck cargo for distribution center freight', 'Physical damage for fleet equipment', 'Non-trucking liability for independent operators'] },
+    "slug": "worcester-ma",
+    "city": "Worcester",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "abbreviation": "MA",
+    "metaTitle": "Senior Living Insurance in Worcester, MA",
+    "metaDescription": "Senior living insurance in Worcester, Massachusetts. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Worcester Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Worcester, MA.",
+    "overview": "Worcester is a key market for senior living facilities in Massachusetts, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Worcester",
+        "content": "Worcester's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Worcester market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Why do distribution centers locate in Richmond?', a: 'Richmond offers lower costs than northern Virginia or DC while maintaining quick access to the I-95 corridor and Port of Virginia.' },
-      { q: 'What freight moves through Richmond?', a: 'Consumer goods, food products, tobacco, government supplies, and manufactured goods are major commodities.' },
+    "faqs": [
+      {
+        "q": "What insurance do Worcester senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Worcester market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Worcester senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'raleigh-nc',
-    city: 'Raleigh',
-    state: 'North Carolina',
-    stateSlug: 'north-carolina',
-    abbreviation: 'NC',
-    metaTitle: 'Trucking Insurance in Raleigh, NC',
-    metaDescription: 'Commercial trucking insurance in Raleigh, North Carolina. Coverage for carriers on I-40, I-440, and US-70 corridors.',
-    heroHeading: 'Raleigh Trucking Insurance',
-    heroSubheading: 'Insurance for carriers in the Research Triangle freight market.',
-    overview: 'Raleigh anchors the Research Triangle region, with pharmaceutical, technology, and food distribution freight driving a growing trucking market.',
-    sections: [
-      { heading: 'Trucking in Raleigh', content: 'The Research Triangle\'s pharmaceutical, biotech, and tech industries generate specialized freight demand alongside traditional consumer goods distribution. Rapid population growth has increased construction and consumer freight volumes.' },
-      { heading: 'Key Corridors', content: 'I-40 runs east to the coast and west to Greensboro. I-440 and I-540 loop the metro. US-70 heads east to the ports. US-1 runs north to Virginia. I-85 is accessible via I-40 west.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for regional delivery routes', 'Motor truck cargo for pharmaceutical and tech freight', 'Physical damage for temperature-controlled equipment', 'Umbrella coverage for high-value loads'] },
+    "slug": "newark-nj",
+    "city": "Newark",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "abbreviation": "NJ",
+    "metaTitle": "Senior Living Insurance in Newark, NJ",
+    "metaDescription": "Senior living insurance in Newark, New Jersey. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Newark Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Newark, NJ.",
+    "overview": "Newark is a key market for senior living facilities in New Jersey, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Newark",
+        "content": "Newark's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Newark market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'What specialized freight moves through Raleigh?', a: 'Pharmaceuticals, medical devices, technology components, and biotech products require temperature-controlled and high-security transport.' },
-      { q: 'Is the Triangle area growing for logistics?', a: 'Yes. Population and business growth have driven significant warehouse and distribution center development in the region.' },
+    "faqs": [
+      {
+        "q": "What insurance do Newark senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Newark market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Newark senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'greenville-sc',
-    city: 'Greenville',
-    state: 'South Carolina',
-    stateSlug: 'south-carolina',
-    abbreviation: 'SC',
-    metaTitle: 'Trucking Insurance in Greenville, SC',
-    metaDescription: 'Commercial trucking insurance in Greenville, South Carolina. Coverage for carriers on I-85, I-385, and I-185 corridors.',
-    heroHeading: 'Greenville Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in the Upstate South Carolina manufacturing corridor.',
-    overview: 'Greenville is the hub of South Carolina\'s Upstate manufacturing corridor, with automotive and advanced manufacturing driving significant freight volumes on I-85.',
-    sections: [
-      { heading: 'Trucking in Greenville', content: 'Greenville\'s transformation into a major manufacturing center has been led by BMW, Michelin, and other global manufacturers establishing operations along the I-85 corridor. Carriers move automotive parts, tires, machinery, and distribution freight.' },
-      { heading: 'Key Corridors', content: 'I-85 connects Greenville to Atlanta and Charlotte. I-385 runs south to Laurens. I-185 connects to the south. US-25 and US-276 serve regional routes. The Inland Port in Greer links to the Port of Charleston by rail.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for I-85 manufacturing corridor', 'Motor truck cargo for automotive and industrial freight', 'Physical damage for flatbed and specialized equipment', 'Trailer interchange for Inland Port operations'] },
+    "slug": "princeton-nj",
+    "city": "Princeton",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "abbreviation": "NJ",
+    "metaTitle": "Senior Living Insurance in Princeton, NJ",
+    "metaDescription": "Senior living insurance in Princeton, New Jersey. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Princeton Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Princeton, NJ.",
+    "overview": "Princeton is a key market for senior living facilities in New Jersey, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Princeton",
+        "content": "Princeton's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Princeton market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'What is the SC Inland Port?', a: 'The South Carolina Inland Port in Greer extends the Port of Charleston\'s reach inland via rail, generating truck drayage to and from the terminal.' },
-      { q: 'What manufacturers drive Greenville freight?', a: 'BMW, Michelin, GE, and numerous automotive suppliers generate the primary manufacturing freight volumes.' },
+    "faqs": [
+      {
+        "q": "What insurance do Princeton senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Princeton market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Princeton senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'knoxville-tn',
-    city: 'Knoxville',
-    state: 'Tennessee',
-    stateSlug: 'tennessee',
-    abbreviation: 'TN',
-    metaTitle: 'Trucking Insurance in Knoxville, TN',
-    metaDescription: 'Commercial trucking insurance in Knoxville, Tennessee. Coverage for carriers on I-40, I-75, and I-81 corridors.',
-    heroHeading: 'Knoxville Trucking Insurance',
-    heroSubheading: 'Insurance for carriers at the junction of I-40 and I-75.',
-    overview: 'Knoxville sits where I-40 and I-75 intersect, creating a natural freight crossroads connecting the Southeast to the Midwest and Northeast.',
-    sections: [
-      { heading: 'Trucking in Knoxville', content: 'Knoxville\'s position at the I-40/I-75 interchange makes it a strategic waypoint for carriers traveling between the Southeast, Midwest, and Northeast. The city also supports local freight for manufacturing, energy, and distribution operations.' },
-      { heading: 'Key Corridors', content: 'I-40 runs east through the Smoky Mountains to Asheville and west to Nashville. I-75 heads north to Lexington and south to Chattanooga and Atlanta. I-81 connects northeast to Virginia\'s Shenandoah Valley. I-640 bypasses downtown.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for mountain interstate routes', 'Motor truck cargo for manufacturing freight', 'Physical damage for Appalachian terrain operations', 'Non-trucking liability for owner-operators'] },
+    "slug": "virginia-beach-va",
+    "city": "Virginia Beach",
+    "state": "Virginia",
+    "stateSlug": "virginia",
+    "abbreviation": "VA",
+    "metaTitle": "Senior Living Insurance in Virginia Beach, VA",
+    "metaDescription": "Senior living insurance in Virginia Beach, Virginia. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Virginia Beach Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Virginia Beach, VA.",
+    "overview": "Virginia Beach is a key market for senior living facilities in Virginia, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Virginia Beach",
+        "content": "Virginia Beach's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Virginia Beach market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'Is mountain driving a concern near Knoxville?', a: 'Yes. I-40 through the Smoky Mountains and I-75 through the Cumberland Plateau have steep grades that increase accident risk.' },
-      { q: 'What freight moves through Knoxville?', a: 'Auto parts, building materials, energy products, and consumer goods are common freight types at this interstate junction.' },
+    "faqs": [
+      {
+        "q": "What insurance do Virginia Beach senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Virginia Beach market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Virginia Beach senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'albuquerque-nm',
-    city: 'Albuquerque',
-    state: 'New Mexico',
-    stateSlug: 'new-mexico',
-    abbreviation: 'NM',
-    metaTitle: 'Trucking Insurance in Albuquerque, NM',
-    metaDescription: 'Commercial trucking insurance in Albuquerque, New Mexico. Coverage for carriers on I-40, I-25, and US-550 corridors.',
-    heroHeading: 'Albuquerque Trucking Insurance',
-    heroSubheading: 'Coverage for carriers in New Mexico\'s central freight hub.',
-    overview: 'Albuquerque is New Mexico\'s largest city and primary distribution point, located at the junction of I-40 and I-25.',
-    sections: [
-      { heading: 'Trucking in Albuquerque', content: 'Albuquerque serves as the distribution hub for New Mexico and the Four Corners region. Carriers haul consumer goods, military supplies for area bases, energy equipment, and agricultural products across long desert distances.' },
-      { heading: 'Key Corridors', content: 'I-40 runs east to Amarillo and west to Flagstaff. I-25 heads north to Santa Fe and south to Las Cruces and El Paso. US-550 connects to the Four Corners region. NM-14 and NM-313 serve regional routes.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for long-distance desert routes', 'Motor truck cargo for military and energy freight', 'Physical damage for equipment on remote highways', 'Non-trucking liability for independent operators'] },
+    "slug": "richmond-va",
+    "city": "Richmond",
+    "state": "Virginia",
+    "stateSlug": "virginia",
+    "abbreviation": "VA",
+    "metaTitle": "Senior Living Insurance in Richmond, VA",
+    "metaDescription": "Senior living insurance in Richmond, Virginia. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Richmond Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Richmond, VA.",
+    "overview": "Richmond is a key market for senior living facilities in Virginia, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Richmond",
+        "content": "Richmond's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Richmond market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'What challenges do Albuquerque carriers face?', a: 'Long distances between cities, extreme weather variation, and limited service infrastructure on remote routes are key challenges.' },
-      { q: 'What freight moves through Albuquerque?', a: 'Consumer goods, military supplies, energy equipment, and agricultural products are the primary commodities.' },
+    "faqs": [
+      {
+        "q": "What insurance do Richmond senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Richmond market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Richmond senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
   {
-    slug: 'san-diego-ca',
-    city: 'San Diego',
-    state: 'California',
-    stateSlug: 'california',
-    abbreviation: 'CA',
-    metaTitle: 'Trucking Insurance in San Diego, CA',
-    metaDescription: 'Commercial trucking insurance in San Diego, California. Coverage for carriers on I-5, I-8, and I-15 corridors.',
-    heroHeading: 'San Diego Trucking Insurance',
-    heroSubheading: 'Insurance for carriers at the California-Mexico border gateway.',
-    overview: 'San Diego is a major California-Mexico border crossing point with the Otay Mesa port of entry driving cross-border freight and a strong military logistics presence.',
-    sections: [
-      { heading: 'Trucking in San Diego', content: 'San Diego\'s freight market combines cross-border trade through Otay Mesa, military logistics for numerous bases, and consumer goods distribution for the large metro population. The city also supports biotech and defense industry supply chains.' },
-      { heading: 'Key Corridors', content: 'I-5 runs north to Los Angeles and south to the San Ysidro border crossing. I-8 heads east to the Imperial Valley and Arizona. I-15 connects north to Riverside and Las Vegas. SR-905 and SR-11 serve the Otay Mesa port of entry.' },
-      { heading: 'Coverage Recommendations', bullets: ['Auto liability for border and urban routes', 'Motor truck cargo for cross-border freight', 'Physical damage for fleet equipment', 'Non-trucking liability for independent contractors'] },
+    "slug": "arlington-va",
+    "city": "Arlington",
+    "state": "Virginia",
+    "stateSlug": "virginia",
+    "abbreviation": "VA",
+    "metaTitle": "Senior Living Insurance in Arlington, VA",
+    "metaDescription": "Senior living insurance in Arlington, Virginia. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Arlington Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Arlington, VA.",
+    "overview": "Arlington is a key market for senior living facilities in Virginia, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Arlington",
+        "content": "Arlington's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Arlington market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
     ],
-    faqs: [
-      { q: 'What is the Otay Mesa crossing?', a: 'Otay Mesa is San Diego\'s primary commercial port of entry for truck freight crossing to and from Tijuana, Mexico.' },
-      { q: 'Do CARB regulations affect San Diego carriers?', a: 'Yes. California\'s strict emissions standards apply statewide, affecting equipment requirements and operating costs for all carriers.' },
+    "faqs": [
+      {
+        "q": "What insurance do Arlington senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Arlington market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Arlington senior living facilities."
+      }
     ],
-    recommendedCoverages: ['auto-liability', 'physical-damage', 'motor-truck-cargo'],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
   },
+  {
+    "slug": "seattle-wa",
+    "city": "Seattle",
+    "state": "Washington",
+    "stateSlug": "washington",
+    "abbreviation": "WA",
+    "metaTitle": "Senior Living Insurance in Seattle, WA",
+    "metaDescription": "Senior living insurance in Seattle, Washington. Coverage for assisted living, nursing homes, and senior care facilities.",
+    "heroHeading": "Seattle Senior Living Insurance",
+    "heroSubheading": "Coverage for senior care facilities in Seattle, WA.",
+    "overview": "Seattle is a key market for senior living facilities in Washington, with growing demand for assisted living, memory care, skilled nursing, and independent living communities serving the local aging population.",
+    "sections": [
+      {
+        "heading": "Senior Living in Seattle",
+        "content": "Seattle's senior living market serves the local aging population with a range of care options from independent living through skilled nursing. The local market is shaped by demographics, cost of living, regulatory requirements, and competition among providers."
+      },
+      {
+        "heading": "Coverage Recommendations",
+        "bullets": [
+          "Professional liability for clinical and personal care services",
+          "General liability for premises exposure in the Seattle market",
+          "Workers' compensation for all facility employees",
+          "Commercial property covering buildings and specialized equipment"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What insurance do Seattle senior care facilities need?",
+        "a": "At minimum, general liability, professional liability, and workers' compensation. Most facilities also carry commercial property, abuse and molestation, and umbrella coverage."
+      },
+      {
+        "q": "How does the Seattle market affect insurance costs?",
+        "a": "Local factors including facility density, litigation environment, cost of care, staffing market conditions, and property values all influence insurance pricing for Seattle senior living facilities."
+      }
+    ],
+    "recommendedCoverages": [
+      "professional-liability",
+      "general-liability",
+      "workers-compensation"
+    ]
+  }
 ];

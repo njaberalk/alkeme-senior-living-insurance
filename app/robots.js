@@ -6,6 +6,6 @@ export default function robots() {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://alkemeins.com/trucking/sitemap.xml',
+    sitemap: 'https://alkemeins.com/senior-living/sitemap.xml',
   };
 }

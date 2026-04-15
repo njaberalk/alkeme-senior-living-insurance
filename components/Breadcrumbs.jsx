@@ -8,7 +8,7 @@ export default function Breadcrumbs({ items }) {
       '@type': 'ListItem',
       position: i + 1,
       name: item.label,
-      item: item.href ? `https://alkemeins.com/trucking${item.href}` : undefined,
+      item: item.href ? `https://alkemeins.com/senior-living${item.href}` : undefined,
     })),
   };
 
@@ -33,7 +33,7 @@ export default function Breadcrumbs({ items }) {
       </nav>
       <div className="bg-brand/5 border-b border-ash">
         <div className="max-w-[68rem] mx-auto px-[60px] max-lg:px-6 max-md:px-4 py-2 flex flex-wrap items-center justify-between gap-2">
-          <span className="text-brand/50" style={{ fontSize: '0.7rem' }}>Published by <strong className="text-brand/70">ALKEME Insurance Services</strong> · Licensed Insurance Brokerage</span>
+          <span className="text-brand/50" style={{ fontSize: '0.7rem' }}>Published by <strong className="text-brand/70">ALKEME Insurance Services</strong> &middot; Licensed Insurance Brokerage</span>
           <span className="text-brand/40" style={{ fontSize: '0.65rem' }}>Last updated April 2026</span>
         </div>
       </div>

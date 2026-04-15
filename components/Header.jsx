@@ -5,44 +5,45 @@ import { useNavScrollBehavior } from '../hooks/useScrollAnimation';
 import { usePathname } from 'next/navigation';
 
 const coverageItems = [
-  { label: 'Auto Liability', href: '/coverage/auto-liability/' },
-  { label: 'Physical Damage', href: '/coverage/physical-damage/' },
-  { label: 'Motor Truck Cargo', href: '/coverage/motor-truck-cargo/' },
   { label: 'General Liability', href: '/coverage/general-liability/' },
-  { label: 'Non-Trucking Liability', href: '/coverage/non-trucking-liability/' },
-  { label: 'Trailer Interchange', href: '/coverage/trailer-interchange/' },
+  { label: 'Professional Liability', href: '/coverage/professional-liability/' },
   { label: 'Workers\' Comp', href: '/coverage/workers-compensation/' },
-  { label: 'Umbrella / Excess', href: '/coverage/umbrella-excess-liability/' },
-  { label: 'Occupational Accident', href: '/coverage/occupational-accident/' },
+  { label: 'Commercial Property', href: '/coverage/commercial-property/' },
+  { label: 'Abuse & Molestation', href: '/coverage/abuse-molestation/' },
+  { label: 'Commercial Auto', href: '/coverage/commercial-auto/' },
+  { label: 'Cyber Liability', href: '/coverage/cyber-liability/' },
+  { label: 'Directors & Officers', href: '/coverage/directors-officers/' },
+  { label: 'Umbrella / Excess', href: '/coverage/umbrella-excess/' },
+  { label: 'Employment Practices', href: '/coverage/employment-practices/' },
 ];
 
 const resourceItems = [
-  { label: '— Tools —', href: null, divider: true },
-  { label: 'FMCSA Requirements Checker', href: '/tools/fmcsa-checker/' },
+  { label: '-- Tools --', href: null, divider: true },
+  { label: 'Coverage Needs Assessment', href: '/tools/coverage-needs-assessment/' },
   { label: 'State Requirements Lookup', href: '/tools/state-requirements/' },
-  { label: '— Guides —', href: null, divider: true },
-  { label: 'Trucking Insurance Cost', href: '/resources/trucking-insurance-cost/' },
-  { label: 'FMCSA Requirements', href: '/resources/fmcsa-insurance-requirements/' },
-  { label: 'New Authority Insurance', href: '/resources/new-authority-insurance/' },
-  { label: 'Lower Your Premiums', href: '/resources/lower-trucking-insurance-premiums/' },
-  { label: 'Insurance Glossary', href: '/resources/trucking-insurance-glossary/' },
-  { label: '— Insights —', href: null, divider: true },
-  { label: 'Market Trends 2026', href: '/blog/trucking-insurance-market-trends-2026/' },
-  { label: 'Nuclear Verdicts Guide', href: '/blog/nuclear-verdicts-trucking-industry/' },
-  { label: 'New Carrier Mistakes', href: '/blog/mistakes-new-carriers-make-insurance/' },
+  { label: '-- Guides --', href: null, divider: true },
+  { label: 'Senior Living Insurance Cost', href: '/resources/senior-living-insurance-cost/' },
+  { label: 'Professional Liability Guide', href: '/resources/professional-liability-guide/' },
+  { label: 'Abuse & Molestation Guide', href: '/resources/abuse-molestation-guide/' },
+  { label: 'Regulatory Compliance', href: '/resources/regulatory-compliance-guide/' },
+  { label: 'Insurance Glossary', href: '/resources/senior-living-insurance-glossary/' },
+  { label: '-- Insights --', href: null, divider: true },
+  { label: 'Industry Trends 2026', href: '/blog/senior-living-insurance-trends-2026/' },
+  { label: 'Common Mistakes', href: '/blog/insurance-mistakes-senior-living/' },
+  { label: 'Abuse Liability Guide', href: '/blog/abuse-liability-senior-care/' },
 ];
 
 const industryItems = [
-  { label: 'Owner-Operators', href: '/industries/owner-operators/' },
-  { label: 'Small Fleets', href: '/industries/small-fleets/' },
-  { label: 'Large Fleets', href: '/industries/large-fleets/' },
-  { label: 'Hot Shot', href: '/industries/hot-shot-trucking/' },
-  { label: 'LTL / Last Mile', href: '/industries/ltl-last-mile/' },
-  { label: 'Intermodal', href: '/industries/intermodal/' },
-  { label: 'Refrigerated', href: '/industries/refrigerated/' },
-  { label: 'Flatbed', href: '/industries/flatbed/' },
-  { label: 'Hazmat', href: '/industries/hazmat/' },
-  { label: 'Car Haulers', href: '/industries/car-haulers/' },
+  { label: 'Assisted Living', href: '/industries/assisted-living/' },
+  { label: 'Skilled Nursing', href: '/industries/skilled-nursing/' },
+  { label: 'Memory Care', href: '/industries/memory-care/' },
+  { label: 'Independent Living', href: '/industries/independent-living/' },
+  { label: 'Continuing Care', href: '/industries/continuing-care/' },
+  { label: 'Home Health', href: '/industries/home-health-agencies/' },
+  { label: 'Adult Day Care', href: '/industries/adult-day-care/' },
+  { label: 'Hospice', href: '/industries/hospice/' },
+  { label: 'Rehabilitation', href: '/industries/rehabilitation-centers/' },
+  { label: 'Senior Communities', href: '/industries/senior-communities/' },
 ];
 
 function Dropdown({ label, items, isOpen, onToggle, onClose }) {
@@ -76,7 +77,7 @@ function Dropdown({ label, items, isOpen, onToggle, onClose }) {
           {items.map((item) => (
             item.divider ? (
               <div key={item.label} className="px-5 pt-3 pb-1 text-blue-dark/50 uppercase tracking-[0.12em] font-bold border-t border-ash first:border-0 first:pt-0 mt-1 first:mt-0" style={{ fontSize: '0.6rem' }}>
-                {item.label.replace(/—/g, '').trim()}
+                {item.label.replace(/--/g, '').trim()}
               </div>
             ) : (
               <Link
@@ -101,7 +102,7 @@ export default function Header() {
   const [openDropdown, setOpenDropdown] = useState(null);
   const navRef = useNavScrollBehavior();
   const pathname = usePathname();
-  const isHome = pathname === '/trucking' || pathname === '/trucking/' || pathname === '/';
+  const isHome = pathname === '/senior-living' || pathname === '/senior-living/' || pathname === '/';
 
   return (
     <>
@@ -119,7 +120,6 @@ export default function Header() {
       >
         <div className="max-w-[68rem] mx-auto px-[60px] max-lg:px-6 max-md:px-4">
           <div className="flex items-center justify-between">
-            {/* ALKEME Logo */}
             <a href="https://alkemeins.com" className="shrink-0 no-underline">
               <img
                 src="https://cdn.prod.website-files.com/686d7240ee8f0fdd31648b80/68ae3aa829e8b536f770d83d_ALKEME_Logo_Color.png"
@@ -129,7 +129,6 @@ export default function Header() {
               />
             </a>
 
-            {/* Desktop Nav - matching alkemeins.com structure */}
             <nav className="hidden lg:flex items-center gap-0" role="navigation" aria-label="Main navigation">
               <Dropdown
                 label="Coverage"
@@ -168,7 +167,6 @@ export default function Header() {
               </a>
             </nav>
 
-            {/* Hamburger */}
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
               className="lg:hidden p-2 flex flex-col items-center justify-center gap-[5px] w-10 h-10"
@@ -181,7 +179,6 @@ export default function Header() {
           </div>
         </div>
 
-        {/* Mobile Menu */}
         <div className="lg:hidden bg-stone overflow-hidden" aria-hidden="true" style={{ maxHeight: mobileOpen ? '90vh' : '0', transition: 'max-height 0.4s ease', borderTop: mobileOpen ? '1px solid #e3e3d8' : 'none' }}>
           <div className="px-6 py-6 space-y-1 max-h-[80vh] overflow-y-auto">
             <span className="block text-blue-dark uppercase tracking-[0.12em] font-bold pb-2 border-b border-ash mb-3" style={{ fontSize: '0.65rem' }}>Coverage</span>
@@ -202,12 +199,12 @@ export default function Header() {
               <Link href={isHome ? '#states' : '/#states'} onClick={() => setMobileOpen(false)} className="block text-brand hover:text-blue-dark uppercase tracking-[0.16em] font-bold py-2 no-underline" style={{ fontSize: '0.75rem' }}>States & Cities</Link>
 
               <span className="block text-blue-dark uppercase tracking-[0.12em] font-bold pb-2 border-b border-ash mb-3 mt-4" style={{ fontSize: '0.65rem' }}>Tools & Resources</span>
-              <Link href="/tools/fmcsa-checker/" onClick={() => setMobileOpen(false)} className="block text-brand hover:text-blue-dark uppercase tracking-[0.12em] font-semibold py-2 no-underline" style={{ fontSize: '0.7rem' }}>FMCSA Requirements Checker</Link>
+              <Link href="/tools/coverage-needs-assessment/" onClick={() => setMobileOpen(false)} className="block text-brand hover:text-blue-dark uppercase tracking-[0.12em] font-semibold py-2 no-underline" style={{ fontSize: '0.7rem' }}>Coverage Needs Assessment</Link>
               <Link href="/tools/state-requirements/" onClick={() => setMobileOpen(false)} className="block text-brand hover:text-blue-dark uppercase tracking-[0.12em] font-semibold py-2 no-underline" style={{ fontSize: '0.7rem' }}>State Requirements Lookup</Link>
-              <Link href="/resources/trucking-insurance-cost/" onClick={() => setMobileOpen(false)} className="block text-brand hover:text-blue-dark uppercase tracking-[0.12em] font-semibold py-2 no-underline" style={{ fontSize: '0.7rem' }}>Trucking Insurance Cost</Link>
-              <Link href="/resources/fmcsa-insurance-requirements/" onClick={() => setMobileOpen(false)} className="block text-brand hover:text-blue-dark uppercase tracking-[0.12em] font-semibold py-2 no-underline" style={{ fontSize: '0.7rem' }}>FMCSA Requirements Guide</Link>
-              <Link href="/blog/trucking-insurance-market-trends-2026/" onClick={() => setMobileOpen(false)} className="block text-brand hover:text-blue-dark uppercase tracking-[0.12em] font-semibold py-2 no-underline" style={{ fontSize: '0.7rem' }}>Market Trends 2026</Link>
-              <a href="https://alkemeins.com" onClick={() => setMobileOpen(false)} className="block text-blue-dark hover:text-brand uppercase tracking-[0.12em] font-bold py-2 no-underline" style={{ fontSize: '0.65rem' }}>← Back to ALKEME</a>
+              <Link href="/resources/senior-living-insurance-cost/" onClick={() => setMobileOpen(false)} className="block text-brand hover:text-blue-dark uppercase tracking-[0.12em] font-semibold py-2 no-underline" style={{ fontSize: '0.7rem' }}>Senior Living Insurance Cost</Link>
+              <Link href="/resources/professional-liability-guide/" onClick={() => setMobileOpen(false)} className="block text-brand hover:text-blue-dark uppercase tracking-[0.12em] font-semibold py-2 no-underline" style={{ fontSize: '0.7rem' }}>Professional Liability Guide</Link>
+              <Link href="/blog/senior-living-insurance-trends-2026/" onClick={() => setMobileOpen(false)} className="block text-brand hover:text-blue-dark uppercase tracking-[0.12em] font-semibold py-2 no-underline" style={{ fontSize: '0.7rem' }}>Industry Trends 2026</Link>
+              <a href="https://alkemeins.com" onClick={() => setMobileOpen(false)} className="block text-blue-dark hover:text-brand uppercase tracking-[0.12em] font-bold py-2 no-underline" style={{ fontSize: '0.65rem' }}>Back to ALKEME</a>
             </div>
 
             <a href="https://alkemeins.com/form" className="inline-block border-2 border-gold bg-gold text-brand uppercase tracking-[0.16em] px-6 py-3 font-bold rounded-[20px] mt-4 no-underline text-center w-full" style={{ fontSize: '0.75rem', transition: 'all 0.24s' }}>

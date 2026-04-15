@@ -2,17 +2,17 @@
 import Link from 'next/link';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
-// Basic coverage metadata for cross-linking
 const allCoverages = {
-  'auto-liability': { title: 'Primary Auto Liability', desc: 'Liability protection for at-fault accidents' },
-  'physical-damage': { title: 'Physical Damage', desc: 'Covers repair or replacement of your vehicles' },
-  'motor-truck-cargo': { title: 'Motor Truck Cargo', desc: 'Protects goods in transit' },
-  'general-liability': { title: 'General Liability', desc: 'Third-party claims outside vehicle operation' },
-  'non-trucking-liability': { title: 'Non-Trucking Liability', desc: 'Coverage for personal use of truck' },
-  'trailer-interchange': { title: 'Trailer Interchange', desc: 'Covers trailers under interchange agreements' },
+  'general-liability': { title: 'General Liability', desc: 'Third-party bodily injury and property damage' },
+  'professional-liability': { title: 'Professional Liability', desc: 'Claims from care delivery and clinical decisions' },
   'workers-compensation': { title: 'Workers\' Compensation', desc: 'Employee injury wage and medical benefits' },
-  'umbrella-excess-liability': { title: 'Umbrella / Excess', desc: 'Additional liability protection layer' },
-  'occupational-accident': { title: 'Occupational Accident', desc: 'Coverage for independent contractors' },
+  'commercial-property': { title: 'Commercial Property', desc: 'Buildings, equipment, and business income' },
+  'abuse-molestation': { title: 'Abuse & Molestation', desc: 'Dedicated abuse allegations coverage' },
+  'commercial-auto': { title: 'Commercial Auto', desc: 'Resident transportation vehicles' },
+  'cyber-liability': { title: 'Cyber Liability', desc: 'Data breach and HIPAA violation protection' },
+  'directors-officers': { title: 'Directors & Officers', desc: 'Management decision and fiduciary claims' },
+  'umbrella-excess': { title: 'Umbrella / Excess', desc: 'Additional liability protection layer' },
+  'employment-practices': { title: 'Employment Practices', desc: 'Wrongful termination and discrimination claims' },
 };
 
 export default function RelatedCoverages({ slugs, title = 'Related Coverage' }) {

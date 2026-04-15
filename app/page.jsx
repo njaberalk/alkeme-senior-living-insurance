@@ -1,12 +1,12 @@
 import HomeContent from './HomeContent';
 
 export const metadata = {
-  title: 'Commercial Trucking Insurance Solutions',
-  description: 'ALKEME Insurance Services provides specialized trucking insurance for owner-operators, fleets, and transportation businesses. Coverage for auto liability, cargo, physical damage, and more.',
+  title: 'Senior Living Insurance Solutions',
+  description: 'ALKEME Insurance Services provides specialized insurance for senior living facilities including assisted living, skilled nursing, memory care, and continuing care retirement communities.',
   openGraph: {
-    title: 'Trucking Insurance | ALKEME Insurance Services',
-    description: 'Specialized trucking insurance for owner-operators, fleets, and transportation businesses across all 50 states.',
-    url: 'https://alkemeins.com/trucking/',
+    title: 'Senior Living Insurance | ALKEME Insurance Services',
+    description: 'Specialized insurance for assisted living, skilled nursing, memory care, and senior care facilities across all 50 states.',
+    url: 'https://alkemeins.com/senior-living/',
   },
 };
 
@@ -26,28 +26,16 @@ export default function HomePage() {
             url: 'https://alkemeins.com',
             telephone: '+18559255363',
             email: 'info@alkemeins.com',
-            description: 'ALKEME Insurance Services provides specialized commercial trucking insurance solutions for owner-operators, fleets, and transportation businesses across all 50 states.',
+            description: 'ALKEME Insurance Services provides specialized senior living insurance solutions for assisted living, skilled nursing, memory care, and continuing care retirement communities across all 50 states.',
             areaServed: { '@type': 'Country', name: 'United States' },
-            parentOrganization: {
-              '@type': 'Organization',
-              name: 'ALKEME Insurance Services',
-              url: 'https://alkemeins.com',
-            },
+            parentOrganization: { '@type': 'Organization', name: 'ALKEME Insurance Services', url: 'https://alkemeins.com' },
             foundingDate: '2003',
             numberOfEmployees: { '@type': 'QuantitativeValue', value: 100 },
-            knowsAbout: ['Commercial Trucking Insurance', 'Fleet Insurance', 'Motor Truck Cargo', 'FMCSA Compliance'],
+            knowsAbout: ['Senior Living Insurance', 'Assisted Living Insurance', 'Skilled Nursing Insurance', 'Memory Care Insurance'],
             hasCredential: { '@type': 'EducationalOccupationalCredential', credentialCategory: 'Professional License', name: 'Licensed Insurance Brokerage' },
-            serviceType: [
-              'Commercial Trucking Insurance',
-              'Fleet Insurance',
-              'Owner-Operator Insurance',
-              'Motor Truck Cargo Insurance',
-              'Commercial Auto Liability',
-              'Physical Damage Coverage',
-              'Transportation Insurance',
-            ],
+            serviceType: ['Senior Living Insurance', 'Assisted Living Insurance', 'Skilled Nursing Facility Insurance', 'Memory Care Insurance', 'Professional Liability', 'Abuse and Molestation Coverage', 'Workers Compensation'],
             citation: { '@type': 'CreativeWork', name: 'Insurance Information Institute', url: 'https://www.iii.org' },
-            about: { '@type': 'Thing', name: 'Commercial Trucking Insurance' },
+            about: { '@type': 'Thing', name: 'Senior Living Insurance' },
           }),
         }}
       />
@@ -58,54 +46,12 @@ export default function HomePage() {
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
             mainEntity: [
-              {
-                '@type': 'Question',
-                name: 'What insurance does a trucking company need?',
-                acceptedAnswer: {
-                  '@type': 'Answer',
-                  text: 'At minimum, most trucking operations require primary auto liability, physical damage, and cargo coverage. Depending on your operation, you may also need general liability, workers\' compensation, non-trucking liability, trailer interchange, and umbrella/excess coverage. We help you identify exactly what your operation requires based on your authority type, cargo, and operating radius.',
-                },
-              },
-              {
-                '@type': 'Question',
-                name: 'Do you insure both owner-operators and fleets?',
-                acceptedAnswer: {
-                  '@type': 'Answer',
-                  text: 'Yes. We work with independent owner-operators running a single unit as well as fleets of all sizes — from small operations with a handful of trucks to large carriers with hundreds of power units. Our coverage programs are scaled and customized to match the size and complexity of each operation.',
-                },
-              },
-              {
-                '@type': 'Question',
-                name: 'Can you help with contract and compliance requirements?',
-                acceptedAnswer: {
-                  '@type': 'Answer',
-                  text: 'Absolutely. We understand the insurance requirements that shippers, brokers, and regulatory bodies impose on carriers. We can help ensure your certificates of insurance, policy endorsements, and filing requirements align with your contractual obligations and FMCSA standards.',
-                },
-              },
-              {
-                '@type': 'Question',
-                name: 'How quickly can I get a quote?',
-                acceptedAnswer: {
-                  '@type': 'Answer',
-                  text: 'In most cases, we can provide an initial quote within 24 hours of receiving your completed information. For more complex accounts or large fleets, the process may take slightly longer to ensure we explore the best options across our carrier network.',
-                },
-              },
-              {
-                '@type': 'Question',
-                name: 'Do you offer cargo and physical damage coverage?',
-                acceptedAnswer: {
-                  '@type': 'Answer',
-                  text: 'Yes. Motor truck cargo coverage protects the goods you haul, while physical damage coverage protects your trucks and trailers. We can tailor both coverages to your specific cargo types, vehicle values, and deductible preferences.',
-                },
-              },
-              {
-                '@type': 'Question',
-                name: 'Can coverage be customized for my operation?',
-                acceptedAnswer: {
-                  '@type': 'Answer',
-                  text: 'Every policy we place is built around your specific operation. We consider your equipment, routes, cargo types, loss history, and business goals to design a program that provides the right coverage at a competitive price — not a generic package.',
-                },
-              },
+              { '@type': 'Question', name: 'What insurance does a senior living facility need?', acceptedAnswer: { '@type': 'Answer', text: 'At minimum, most senior living facilities require general liability, professional liability, workers\' compensation, and commercial property coverage. Depending on your operation, you should also carry abuse and molestation liability, employment practices liability, commercial auto, cyber liability, and umbrella coverage.' } },
+              { '@type': 'Question', name: 'Do you insure all types of senior care facilities?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. We work with assisted living communities, skilled nursing facilities, memory care units, independent living communities, CCRCs, home health agencies, adult day care centers, hospice providers, rehabilitation centers, and multi-service campuses.' } },
+              { '@type': 'Question', name: 'How is senior living insurance different from standard commercial insurance?', acceptedAnswer: { '@type': 'Answer', text: 'Senior living insurance must address exposures unique to caring for vulnerable populations, including professional liability for care delivery, abuse and molestation coverage excluded from standard policies, regulatory defense costs, and elevated workers compensation risk from patient handling.' } },
+              { '@type': 'Question', name: 'How quickly can I get a quote?', acceptedAnswer: { '@type': 'Answer', text: 'In most cases, we can provide an initial quote within 48 hours of receiving your completed information. For more complex accounts or multi-site operations, the process may take slightly longer.' } },
+              { '@type': 'Question', name: 'Does professional liability cover abuse allegations?', acceptedAnswer: { '@type': 'Answer', text: 'No. Standard professional liability policies contain abuse and molestation exclusions. A separate, dedicated policy is required to cover these claims.' } },
+              { '@type': 'Question', name: 'Can coverage be customized for our specific operation?', acceptedAnswer: { '@type': 'Answer', text: 'Every program we place is built around your specific operation. We consider your care model, bed count, acuity level, staffing ratios, regulatory environment, and claims history.' } },
             ],
           }),
         }}
@@ -116,7 +62,7 @@ export default function HomePage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'Commercial Trucking Insurance Solutions',
+            headline: 'Senior Living Insurance Solutions',
             datePublished: '2025-06-01',
             dateModified: '2026-04-01',
             author: { '@type': 'Organization', name: 'ALKEME Insurance Services', url: 'https://alkemeins.com' },
