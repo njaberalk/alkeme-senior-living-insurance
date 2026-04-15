@@ -15,7 +15,7 @@ const cards = [
   {
     title: 'Claims Advocacy & Risk Support',
     description: 'When an incident occurs, response time matters. Our team provides direct access to experienced claims advocates who understand senior care challenges and act quickly on your behalf.',
-    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=600&q=80',
   },
 ];
 
