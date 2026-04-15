@@ -1,6 +1,7 @@
 import { Poppins } from 'next/font/google'
 import './globals.css'
 import ScrollToTop from './ScrollToTop'
+import QuoteFormProvider from './QuoteFormProvider'
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -59,6 +60,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className={poppins.variable}>
       <body style={{ fontFamily: 'var(--font-poppins), Poppins, sans-serif' }}>
         <ScrollToTop />
+        <QuoteFormProvider />
         {children}
       </body>
     </html>

@@ -12,9 +12,9 @@ export default function QuoteForm() {
             <p className="text-blue uppercase tracking-[0.15em] font-bold mb-4" style={{ fontSize: '0.85rem' }}>Get Covered</p>
             <h2 className="text-stone font-bold leading-[1.3] tracking-tight mb-5" style={{ fontSize: 'clamp(2.2rem, 4vw, 2.6rem)' }}>Share a Few Details and Let&apos;s Find the Right Coverage</h2>
             <p className="text-cream font-light mb-8" style={{ lineHeight: '22px', maxWidth: '500px' }}>Tell us about your facility and our senior living insurance specialists will reach out with tailored coverage options. No obligation, just expert guidance from a team that understands senior care.</p>
-            <a href="https://alkemeins.com/form" className="inline-flex items-center justify-center border-2 border-gold bg-gold text-brand text-center uppercase tracking-[0.16em] rounded-[2rem] font-semibold hover:border-stone hover:bg-stone hover:text-brand no-underline" style={{ padding: '0.8rem 2.5rem 0.7rem', fontSize: '0.75rem', lineHeight: '2', transition: 'all 0.24s' }}>
+            <button onClick={() => window.dispatchEvent(new Event('open-quote-modal'))} className="inline-flex items-center justify-center border-2 border-gold bg-gold text-brand text-center uppercase tracking-[0.16em] rounded-[2rem] font-semibold hover:border-stone hover:bg-stone hover:text-brand cursor-pointer" style={{ padding: '0.8rem 2.5rem 0.7rem', fontSize: '0.75rem', lineHeight: '2', transition: 'all 0.24s' }}>
               Get Your Quote Today
-            </a>
+            </button>
             <div className="mt-10 space-y-4">
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-gold rounded-full flex items-center justify-center shrink-0">
@@ -47,9 +47,9 @@ export default function QuoteForm() {
             <div className="relative h-full flex flex-col items-center justify-center text-center p-10" style={{ minHeight: '400px' }}>
               <h3 className="text-stone font-bold mb-4" style={{ fontSize: '1.8rem', lineHeight: '1.3' }}>Ready to Protect Your Community?</h3>
               <p className="text-cream/80 font-light mb-8 max-w-sm" style={{ fontSize: '0.95rem', lineHeight: '1.5' }}>Our specialists understand senior care operations inside and out. Get coverage tailored to the way you operate.</p>
-              <a href="https://alkemeins.com/form" className="inline-flex items-center justify-center border-2 border-stone text-stone bg-transparent text-center uppercase tracking-[0.16em] rounded-[2rem] font-semibold hover:bg-stone hover:text-brand no-underline" style={{ padding: '0.8rem 2rem 0.7rem', fontSize: '0.75rem', lineHeight: '2', transition: 'all 0.24s' }}>
+              <button onClick={() => window.dispatchEvent(new Event('open-quote-modal'))} className="inline-flex items-center justify-center border-2 border-stone text-stone bg-transparent text-center uppercase tracking-[0.16em] rounded-[2rem] font-semibold hover:bg-stone hover:text-brand cursor-pointer" style={{ padding: '0.8rem 2rem 0.7rem', fontSize: '0.75rem', lineHeight: '2', transition: 'all 0.24s' }}>
                 Start Your Quote
-              </a>
+              </button>
             </div>
           </div>
         </div>
