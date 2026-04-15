@@ -14,7 +14,7 @@ const coverageLinks = [
   { label: 'Professional Liability', href: '/coverage/professional-liability/' },
   { label: 'Workers\' Comp', href: '/coverage/workers-compensation/' },
   { label: 'Abuse & Molestation', href: '/coverage/abuse-molestation/' },
-  { label: 'Commercial Property', href: '/coverage/commercial-property/' },
+  { label: 'Resident Elopement', href: '/coverage/resident-elopement/' },
   { label: 'Umbrella / Excess', href: '/coverage/umbrella-excess/' },
 ];
 

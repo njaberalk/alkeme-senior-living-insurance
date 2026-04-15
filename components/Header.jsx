@@ -10,11 +10,11 @@ const coverageItems = [
   { label: 'Workers\' Comp', href: '/coverage/workers-compensation/' },
   { label: 'Commercial Property', href: '/coverage/commercial-property/' },
   { label: 'Abuse & Molestation', href: '/coverage/abuse-molestation/' },
-  { label: 'Commercial Auto', href: '/coverage/commercial-auto/' },
-  { label: 'Cyber Liability', href: '/coverage/cyber-liability/' },
+  { label: 'Resident Elopement', href: '/coverage/resident-elopement/' },
+  { label: 'Medication Management', href: '/coverage/medication-management-liability/' },
   { label: 'Directors & Officers', href: '/coverage/directors-officers/' },
   { label: 'Umbrella / Excess', href: '/coverage/umbrella-excess/' },
-  { label: 'Employment Practices', href: '/coverage/employment-practices/' },
+  { label: 'Staffing Shortage', href: '/coverage/staffing-shortage-liability/' },
 ];
 
 const resourceItems = [
@@ -43,7 +43,7 @@ const industryItems = [
   { label: 'Adult Day Care', href: '/industries/adult-day-care/' },
   { label: 'Hospice', href: '/industries/hospice/' },
   { label: 'Rehabilitation', href: '/industries/rehabilitation-centers/' },
-  { label: 'Senior Communities', href: '/industries/senior-communities/' },
+  { label: 'Dementia & Alzheimer\'s', href: '/industries/dementia-alzheimers-care/' },
 ];
 
 function Dropdown({ label, items, isOpen, onToggle, onClose }) {

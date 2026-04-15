@@ -12,7 +12,7 @@ const segments = [
   { name: 'Adult Day Care', slug: 'adult-day-care', desc: 'Daytime supervision and health programs' },
   { name: 'Hospice', slug: 'hospice', desc: 'End-of-life and palliative care services' },
   { name: 'Rehabilitation', slug: 'rehabilitation-centers', desc: 'Post-acute therapy and recovery' },
-  { name: 'Senior Communities', slug: 'senior-communities', desc: 'Multi-service residential campuses' },
+  { name: 'Dementia & Alzheimer\'s', slug: 'dementia-alzheimers-care', desc: 'Specialized dementia and memory care' },
 ];
 
 export default function WhoWeServe() {

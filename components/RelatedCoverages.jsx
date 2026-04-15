@@ -8,11 +8,11 @@ const allCoverages = {
   'workers-compensation': { title: 'Workers\' Compensation', desc: 'Employee injury wage and medical benefits' },
   'commercial-property': { title: 'Commercial Property', desc: 'Buildings, equipment, and business income' },
   'abuse-molestation': { title: 'Abuse & Molestation', desc: 'Dedicated abuse allegations coverage' },
-  'commercial-auto': { title: 'Commercial Auto', desc: 'Resident transportation vehicles' },
-  'cyber-liability': { title: 'Cyber Liability', desc: 'Data breach and HIPAA violation protection' },
+  'resident-elopement': { title: 'Resident Elopement', desc: 'Wandering, elopement, and door alarm failures' },
+  'medication-management-liability': { title: 'Medication Management', desc: 'Medication errors and adverse drug events' },
   'directors-officers': { title: 'Directors & Officers', desc: 'Management decision and fiduciary claims' },
   'umbrella-excess': { title: 'Umbrella / Excess', desc: 'Additional liability protection layer' },
-  'employment-practices': { title: 'Employment Practices', desc: 'Wrongful termination and discrimination claims' },
+  'staffing-shortage-liability': { title: 'Staffing Shortage', desc: 'Understaffing claims and agency staff risks' },
 };
 
 export default function RelatedCoverages({ slugs, title = 'Related Coverage' }) {

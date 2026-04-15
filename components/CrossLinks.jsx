@@ -10,7 +10,7 @@ export function RelatedIndustries({ slugs, title = 'Industries That Need This Co
     'assisted-living': 'Assisted Living', 'skilled-nursing': 'Skilled Nursing', 'memory-care': 'Memory Care',
     'independent-living': 'Independent Living', 'continuing-care': 'Continuing Care', 'home-health-agencies': 'Home Health',
     'adult-day-care': 'Adult Day Care', 'hospice': 'Hospice', 'rehabilitation-centers': 'Rehabilitation',
-    'senior-communities': 'Senior Communities',
+    'dementia-alzheimers-care': 'Dementia & Alzheimer\'s Care',
   };
 
   return (

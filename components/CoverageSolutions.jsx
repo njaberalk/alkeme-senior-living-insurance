@@ -8,11 +8,11 @@ const coverages = [
   { title: 'Workers\' Compensation', slug: 'workers-compensation', desc: 'Mandatory coverage for employee injuries from patient handling, slips, and workplace incidents in care settings.' },
   { title: 'Commercial Property', slug: 'commercial-property', desc: 'Covers buildings, medical equipment, furniture, and business income against fire, storms, and other perils.' },
   { title: 'Abuse & Molestation', slug: 'abuse-molestation', desc: 'Dedicated coverage for allegations of physical, emotional, or sexual abuse of vulnerable residents in your care.' },
-  { title: 'Commercial Auto', slug: 'commercial-auto', desc: 'Covers vehicles used for resident transportation to medical appointments, activities, and community events.' },
-  { title: 'Cyber Liability', slug: 'cyber-liability', desc: 'Protects resident data and operations against breaches, ransomware, HIPAA violations, and regulatory penalties.' },
+  { title: 'Resident Elopement', slug: 'resident-elopement', desc: 'Wandering and elopement coverage for memory care door alarm failures, unsupervised exits, and resident injuries.' },
+  { title: 'Medication Management', slug: 'medication-management-liability', desc: 'Wrong dosage incidents, missed medications, pharmacy coordination failures, and adverse drug events.' },
   { title: 'Directors & Officers', slug: 'directors-officers', desc: 'Shields facility leadership from claims arising from management decisions, regulatory actions, and fiduciary disputes.' },
   { title: 'Umbrella / Excess', slug: 'umbrella-excess', desc: 'Extends the limits of your underlying liability policies for catastrophic claims that exceed primary coverage.' },
-  { title: 'Employment Practices', slug: 'employment-practices', desc: 'Covers wrongful termination, discrimination, harassment, and wage claims in high-turnover care environments.' },
+  { title: 'Staffing Shortage Liability', slug: 'staffing-shortage-liability', desc: 'Understaffing claims, mandatory overtime violations, agency staff risks, and care failures from staffing gaps.' },
 ];
 
 export default function CoverageSolutions() {

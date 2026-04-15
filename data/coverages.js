@@ -300,120 +300,102 @@ export const coverages = [
   },
 
   {
-    slug: 'commercial-auto',
-    title: 'Commercial Auto',
-    metaTitle: 'Commercial Auto Insurance for Senior Living Facilities',
-    metaDescription: 'Commercial auto insurance for senior living and home health vehicles. Coverage for facility vans, transport vehicles, and employee-driven autos used in senior care operations.',
-    heroHeading: 'Commercial Auto Insurance for Senior Living',
-    heroSubheading:
-      'Liability and physical damage coverage for facility vehicles used to transport residents, staff, and supplies.',
-    overview:
-      'Many senior living operations maintain a fleet of vehicles for resident transportation, staff travel between facilities, home health visits, supply delivery, and community outreach. Commercial auto insurance covers these vehicles and the liability exposure that comes with operating them. Transporting elderly residents creates unique risk factors that standard commercial auto policies may not adequately address without proper endorsements and limits.',
+    slug: 'resident-elopement',
+    title: 'Resident Elopement Coverage',
+    metaTitle: 'Resident Elopement Insurance for Senior Living Facilities',
+    metaDescription: 'Resident elopement and wandering coverage for senior living facilities. Insurance for memory care door alarm failures, unsupervised exits, and wandering-related injuries.',
+    heroHeading: 'Resident Elopement & Wandering Coverage',
+    heroSubheading: 'Specialized coverage for claims arising from resident wandering, unsupervised exits, door alarm failures, and elopement-related injuries in memory care and assisted living settings.',
+    overview: 'Resident elopement, the unsupervised departure of a resident from a care facility, is one of the most feared and costly events in senior living. When a resident with dementia or cognitive impairment wanders from a facility and is injured, dies from exposure, or is struck by a vehicle, the resulting lawsuits routinely produce verdicts in the millions. Elopement coverage addresses this specific and growing risk that standard general and professional liability policies may not fully cover.',
     sections: [
       {
         heading: 'What It Covers',
-        content:
-          'Commercial auto insurance provides liability coverage when your facility-owned or leased vehicles are involved in accidents that injure other people or damage their property. It also covers physical damage to your own vehicles through collision and comprehensive coverage, protecting against accidents, theft, vandalism, and weather damage.\n\nFor senior living operations, the liability component is particularly important because you are often transporting passengers who are elderly, medically fragile, and may require wheelchair accessibility accommodations. An accident involving a resident transport vehicle carries heightened liability exposure because the passengers are vulnerable and injuries are likely to be more severe.\n\nCoverage can be structured to include hired and non-owned auto liability for situations where employees use their personal vehicles for facility business, such as home health visits, supply runs, or administrative errands. This coverage fills the gap between the employee\'s personal auto policy and the facility\'s liability exposure when a personal vehicle is used for work purposes.',
+        content: 'Resident elopement coverage addresses claims arising from a resident leaving a facility without staff knowledge or authorization. This includes wandering incidents where a memory care or assisted living resident exits through a door, window, or unsecured area, injuries or death occurring after an undetected departure, claims alleging inadequate door alarm systems or monitoring failures, and lawsuits claiming insufficient staffing levels to prevent elopement.\n\nThe coverage responds to both the direct harm suffered by the resident and the derivative claims from family members, including wrongful death, negligent supervision, and failure to maintain adequate security systems. Defense costs for elopement claims are substantial because these cases typically involve expert testimony on industry standards, staffing ratios, and technology requirements.',
       },
       {
         heading: 'Who Needs It',
-        content:
-          'Any senior living organization that owns, leases, or regularly uses vehicles for business purposes needs commercial auto insurance. This includes facilities that operate resident transport vans, home health agencies whose staff drive to client residences, continuing care communities with shuttle services, adult day care programs that provide transportation, and any organization that uses vehicles for supply delivery or facility maintenance.\n\nEven if your facility does not own any vehicles, hired and non-owned auto liability is important if employees ever use personal vehicles for work-related purposes. A home health aide driving their own car to a client visit or an administrator running errands in a personal vehicle creates vicarious liability for the organization.',
+        content: 'Any facility that cares for residents with dementia, Alzheimer\'s disease, or other cognitive impairments needs elopement coverage. This includes dedicated memory care units, assisted living facilities with memory care wings, skilled nursing facilities with dementia populations, and continuing care retirement communities where residents may transition to higher care levels.\n\nThe risk is not limited to locked memory care units. Assisted living facilities without secured perimeters face significant elopement exposure when residents with early-stage dementia or intermittent confusion wander from the building. Even independent living communities experience elopement claims when a resident with undiagnosed or progressing cognitive decline leaves the property.',
       },
       {
         heading: 'Why It Matters',
-        content:
-          'Transporting elderly passengers creates unique liability exposure. Residents boarding and exiting vehicles, riding in wheelchairs during transport, and being in vehicles with medical equipment all present scenarios where injuries can occur. When an accident happens during resident transport, the resulting claims tend to be more severe because the passengers are older, more fragile, and more likely to suffer serious injuries.\n\nCommercial auto insurance also protects your facility against liability when employees are involved in accidents while on facility business, even if they are driving their own vehicles. Without hired and non-owned auto coverage, the organization is exposed to vicarious liability claims that can reach substantial amounts.',
+        content: 'Elopement claims consistently produce some of the largest verdicts in senior living litigation. Jury sympathy for a vulnerable elderly person who wandered from a facility and suffered harm, combined with arguments about understaffing and inadequate security technology, creates conditions for multi-million-dollar awards.\n\nRegulatory consequences compound the financial impact. CMS can issue immediate jeopardy citations for elopement events, leading to increased survey scrutiny, mandatory corrective action plans, and potential exclusion from Medicare and Medicaid programs. State survey agencies impose their own penalties, and the negative publicity from an elopement event can damage census and referral relationships for years.',
       },
       {
         heading: 'Key Coverage Features',
         bullets: [
-          'Liability coverage for bodily injury and property damage caused by your facility vehicles',
-          'Physical damage coverage including collision, comprehensive, and specified perils for owned vehicles',
-          'Hired and non-owned auto liability for employee-driven personal vehicles used on facility business',
-          'Medical payments coverage for passengers injured in your facility vehicles',
-          'Uninsured and underinsured motorist coverage to protect occupants when the at-fault driver lacks adequate insurance',
-          'Wheelchair lift and accessibility equipment coverage for specialized transport vehicles',
-          'Resident transport liability endorsement for heightened passenger liability exposure',
+          'Wandering and elopement incident claims including resident injury and wrongful death',
+          'Door alarm system failure liability coverage',
+          'Inadequate supervision and monitoring claims',
+          'Wander guard and electronic monitoring system malfunction liability',
+          'Defense costs for regulatory proceedings following elopement events',
+          'Coverage for facilities with mixed acuity resident populations',
+          'Claims arising from residents with undiagnosed or progressing dementia',
         ],
       },
     ],
     faqs: [
       {
-        q: 'Do we need commercial auto insurance if employees use their own cars for home health visits?',
-        a: 'Yes. You should carry hired and non-owned auto liability coverage, which protects the organization when employees use personal vehicles for work purposes. If a home health aide causes an accident while driving to a client visit, the facility can be held vicariously liable. Hired and non-owned auto coverage fills this gap.',
+        q: 'How common are elopement claims in senior living?',
+        a: 'Elopement and wandering incidents are reported in facilities of all sizes and care levels. Industry data suggests that up to 60 percent of individuals with dementia will wander at some point. Even a single elopement event can generate claims exceeding $5,000,000, making this one of the most impactful risk categories for senior living operators.',
       },
       {
-        q: 'What special coverage is needed for resident transport vehicles?',
-        a: 'Resident transport vehicles should carry higher liability limits than standard commercial vehicles due to the vulnerability of the passengers. Consider medical payments coverage for passengers, uninsured motorist coverage, and endorsements that specifically address wheelchair-accessible vehicle equipment. Limits of $1,000,000 or higher per occurrence are recommended.',
+        q: 'Does standard general liability cover elopement incidents?',
+        a: 'General liability may provide some coverage, but elopement claims frequently involve allegations of professional negligence, inadequate care planning, and failure to implement appropriate safety systems that fall outside standard GL policy terms. Dedicated elopement coverage ensures there are no gaps when these complex claims arise.',
       },
       {
-        q: 'Does commercial auto cover volunteer drivers?',
-        a: 'Coverage for volunteer drivers depends on the specific policy language. Some commercial auto policies cover designated volunteers, while others require them to be specifically listed. If your facility uses volunteer drivers for any purpose, confirm that your policy extends coverage to them and consider requiring minimum personal auto insurance from all volunteers.',
-      },
-      {
-        q: 'How are commercial auto premiums calculated for senior living facilities?',
-        a: 'Premiums are based on the number and type of vehicles, their use, the geographic area of operation, driver records of all authorized operators, claims history, and liability limits selected. Facilities that transport residents in wheelchair-accessible vans typically pay higher premiums than those using vehicles only for staff transportation or supply delivery.',
+        q: 'What technology investments reduce elopement risk?',
+        a: 'Wander guard bracelets, door alarm systems, delayed egress hardware, GPS tracking devices, video surveillance at exits, and real-time location systems all reduce elopement risk. Insurers may offer premium credits for facilities that implement comprehensive wandering prevention programs.',
       },
     ],
-    relatedCoverages: ['general-liability', 'umbrella-excess', 'workers-compensation'],
+    relatedCoverages: ['professional-liability', 'abuse-molestation', 'umbrella-excess'],
   },
 
   {
-    slug: 'cyber-liability',
-    title: 'Cyber Liability',
-    metaTitle: 'Cyber Liability Insurance for Senior Living Facilities',
-    metaDescription: 'Cyber liability insurance for senior living and healthcare facilities. Coverage for data breaches, ransomware attacks, HIPAA violations, and electronic health record exposures.',
-    heroHeading: 'Cyber Liability Insurance for Senior Living',
-    heroSubheading:
-      'Protection against data breaches, ransomware attacks, HIPAA violations, and the financial fallout from cyber incidents targeting your facility.',
-    overview:
-      'Senior living facilities are increasingly targeted by cybercriminals because they store large volumes of protected health information, personally identifiable information, and financial data on residents and employees. Electronic health records, billing systems, and connected medical devices create multiple entry points for cyber attacks. A single data breach or ransomware incident can disrupt care delivery, trigger HIPAA penalties, and expose the organization to costly notification requirements and litigation.',
+    slug: 'medication-management-liability',
+    title: 'Medication Management Liability',
+    metaTitle: 'Medication Management Liability Insurance for Senior Living',
+    metaDescription: 'Medication management liability insurance for senior living facilities. Coverage for medication errors, wrong dosage incidents, pharmacy coordination failures, and adverse drug events.',
+    heroHeading: 'Medication Management Liability Insurance',
+    heroSubheading: 'Specialized coverage for medication errors, wrong dosage incidents, pharmacy coordination failures, and adverse drug events in senior care facilities.',
+    overview: 'Medication errors are the single most frequent source of clinical liability claims in senior living. Residents in assisted living, skilled nursing, and memory care facilities often take multiple medications with complex dosing schedules, drug interactions, and time-sensitive administration requirements. When staff administer the wrong medication, the wrong dose, or miss a critical administration window, the consequences can be severe or fatal. Medication management liability insurance provides dedicated protection for this pervasive risk.',
     sections: [
       {
         heading: 'What It Covers',
-        content:
-          'Cyber liability insurance provides first-party and third-party coverage for losses arising from cyber incidents. First-party coverage pays for the direct costs your organization incurs, including forensic investigation to determine the scope of a breach, notification costs for affected individuals as required by HIPAA and state breach notification laws, credit monitoring services for affected residents and employees, data recovery and system restoration costs, business interruption losses when systems are down, and ransom payments when approved by law enforcement.\n\nThird-party coverage pays for lawsuits and regulatory proceedings brought against your organization following a cyber incident. This includes defense costs and settlements for class action lawsuits by affected individuals, HIPAA enforcement actions by the Office for Civil Rights, state attorney general investigations, and contractual liability claims from business partners affected by the breach.\n\nMany policies also include access to incident response services, providing immediate access to cybersecurity professionals, legal counsel experienced in breach response, and public relations experts who help manage the reputational impact of a cyber event.',
+        content: 'Medication management liability covers claims arising from errors in the medication administration process within your facility. This includes administering the wrong medication to a resident, incorrect dosage errors whether too much or too little, missed medication administrations that cause adverse health outcomes, failure to identify and prevent dangerous drug interactions, improper medication storage leading to degraded effectiveness, and errors in communication between your facility and external pharmacies.\n\nThe coverage also addresses systemic failures in your medication management program, including inadequate medication administration records, failure to follow physician orders, errors in transcribing prescriptions, and claims that your staff lacked proper training in medication administration. Defense costs are a significant component, as medication error cases often require expert pharmacological and medical testimony.',
       },
       {
         heading: 'Who Needs It',
-        content:
-          'Every senior living facility that stores electronic health records, processes credit card payments, maintains employee personnel files, or uses internet-connected systems should carry cyber liability coverage. HIPAA-covered entities and their business associates face specific regulatory obligations that make cyber insurance particularly important. This includes skilled nursing facilities, assisted living communities, home health agencies, hospice organizations, and any senior care provider that bills Medicare or Medicaid electronically.',
+        content: 'Every senior living facility that administers, manages, or assists with medications needs this coverage. Skilled nursing facilities with licensed nursing staff administering medications face the highest frequency of claims. Assisted living facilities where staff provide medication reminders or assistance also carry significant exposure, as the line between reminder and administration is often disputed in litigation.\n\nMemory care facilities face elevated risk because residents cannot self-report missed doses or adverse reactions. Home health agencies whose staff administer medications in client homes face the additional challenge of operating without the oversight systems available in facility settings.',
       },
       {
         heading: 'Why It Matters',
-        content:
-          'Healthcare organizations, including senior living facilities, are the most frequently targeted industry for cyber attacks. The average cost of a healthcare data breach exceeds $10 million according to industry research, making it the most expensive sector for cyber incidents. Senior living facilities face particular risk because they often operate on legacy IT systems, have limited cybersecurity budgets, and may lack dedicated information security staff.\n\nHIPAA penalties for data breaches can reach $2,091,855 per violation category per year, with maximum annual penalties of $2,091,855 in the highest penalty tier. Beyond regulatory fines, the cost of notifying affected individuals, providing credit monitoring, conducting forensic investigations, and defending against resulting litigation can easily reach hundreds of thousands of dollars for even a moderately sized breach.\n\nRansomware attacks pose an additional threat by potentially disrupting care delivery. When facility systems including electronic health records, medication management systems, and nurse call systems are locked by ransomware, patient safety is directly at risk, and the pressure to pay ransoms to restore operations is intense.',
+        content: 'The average senior living resident takes between 7 and 12 medications daily. With multiple medication passes per day across dozens or hundreds of residents, the opportunity for error is constant. Industry research indicates that medication errors occur in a significant percentage of medication administrations in senior care settings, though most are caught before causing harm.\n\nWhen errors do cause harm, the resulting claims are often severe. Anticoagulant errors can cause fatal bleeding events. Insulin errors can cause diabetic emergencies. Opioid dosing errors can cause respiratory failure. These cases generate claims that frequently exceed $1,000,000 and can reach well into the millions when death results.\n\nRegulatory consequences compound the financial impact. CMS and state survey agencies treat medication errors as serious deficiencies that can result in citations, increased survey frequency, and conditional participation in federal programs.',
       },
       {
         heading: 'Key Coverage Features',
         bullets: [
-          'Data breach response costs including forensic investigation, legal counsel, and notification expenses',
-          'HIPAA regulatory defense and penalty coverage for Office for Civil Rights enforcement actions',
-          'Business interruption coverage for lost revenue when systems are offline due to a cyber event',
-          'Ransomware and cyber extortion coverage for ransom payments and related response costs',
-          'Third-party liability for lawsuits from affected individuals, business partners, and class actions',
-          'Network security liability for failing to prevent unauthorized access to your systems',
-          'Media liability for claims arising from electronic content, website publications, and social media',
+          'Wrong medication and wrong dosage administration claims',
+          'Missed medication pass and omission error liability',
+          'Drug interaction failure claims from inadequate screening',
+          'Pharmacy coordination and prescription transcription errors',
+          'Medication storage and handling failure claims',
+          'Regulatory defense costs for CMS and state survey deficiency citations',
+          'Coverage for medication-related wrongful death claims',
         ],
       },
     ],
     faqs: [
       {
-        q: 'Are senior living facilities HIPAA-covered entities?',
-        a: 'Senior living facilities that provide health care services and transmit health information electronically are generally considered HIPAA-covered entities or business associates of covered entities. This includes skilled nursing facilities, many assisted living communities, home health agencies, and hospice organizations. HIPAA compliance obligations make cyber liability insurance particularly important for these operations.',
+        q: 'Does professional liability already cover medication errors?',
+        a: 'Professional liability provides some coverage, but medication errors are frequent enough and severe enough that dedicated medication management liability ensures adequate limits and appropriate coverage terms for this specific risk. Some professional liability policies sub-limit medication claims, leaving gaps that dedicated coverage fills.',
       },
       {
-        q: 'How much cyber liability coverage does a senior living facility need?',
-        a: 'Recommended limits depend on the number of records stored, annual revenue, and the types of data maintained. Most senior living facilities should carry at least $1,000,000 in cyber liability coverage, with larger organizations or those storing extensive electronic health records considering $3,000,000 to $5,000,000 in coverage.',
+        q: 'What medication errors are most common in senior living?',
+        a: 'The most common errors are omitted doses, wrong time of administration, wrong dosage, and wrong resident. Transcription errors from handwritten orders and communication failures during shift changes are significant contributing factors.',
       },
       {
-        q: 'Does cyber insurance cover ransomware attacks?',
-        a: 'Yes. Most cyber liability policies include coverage for ransomware and cyber extortion events, paying for ransom payments, forensic investigation, system restoration, business interruption losses, and related response costs. Coverage typically requires that the insured contact the carrier before paying any ransom and cooperate with law enforcement.',
-      },
-      {
-        q: 'Will cyber insurance help with HIPAA compliance?',
-        a: 'While cyber insurance does not replace a HIPAA compliance program, many policies include access to risk management resources, security assessments, and incident response planning tools that support compliance efforts. In the event of a breach, the policy provides regulatory defense coverage for HIPAA enforcement proceedings and can cover certain civil monetary penalties where insurable by law.',
+        q: 'How can facilities reduce medication error risk?',
+        a: 'Electronic medication administration records, barcode scanning systems, automated dispensing cabinets, regular staff competency assessments, and pharmacist review of medication orders all reduce error rates. Many insurers offer premium credits for facilities that implement comprehensive medication safety programs.',
       },
     ],
     relatedCoverages: ['professional-liability', 'directors-officers', 'commercial-property'],
@@ -540,63 +522,54 @@ export const coverages = [
   },
 
   {
-    slug: 'employment-practices',
-    title: 'Employment Practices Liability',
-    metaTitle: 'Employment Practices Liability Insurance for Senior Living',
-    metaDescription: 'EPLI insurance for senior living facilities. Coverage for wrongful termination, harassment, discrimination, and wage disputes in assisted living and nursing home operations.',
-    heroHeading: 'Employment Practices Liability for Senior Living',
-    heroSubheading:
-      'Protection against employee claims of wrongful termination, harassment, discrimination, and other employment-related allegations.',
-    overview:
-      'Employment practices liability insurance covers claims brought by current, former, or prospective employees alleging wrongful employment practices. The senior living industry faces elevated EPLI risk due to high employee turnover, staffing shortages that strain management decisions, diverse workforce demographics, and the physically and emotionally demanding nature of caregiving work. With the average employment practices claim costing over $125,000 to defend and resolve, EPLI is an essential coverage for any senior care employer.',
+    slug: 'staffing-shortage-liability',
+    title: 'Staffing Shortage Liability',
+    metaTitle: 'Staffing Shortage Liability Insurance for Senior Living',
+    metaDescription: 'Staffing shortage liability insurance for senior living facilities. Coverage for understaffing claims, mandatory overtime violations, agency staff risks, and care quality failures from staffing gaps.',
+    heroHeading: 'Staffing Shortage Liability Insurance',
+    heroSubheading: 'Protection against claims arising from understaffing, mandatory overtime violations, agency staff risks, and care quality failures caused by staffing shortages.',
+    overview: 'The senior living industry faces a chronic staffing crisis that directly translates into insurance liability. When facilities operate below required staffing levels, residents receive inadequate care, injuries go unattended, falls are not prevented, and the resulting claims allege that the facility knew it was understaffed and failed to act. Staffing shortage liability insurance addresses this growing category of claims that standard policies may not fully cover.',
     sections: [
       {
         heading: 'What It Covers',
-        content:
-          'EPLI covers a broad range of employment-related claims including wrongful termination, sexual harassment, workplace discrimination based on race, age, gender, disability, religion, or national origin, retaliation for whistleblowing or complaints, failure to promote, wage and hour disputes in some policy forms, and hostile work environment claims.\n\nThe policy pays for legal defense costs, settlements, and judgments when employees bring these claims against the organization or its managers. Most EPLI policies are written on a claims-made basis and cover claims made during the policy period regardless of when the alleged conduct occurred, subject to any retroactive date.\n\nSome EPLI policies also include third-party coverage, which protects against discrimination, harassment, or civil rights claims brought by non-employees such as residents, family members, or vendors. This third-party component is particularly relevant in senior living where staff interact closely with residents and their families.',
+        content: 'Staffing shortage liability covers claims arising from the consequences of operating with insufficient staff. This includes resident injuries attributed to inadequate supervision, falls that occur because call lights go unanswered, pressure ulcers that develop from insufficient repositioning, and missed medication administrations due to overwhelmed nursing staff.\n\nThe coverage also addresses claims from employees forced into mandatory overtime, double shifts, or unsafe staffing ratios. When a CNA is injured because they had to lift a resident alone due to understaffing, or when a nurse makes an error during their sixteenth consecutive hour of duty, staffing shortage liability responds.\n\nAgency and temporary staff risks are included. When facilities fill staffing gaps with agency nurses and aides unfamiliar with residents, care protocols, and facility systems, the error rate increases significantly. Claims from agency staff errors, inadequate orientation, and credential verification failures fall within this coverage.',
       },
       {
         heading: 'Who Needs It',
-        content:
-          'Every senior living organization with employees should carry EPLI coverage. The risk is particularly acute for organizations with high turnover rates, which are common across the senior living industry. Each time an employee is terminated, disciplined, or passed over for promotion, there is potential for an employment-related claim. Facilities experiencing staffing shortages may make rushed hiring decisions or retain underperforming employees longer than warranted, both of which increase EPLI exposure.\n\nLarger organizations with multiple locations and complex reporting structures face additional risk because employment decisions are being made by multiple managers who may not always follow consistent practices or receive adequate training on employment law.',
+        content: 'Every senior living facility operating in the current staffing environment should consider this coverage. Skilled nursing facilities face the most acute exposure because they have minimum staffing ratio requirements that trigger regulatory action when not met. Assisted living facilities, memory care units, and home health agencies all experience staffing challenges that increase liability.\n\nFacilities in states with mandatory staffing ratio laws face particular risk because falling below required levels creates a per se violation that plaintiffs attorneys use to establish negligence. Even in states without mandatory ratios, industry standards and expert testimony establish expected staffing levels that facilities are measured against.',
       },
       {
         heading: 'Why It Matters',
-        content:
-          'Employment practices claims are among the most frequent types of litigation faced by senior living organizations. The Equal Employment Opportunity Commission receives tens of thousands of workplace discrimination charges annually, and state agencies process additional claims at the local level. Defense costs for employment claims are substantial even when the employer prevails, averaging $75,000 to $200,000 per claim.\n\nThe senior living industry\'s staffing challenges amplify EPLI risk. When facilities are short-staffed, managers may make employment decisions under pressure — terminating employees without proper documentation, failing to accommodate disabilities, or tolerating behavior that creates a hostile work environment. These decisions made in the moment can generate claims that are costly to defend.\n\nWithout EPLI coverage, the facility must fund its own legal defense and pay any settlement or judgment out of operating funds. For many senior living operations, even a single significant employment claim without insurance could strain the organization\'s finances.',
+        content: 'Staffing-related claims have become the dominant theme in senior living litigation. Plaintiffs attorneys routinely obtain facility staffing records, census data, and payroll documentation to demonstrate that a facility was operating below safe staffing levels when a resident was harmed. Juries find understaffing arguments compelling because they suggest the facility prioritized cost savings over resident safety.\n\nCMS staffing requirements for skilled nursing facilities, state-specific ratio laws, and accreditation standards all create benchmarks against which your facility will be measured. Operating below these benchmarks while a resident suffers harm creates exposure that can produce multi-million-dollar verdicts.\n\nThe reliance on agency and temporary staff introduces additional risk layers. Agency staff unfamiliar with your residents, their care plans, and your facility layout are statistically more likely to make errors. Claims alleging inadequate orientation or credential verification of agency staff are increasing as facilities depend more heavily on temporary labor.',
       },
       {
         heading: 'Key Coverage Features',
         bullets: [
-          'Wrongful termination defense and indemnity coverage',
-          'Sexual harassment and hostile work environment claims coverage',
-          'Discrimination coverage for all protected classes under federal and state law',
-          'Retaliation and whistleblower claims coverage',
-          'Third-party coverage for discrimination or harassment claims by residents, families, or vendors',
-          'Wage and hour defense coverage in select policy forms',
-          'Pre-claim legal consultation services for employment decisions and policy review',
+          'Resident injury claims attributed to understaffing and inadequate supervision',
+          'Mandatory overtime violation claims from facility employees',
+          'Agency and temporary staff error liability',
+          'Regulatory defense for CMS and state staffing deficiency citations',
+          'Fall prevention failure claims linked to insufficient staffing levels',
+          'Pressure ulcer and skin integrity claims from inadequate repositioning',
+          'Coverage for care quality failures documented in staffing records',
         ],
       },
     ],
     faqs: [
       {
-        q: 'Does EPLI cover wage and hour claims?',
-        a: 'Some EPLI policies include limited coverage for wage and hour defense costs, but many exclude them. Given the frequency of wage and hour claims in the senior living industry — particularly around overtime calculations, meal and rest break compliance, and classification of exempt versus non-exempt employees — facilities should specifically request wage and hour coverage when available.',
+        q: 'Does professional liability already cover understaffing claims?',
+        a: 'Professional liability covers some aspects of care quality claims, but staffing shortage liability specifically addresses the systemic nature of understaffing claims where the allegation is that the facility as an organization failed to maintain adequate staffing levels. Many professional liability policies were not designed for the frequency and severity of modern staffing-related litigation.',
       },
       {
-        q: 'What is third-party EPLI coverage and why does it matter for senior living?',
-        a: 'Third-party EPLI covers discrimination, harassment, or civil rights claims brought by non-employees such as residents, family members, or vendors. In senior living, staff interact closely with residents and their families on a daily basis. A claim of discriminatory treatment of a resident or harassment by a staff member toward a family member would fall under third-party EPLI coverage.',
+        q: 'What states have mandatory staffing ratio laws?',
+        a: 'Several states including California, Illinois, and others have enacted minimum staffing ratio requirements for skilled nursing facilities. Many additional states have proposed legislation. Even in states without mandatory ratios, CMS requires sufficient staffing to meet resident needs, and state survey agencies evaluate staffing adequacy.',
       },
       {
-        q: 'How can we reduce EPLI claims?',
-        a: 'Consistent documentation of employment decisions, regular management training on harassment and discrimination prevention, clear written policies and employee handbooks, proper investigation of all employee complaints, and following termination procedures with appropriate documentation are the most effective ways to reduce EPLI exposure. Many insurers offer risk management resources and training materials as part of the EPLI policy.',
-      },
-      {
-        q: 'How much EPLI coverage should a senior living facility carry?',
-        a: 'Recommended limits depend on the number of employees, annual payroll, turnover rate, and litigation environment. Most senior living operations should carry at least $1,000,000 per claim and $2,000,000 aggregate. Organizations with more than 100 employees or those in states with employee-friendly legal environments should consider higher limits.',
+        q: 'How does agency staff usage affect insurance?',
+        a: 'High agency staff utilization increases risk profiles because temporary staff are less familiar with residents and protocols. Insurers evaluate agency staff ratios when underwriting senior living facilities. Comprehensive orientation programs and credential verification procedures for agency staff can help manage this risk.',
       },
     ],
-    relatedCoverages: ['directors-officers', 'workers-compensation', 'umbrella-excess'],
+    relatedCoverages: ['workers-compensation', 'professional-liability', 'umbrella-excess'],
   },
 ];
 
