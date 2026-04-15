@@ -62,6 +62,7 @@ export default async function StatePage({ params }) {
         <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
       ))}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'Article', headline: state.name, datePublished: '2025-06-01', dateModified: '2026-04-01', author: { '@type': 'Organization', name: 'ALKEME Insurance Services', url: 'https://alkemeins.com' }, publisher: { '@type': 'Organization', name: 'ALKEME Insurance Services', url: 'https://alkemeins.com' } }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'LocalBusiness', '@id': `https://alkemeins.com/senior-living/states/${state.slug}/`, name: 'ALKEME Insurance Services', url: 'https://alkemeins.com', telephone: '+18559255363', email: 'info@alkemeins.com', areaServed: { '@type': 'State', name: state.name }, priceRange: '$$' }) }} />
       <StatePageContent state={state} />
     </>
   );

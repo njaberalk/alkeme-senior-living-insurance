@@ -2,6 +2,7 @@ import { Poppins } from 'next/font/google'
 import './globals.css'
 import ScrollToTop from './ScrollToTop'
 import QuoteFormProvider from './QuoteFormProvider'
+import FloatingUI from '../components/FloatingUI'
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -58,9 +59,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={poppins.variable}>
+      <head>
+        <link rel="preconnect" href="https://images.unsplash.com" />
+        <link rel="dns-prefetch" href="https://images.unsplash.com" />
+      </head>
       <body style={{ fontFamily: 'var(--font-poppins), Poppins, sans-serif' }}>
         <ScrollToTop />
         <QuoteFormProvider />
+        <FloatingUI />
         {children}
       </body>
     </html>
