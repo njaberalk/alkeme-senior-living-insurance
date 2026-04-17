@@ -14,10 +14,10 @@ const poppins = Poppins({
 export const metadata = {
   metadataBase: new URL('https://alkemeins.com/senior-living'),
   title: {
-    template: '%s | ALKEME Insurance Services',
-    default: 'Senior Living Insurance | ALKEME Insurance Services',
+    template: '%s | ALKEME',
+    default: 'Senior Living Insurance | ALKEME',
   },
-  description: 'ALKEME Insurance Services provides specialized insurance for senior living facilities including assisted living, skilled nursing, memory care, and continuing care retirement communities.',
+  description: 'Specialized insurance from ALKEME for senior living — assisted living, skilled nursing, memory care, and continuing care retirement communities.',
   openGraph: {
     type: 'website',
     locale: 'en_US',
@@ -33,7 +33,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Senior Living Insurance | ALKEME Insurance Services',
+    title: 'Senior Living Insurance | ALKEME',
     description: 'Specialized insurance for assisted living, skilled nursing, memory care, and senior care facilities across all 50 states.',
     images: ['https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1200&h=630&q=80'],
   },

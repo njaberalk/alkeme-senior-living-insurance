@@ -3,7 +3,7 @@ export const coverages = [
     slug: 'general-liability',
     title: 'General Liability',
     metaTitle: 'General Liability Insurance for Senior Living Facilities',
-    metaDescription: 'General liability insurance for assisted living, nursing homes, and senior care facilities. Coverage for bodily injury, property damage, and third-party claims arising from facility operations.',
+    metaDescription: 'General liability insurance for assisted living, nursing homes, and senior care facilities.',
     heroHeading: 'General Liability Insurance for Senior Living',
     heroSubheading:
       'Foundational protection against bodily injury, property damage, and personal injury claims arising from your facility operations.',
@@ -62,8 +62,8 @@ export const coverages = [
   {
     slug: 'professional-liability',
     title: 'Professional Liability',
-    metaTitle: 'Professional Liability Insurance for Senior Living Facilities',
-    metaDescription: 'Professional liability (E&O) insurance for senior care facilities. Coverage for negligent care, medication errors, and failure to meet care standards in assisted living and nursing homes.',
+    metaTitle: 'Professional Liability Insurance for Senior Living',
+    metaDescription: 'Professional liability (E&O) insurance for senior care facilities.',
     heroHeading: 'Professional Liability Insurance for Senior Living',
     heroSubheading:
       'Protection against claims of negligent care, treatment errors, and failure to meet the professional standard of care in your facility.',
@@ -123,7 +123,7 @@ export const coverages = [
     slug: 'workers-compensation',
     title: 'Workers\' Compensation',
     metaTitle: 'Workers Compensation Insurance for Senior Living Facilities',
-    metaDescription: 'Workers compensation insurance for senior living, nursing homes, and assisted living staff. Coverage for workplace injuries including lifting injuries, needle sticks, and workplace violence.',
+    metaDescription: 'Workers compensation insurance for senior living, nursing homes, and assisted living staff.',
     heroHeading: 'Workers\' Compensation for Senior Living Facilities',
     heroSubheading:
       'Mandatory coverage that protects your employees and your organization when workplace injuries occur in caregiving environments.',
@@ -183,7 +183,7 @@ export const coverages = [
     slug: 'commercial-property',
     title: 'Commercial Property',
     metaTitle: 'Commercial Property Insurance for Senior Living Facilities',
-    metaDescription: 'Commercial property insurance for senior living buildings, equipment, and contents. Coverage for fire, storm damage, theft, and business interruption in assisted living and nursing facilities.',
+    metaDescription: 'Commercial property insurance for senior living buildings, equipment, and contents.',
     heroHeading: 'Commercial Property Insurance for Senior Living',
     heroSubheading:
       'Protection for your buildings, equipment, furniture, and business income against fire, storm damage, theft, and other covered perils.',
@@ -243,7 +243,7 @@ export const coverages = [
     slug: 'abuse-molestation',
     title: 'Abuse & Molestation',
     metaTitle: 'Abuse and Molestation Insurance for Senior Living Facilities',
-    metaDescription: 'Abuse and molestation liability insurance for senior care facilities. Specialized coverage for allegations of physical, sexual, or emotional abuse of elderly residents.',
+    metaDescription: 'Abuse and molestation liability insurance for senior care facilities.',
     heroHeading: 'Abuse & Molestation Coverage for Senior Living',
     heroSubheading:
       'Specialized liability protection for allegations of physical, sexual, or emotional abuse involving residents in your care.',
@@ -303,7 +303,7 @@ export const coverages = [
     slug: 'resident-elopement',
     title: 'Resident Elopement Coverage',
     metaTitle: 'Resident Elopement Insurance for Senior Living Facilities',
-    metaDescription: 'Resident elopement and wandering coverage for senior living facilities. Insurance for memory care door alarm failures, unsupervised exits, and wandering-related injuries.',
+    metaDescription: 'Resident elopement and wandering coverage for senior living facilities.',
     heroHeading: 'Resident Elopement & Wandering Coverage',
     heroSubheading: 'Specialized coverage for claims arising from resident wandering, unsupervised exits, door alarm failures, and elopement-related injuries in memory care and assisted living settings.',
     overview: 'Resident elopement, the unsupervised departure of a resident from a care facility, is one of the most feared and costly events in senior living. When a resident with dementia or cognitive impairment wanders from a facility and is injured, dies from exposure, or is struck by a vehicle, the resulting lawsuits routinely produce verdicts in the millions. Elopement coverage addresses this specific and growing risk that standard general and professional liability policies may not fully cover.',
@@ -354,7 +354,7 @@ export const coverages = [
     slug: 'medication-management-liability',
     title: 'Medication Management Liability',
     metaTitle: 'Medication Management Liability Insurance for Senior Living',
-    metaDescription: 'Medication management liability insurance for senior living facilities. Coverage for medication errors, wrong dosage incidents, pharmacy coordination failures, and adverse drug events.',
+    metaDescription: 'Medication management liability insurance for senior living facilities.',
     heroHeading: 'Medication Management Liability Insurance',
     heroSubheading: 'Specialized coverage for medication errors, wrong dosage incidents, pharmacy coordination failures, and adverse drug events in senior care facilities.',
     overview: 'Medication errors are the single most frequent source of clinical liability claims in senior living. Residents in assisted living, skilled nursing, and memory care facilities often take multiple medications with complex dosing schedules, drug interactions, and time-sensitive administration requirements. When staff administer the wrong medication, the wrong dose, or miss a critical administration window, the consequences can be severe or fatal. Medication management liability insurance provides dedicated protection for this pervasive risk.',
@@ -404,8 +404,8 @@ export const coverages = [
   {
     slug: 'directors-officers',
     title: 'Directors & Officers',
-    metaTitle: 'Directors and Officers Insurance for Senior Living Organizations',
-    metaDescription: 'D&O liability insurance for senior living facility boards and executives. Coverage for management decisions, regulatory actions, and fiduciary duty claims in senior care organizations.',
+    metaTitle: 'Directors and Officers Insurance for Senior Living',
+    metaDescription: 'D&O liability insurance for senior living facility boards and executives.',
     heroHeading: 'Directors & Officers Insurance for Senior Living',
     heroSubheading:
       'Personal liability protection for board members, executives, and managers against claims arising from management decisions in senior care organizations.',
@@ -464,8 +464,8 @@ export const coverages = [
   {
     slug: 'umbrella-excess',
     title: 'Umbrella / Excess Liability',
-    metaTitle: 'Umbrella and Excess Liability Insurance for Senior Living Facilities',
-    metaDescription: 'Umbrella and excess liability insurance for senior living. Additional liability protection above primary policy limits for assisted living, nursing homes, and senior care organizations.',
+    metaTitle: 'Umbrella and Excess Liability Insurance for Senior Living',
+    metaDescription: 'Umbrella and excess liability insurance for senior living.',
     heroHeading: 'Umbrella & Excess Liability for Senior Living',
     heroSubheading:
       'An additional layer of liability protection that extends your primary policy limits and provides broader coverage for catastrophic claims.',
@@ -525,7 +525,7 @@ export const coverages = [
     slug: 'staffing-shortage-liability',
     title: 'Staffing Shortage Liability',
     metaTitle: 'Staffing Shortage Liability Insurance for Senior Living',
-    metaDescription: 'Staffing shortage liability insurance for senior living facilities. Coverage for understaffing claims, mandatory overtime violations, agency staff risks, and care quality failures from staffing gaps.',
+    metaDescription: 'Staffing shortage liability insurance for senior living facilities.',
     heroHeading: 'Staffing Shortage Liability Insurance',
     heroSubheading: 'Protection against claims arising from understaffing, mandatory overtime violations, agency staff risks, and care quality failures caused by staffing shortages.',
     overview: 'The senior living industry faces a chronic staffing crisis that directly translates into insurance liability. When facilities operate below required staffing levels, residents receive inadequate care, injuries go unattended, falls are not prevented, and the resulting claims allege that the facility knew it was understaffed and failed to act. Staffing shortage liability insurance addresses this growing category of claims that standard policies may not fully cover.',
